@@ -1,0 +1,4007 @@
+FOREWORD 
+
+This  is  the  second  iteration  of  preparing  our  own  courseware  material,  after  successful 
+completion  of a similar  task undertaken  a few years ago.  These contents have been carefully 
+prepared and should  serve as excellent  auxiliary  material  for both  instructors  and students.   
+
+The  Special  Academic  Group,  Autonomy  (SAGA)  was  formed  for  the  sole  purpose  of 
+preparing  courseware contents  primarily  in  the  first-year  theory  subjects;  a few second-year 
+subjects were also included.   The subjects for the first year were - Basic Electrical  Engineering, 
+Basic  Electronics  Engineering,  Computer  Programming,  Data  Structures  and  Algorithms, 
+Engineering  Mathematics  I and II, Engineering  Physics, Engineering  Chemistry,  Constitution 
+of India,  Environmental  Science and Engineering  and Communicative  and Technical  English.   
+For  the second  year,  the subjects  for which  courseware material  was prepared  were Analog 
+Electronic  Circuits,  Digital  Systems  Design,  Circuit  Theory  and  Measurements  and 
+Instruments. 
+Faculty  members from all  the departments contributed  to the task. They were, in  no particular 
+order,  Nalini  Singh,  Bimal  Meher,  Saumyaranjan  Dash,  Mukti  Routray,  Susmita  Biswal, 
+Manasa Dash,  Bipin  Tripathy,  Sibasankar  Nayak,  Janmejay  Senapati,  Subrat  Sahu,  Pradeep 
+Moharana,  Rupambika  Pattanaik,  Dhananjay  Tripathy,  Jagadish  Patra, Sachin  Das, Deepak 
+Ranjan  Nayak,  Amulya  Roul,  Bodhisattva  Dash,  Sanghamitra  Das,  Gyana  Ranjan  Biswal, 
+Nibedita  Swain  and Rajan Mishra. 
+
+The entire  group  worked  diligently  to  successfully  complete  the  task which  included  a peer 
+review of the material.  I take this opportunity  to thank all the members of the SAGA group  for 
+a job  well  done.   
+
+I  sincerely  hope  that  this  courseware material  comes  in  handy  and  is  utilized  to  the  fullest 
+extent.  These are readily  available  additional  resources prepared in accordance with the Silicon 
+autonomy  syllabus,  to complement  textbooks  and classroom  lectures. If there are any errors, I 
+would  be grateful  if  they are brought  to my notice  so that we can correct them in  subsequent 
+versions. 
+
+Dr. Jaideep Talukdar, Principal 
+Silicon Institute of Technology 
+Bhubaneswar  
+December 2020 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Module  – 1: ECOLOGY & BIOGEOCHEMICAL 
+CYCLES 
+
+Historically, Rachel Carson’s 1962  book “Silent Spring” started wide -scale awareness 
+in the 60s about the environment; she battled some large chemical corporations and created 
+public knowledge and understanding of the fragility of ecosystems, and the environment in 
+general. 
+Origin 
+
+The word “Environment” has come from an old french word environ or environner to be exact 
+which literally means “to encircle” or “to surround”. 
+
+Definition 
+
+The word “environment” can be defined as “our life support system which includes air, water, 
+land/soil & all other natural resources present around us”. 
+
+According to ISO:14001  (International Organization for Standardization), environment can be 
+defined as,  “Surroundings  in  which  an  organization  operates,  including  air,  water,  land, 
+natural resources, flora(plants), fauna(animals), human beings and interrelations”.  
+
+Related Terms 
+
+1. Environmental Science 
+
+2. Environmental Engineering 
+
+3. Environmental Management 
+
+4. Environmental Laws 
+
+1.Environmental  Science 
+
+It is the study of human beings’ impact on the environment and the physical, chemical and 
+biological changes occurring in nature which focuses on pollution. It is highly interdisciplinary 
+&  it  collects  information  from  various  fields  such  as  biology,  chemistry,  geography, 
+
+agriculture, geology etc. 
+
+2. Environmental Engineering 
+
+It  is  defined  as  that  branch  of  engineering  whi ch  is  concerned  with  protecting  the 
+environment  from  the  potentially  deleterious  or  harmful  effects  of  human  activities, 
+protecting the human population from the effects of environmental pollution and improving 
+the environmental quality for better human health & well-being. 
+
+3. Environmental Management 
+
+It  consists of  auditing of  EIA  (Environmental Impact  Assessment), Planning, Preparing  EIS 
+(Environmental Impact Statement) & pollution management. 
+
+4. Environmental Laws 
+
+It involves the body of statuaries, policies those are made in order to protect the nature from 
+being misused by human beings. Some laws are regulative or controlling in nature while some 
+are for preventive measure & some are binding on us. 
+
+Building Blocks of Environmental Engineering 
+
+Sustainable Development (SD) 
+
+It  can  be  defined as  “the  ability to  meet the  needs of  present generation without 
+compromising the ability of future generation to meet their needs” i.e. the balance or proper 
+use of resources, so that our  future generation will not face any problem for their survival, 
+after taking care of our own survival needs.  
+
+ 
+Pillars or Components of SD 
+
+There are three pillars or components of Sustainable Development (SD) i.e.  
+
+a) Economical Development 
+
+b) Society or community Development 
+
+c) Environmental Protection 
+
+Human  Dimension in Env. Engg. 
+
+It is also known as  Three factor  model for assessing environmental degradation. To 
+estimate or  assess the extent of environmental degradation John Holdern (a  physicist) and 
+Paul  Ehrlich  (a  biologist) has  given  a  three  factor  model.  According  to  this  model,  total 
+environmental Impact  (I)  of  degradation  and  pollution due  to  population in  a  given area 
+depends on three factors i.e. P, A, T. 
+
+P represents Size of population 
+
+A represents Affluence or Per capita Consumption or per person consumption 
+
+T represents Technology used. 
+
+The relationship is, I = PAT 
+
+In the developing countries, P3 syndrome i.e. (Population, Pollution, Poverty) and in the rich 
+developed countries overuse of natural resources are the key or important factors leading to 
+environmental degradation. 
+
+Environmental Problems 
+
+The major environmental problems that we are facing are –  
+
+a) Water Pollution 
+
+b) Air Pollution 
+
+c) Biodiversity Depletion 
+
+d) Large amount of Waste Production 
+
+e) Food Supply Problems 
+
+Causes of Environmental Problems 
+
+Many Environmental Problems presently we are facing are mainly due to – 
+
+ a) Over Population 
+
+ b) Wasteful use of Resources 
+
+ c) Destruction & Degradation of Wildlife Habitats 
+
+d) Depletion & Contamination of Surface Water & Ground Water 
+
+e) Depletion of Non-Renewable resources or minerals 
+
+ f) Deforestation 
+
+ g) Soil Erosion 
+
+ h) Loss of Biodiversity  
+
+Definition of Pollution 
+
+It is an undesirable change in physical, chemical or  biological characteristics of air, water & 
+soil, that may harmfully affect human beings, animals, the plant life, industrial progress, living 
+conditions & cultural assets. 
+
+Definition of Pollutant 
+
+It is an undesirable harmful solid, liquid or gaseous substance present in such a concentration 
+in the environment which tends to be injurious for the whole living organisms. 
+
+Ecological Concepts 
+
+The word ecology was coined by Ernst Haeckel from two Greek words, Oikos & Logos. Oikos 
+means  House  or  Living  Space  &  Logos  means  Study.  Ecology  is  the  branch  of  Biology 
+concerned  with  the  relations  of  various  species  to  one  another  &  to  their  physical 
+surroundings 
+
+Ecological Perspective 
+
+Ecological perspective demands a greater understanding of the functioning of living systems 
+&  their  interactions  with  the  environment.  It  gives  a  qualitative emphasis  on  ecological 
+concepts. 
+
+Principles of ecology 
+
+• 
+
+Living organisms can’t exist with total disregard to their environment. 
+
+•  All living organisms & their physical environment are interdependent upon each other 
+
+& also affect each other. 
+
+•  Every  living organism has  certain  limits of  tolerance towards  the various factors  of 
+
+environment & only within these limits the organisms can survive. 
+
+•  The existence of life depends upon flow of energy through food chains & the cycling 
+
+of nutrients. 
+
+Aspects of ecology 
+
+The two important aspects of ecology are – 
+
+a) Autecology or species ecology 
+
+b) Synecology or community ecology 
+
+a) Autecology 
+
+It is concerned with the ecology of an individual species & it’s population.  
+
+b) Synecology 
+
+It  is  the  study  of  communities, their  composition, their  behaviour  &  the  relation  to  the 
+environment. 
+
+Synecology is further subdivided into three categories –  
+
+i) 
+ii) 
+iii) 
+i) 
+
+ii) 
+
+iii) 
+
+Population Ecology 
+ Genetic Ecology 
+Taxonomic Ecology 
+Population Ecology 
+It relates with individual organisms with different groups of organisms within the 
+ecosystem of different levels & the interrelationship among themselves.  
+Genetic Ecology 
+It  is also known as  Gene Ecology.  Different organisms have different genes and 
+chromosomes; hence they live in different places.  
+The relationship due to the variation in genes among biotic components with their 
+surroundings non-biotic environment is known as Genetic Ecology. 
+Taxonomic Ecology 
+It  includes  ecology  of  taxonomic  groups  such  as  microbes,  vertebrates  (with 
+backbone), invertebrates (without backbone) & insects etc. 
+
+Ecosystem 
+
+An ecosystem is defined as a natural functional ecological unit comprising of living organisms 
+(i.e. biotic community) &  their non-living (i.e. abiotic) environment that interact to form a 
+stable self-supporting system. 
+
+Example: Pond ecosystem, Forest ecosystem etc. 
+
+The ecosystems are characterized by a  diversity of species, but in an ecosystem there must 
+be representatives from the three functional or metabolic groups such as Primary Producers, 
+Consumers & Decomposers. 
+
+The ecosystems can vary in sizes.  
+
+Properties of Ecosystem 
+
+•  An Ecosystem exists independent of specific components i.e. an individual tree may 
+
+die, but a forest persist. 
+
+•  The components of an ecosystem are interdependent. 
+•  The nature of ecosystem depends on the species biodiversity of the ecosystem. 
+•  The function of ecosystem depends on the energy flow & cycling of chemical elements 
+
+within the ecosystems. 
+
+•  The  ecosystem can  be  disturbed by  human  activities &  the  most  adverse effect of 
+
+disturbance is the loss of biodiversity. 
+
+Types of Ecosystem 
+
+1.  Natural Ecosystem 
+2.  Artificial or Man-made or Man-engineered Ecosystem 
+
+1.Natural  Ecosystem 
+
+These ecosystems operate by themselves under natural conditions. 
+
+Depending on the type of habitats, these are further sub-divided into – 
+
+I) Terrestrial Ecosystem 
+
+II) Aquatic Ecosystem 
+
+I) Terrestrial Ecosystem 
+
+It includes forest, grassland, desert ecosystems. 
+
+II) Aquatic Ecosystem 
+
+These ecosystems found in the aquatic environment. 
+
+It can be divided into two categories – 
+
+ a) Fresh water ecosystem 
+
+b) Marine water ecosystem 
+
+a) Fresh water ecosystem 
+
+The Fresh water ecosystem can be 
+
+i) Lotic & 
+
+ii) Lentic 
+
+Lotic means (moving or running water) 
+
+ e.g. River or Stream ecosystem 
+
+Lentic means (Still or Standing water) 
+
+e.g. Pond, Lake ecosystem 
+
+b) Marine water ecosystem 
+
+These include salt water bodies which may be Ocean ecosystem, Sea ecosystem. 
+
+2.Artificial ecosystem 
+
+These are maintained artificially by human beings. 
+
+e.g. garden, park. 
+
+Structure or components of ecosystem 
+
+Ecosystem has two major components. 
+
+1. Abiotic &  
+
+2. Biotic 
+
+1. Abiotic can be classified into hydrosphere, atmosphere & lithosphere  
+
+2. Biotic can be classified into producer, consumer & decomposer. 
+
+Consumer can be primary, secondary, tertiary consumers. 
+
+Functions of ecosystem 
+
+Energy flow: It regulates the flow of energy from one level to the other. 
+
+Nutrient cycling: It regulates cycling of nutrients. 
+
+Environmental gradients: The ecosystem fix the limit of tolerance for each organism towards 
+various factors of environment. 
+
+Food Chain & Food Web: The energy produced by green plants are passed to next levels by a 
+chain of consumers leading to formation of food chain & interlinking of food chain will lead 
+to formation of food web. 
+
+Biodiversity: The ecosystem regulates the species diversity to acquire a stable system. 
+
+Natural Resources 
+
+The materials those occur in the environment or those are created by the environment 
+&  useful for  supporting  life or  promoting  the  well -being of  human  beings  are  termed  as 
+natural resources  
+
+Natural Resources  are the naturally occurring  substances those are considered valuable in 
+their natural form & their value rest in the amount of material available & the demand for it.  
+
+Types of Natural Resources 
+
+There are three types of natural resources – 
+
+1) Renewable or Inexhaustible  
+
+i.e. available in unlimited quantity. 
+
+Ex – Solar energy, wind power etc. 
+
+2) Non-renewable or exhaustible 
+
+i.e. available in limited quantity 
+
+Ex – coal, petrol, diesel etc. 
+
+3) Abstract  Natural Resources 
+
+It includes animals, plants & natural landscapes as part of countryside used for recreation & 
+tourism activities. 
+
+Ex – Bird watching, sight-seeing  
+
+Value of environment 
+
+The  value  of  the  environment is  considered  on  the  basis  of  the  economic  status  of  the 
+particular region. Natural resources existing in the region are the backbone on the economic 
+status. 
+
+The following four points will help in evaluating the environment –  
+
+ 1. Environmental Auditing 
+
+ 2. Biodiversity 
+
+ 3. Cost-Benefit Analysis 
+
+ 4. Environmental Ethics  
+
+ 
+1. Environmental Auditing 
+
+Environmental Audit is defined as a systematic listing of natural resources in an area 
+playing a key role for economic status &  sustainable developments of mankind in that area 
+following definite management & regulatory systems.  
+
+Generally, it provides a list of all the resources present in the area. 
+
+The audit activities are carried out in three phases –  
+
+ a) Pre-audit activities 
+
+ b) On-site audit activities 
+
+ c) Off-site or Post audit activities    
+
+1(a) Pre-audit activities 
+
+It includes planning, scheduling the audit activities & selecting the audit team. 
+
+1(b) Onsite audit activities 
+
+It includes interviewing of the site personnel & Inspecting the site. 
+
+1(c) Post audit activities 
+
+It includes – 
+
+•  Preparing & distributing audit reports 
+
+•  Determining potential solutions 
+
+•  Assigning responsibilities 
+
+• 
+
+Implementing actions & 
+
+•  Conducting follow-up of the action plan.   
+
+2.Biodiversity 
+
+It  doesn’t imply just a  collection of species, but  is a  basic  resource which  acts  as  a 
+
+human life support system. Biodiversity plays an important role in biogeochemical cycles. 
+
+Biodiversity has three hierarchical levels i.e. 
+
+   i) Genetic Biodiversity 
+
+   ii) Species Biodiversity   
+
+   iii) Ecosystem Biodiversity 
+
+There can be three kinds of losses of biological resources. 
+
+    i) Depletion of a once common species 
+
+    ii) Local or global extinction 
+
+    iii) Ecosystem disruption. 
+
+3. Cost-Benefit Analysis 
+
+Working principles for Cost-Benefit Analysis include –  
+
+i) The SMS approach 
+
+SMS stands for Safe Minimum Standard 
+
+ii) The Minimax rule 
+
+Minimax stands for minimizing maximum losses 
+
+i) The SMS approach 
+
+It attempts to provide a decision-making process for problems involving long period of time 
+& large uncertainties. This approach makes conservation the preferred option.  
+
+ii) The Minimax rule 
+
+It is a necessarily pessimistic decision rule biased towards conservation. 
+
+4. Environmental Ethics 
+
+It gives the attitude of people towards other living beings & the natural environment.  
+We, human beings must eradicate our feelings of superiority over the rest of natural world & 
+
+develop an “I-Thou” relationship rather than “I-It” relationship with the environment. 
+
+Levels of organization in Biotic Components 
+
+There are six major levels of ecological organization are recognized in the biotic components 
+of the environment. 
+
+1) Individual 
+
+2) Population 
+
+3) Community 
+
+4) Ecosystem 
+
+5) Biomes &  
+
+6) Biosphere 
+
+1) Individual 
+
+These are single species. Individuals have physiological functions & respond to environmental 
+conditions 
+
+2) Population 
+
+Population consists of a group of individuals of the same species living in a particular area at 
+the same time. Birth rate, death rate plays an important role in the size of population.  
+
+3) Community 
+
+Population of different species living together interact with each other to form a community. 
+
+Niche 
+
+A suitable or comfortable position in the ecological hierarchy for a species.  
+
+Ex- Phytoplankton → Zooplankton→  Fish → Whale 
+
+Niche of fish in the above ecological hierarchy is three or 3rd  position.  
+
+4) Ecosystem 
+
+It includes both biotic &  abiotic components of an area.  The major or important feature of 
+this ecological level is the strong interaction between the various biotic & abiotic components 
+present. Nutrient cycling & energy flow occur in this ecological level  
+
+5) Biomes 
+
+When environmental conditions are similar in different parts of the country or around  the 
+globe, the habitats & communities are also often similar, giving rise to a higher level of biotic 
+organization known as biomes. 
+
+Ex- a) Tropical Rainforest (High temp.& High rainfall) 
+
+      b) Desert Scrub (High temp. & low rainfall)   
+
+6) Biosphere 
+
+The highest organizational level is the biosphere & it extends from bottom of the sea to the 
+top of the sky where life exists. Biogeochemical cycles occur at this ecological level.  
+
+Ecosystem Process: 
+
+In  the  ecosystem  process,  the  following  processes  are  essential  for  the  survival  & 
+maintenance of biotic components.  
+
+1. Energy flow & 
+
+2. Nutrient cycling 
+
+1. Energy flow 
+
+On the earth, the ultimate source of energy for life is solar radiation. 
+
+There are two sources of energy – 
+
+a) Autotrophic 
+
+b) Heterotrophic     
+
+1.(a) Autotrophic 
+
+Autotrophic production of energy is carried out within the ecosystem by green plants in the 
+
+presence of sunlight using photosynthesis process. 
+
+1.(b) Heterotrophic 
+
+Heterotrophic energy source is the one, where the chemical energy is imported as organic 
+matter which is originated from primary production in some other ecosystem. 
+
+This imported organic matter is called allochthonous. 
+
+Photosynthesis 
+
+12H2O  + 6CO2 + 709kcal  (from sunlight)→ C6H12O6(Carbohydrate)+  6O2  + 6H2O               
+
+Out of total amount of solar radiation available, only 1 to 5%  is used in the photosynthesis 
+process. The organic matter produced by green plants in the Photosynthesis process is called 
+
+Primary Production or (PP). 
+
+PP is affected by various environmental factors like water, light, temperature & soil nutrients. 
+PP is of 2 types. 
+
+1) GPP (Gross Primary  Production) 
+
+2) NPP (Net Primary  Production) 
+
+GPP – R(Respiration) = NPP 
+
+GPP is the total amount of chemical energy or biomass stored by plants per unit area per unit 
+time. Since plant requires energy for synthesis of organic matter & functioning of plant itself, 
+some of GPP is used in the process of respiration. 
+
+NPP is used for plant growth & reproduction. NPP is normally 80  to 90%  of GPP. 
+
+As various environmental factors affect PP, hence GPP & NPP vary over the globe. NPP can be 
+classified into four broad groups each with a characteristic productivity range.  
+
+1.  Low range – 0 to 250  gm/m2 – year  
+
+Ex- Desert, semi-desert 
+
+ 2. Middle range – 250  to 1000  gm/m2 – year 
+
+Ex- Non-forest communities like shrubland, grassland 
+
+3. Normal range – 1000  to 2000  gm/m2 – year 
+
+Ex- Forest  
+
+4. High range – 2000  to 3000  gm/m2 – year  
+
+Ex- Rainforest   
+
+Respiration 
+
+When any organism requires energy, the reverse chemical reaction of photosynthesis 
+occurs, known as respiration, where the glucose molecule is broken down in the presence of 
+oxygen to produce CO2, H2O & energy for work done & maintenance. The reaction is – 
+
+C6H12O6+6O2→ 6CO2+6H20+  energy for work done & maintenance 
+
+2. Nutrient cycling 
+
+During decomposition, the complex organic molecules in the original detritus or waste 
+are gradually broken down to much simpler constituents & inorganic molecules like nitrates 
+
+& phosphates, as the material moves through the decomposer or detritus food chain. 
+
+These are then, enter into the soil or sediment or dissolved in water, where they become the 
+nutrients available for reuse by green plants. 
+
+This whole process of recycling of nutrients within the ecosystem is known as nutrient cycling. 
+
+Overview of 2 major ecosystem process of energy flow, nutrient cycling 
+
+ 
+Food Chain 
+
+Chemical energy produced  by primary  producers  &  the nutrients used by  plants to 
+build plant tissues, are passed up by a chain of consumers leading to formation of food chain, 
+where each link in the chain is provided with energy & nutrients.  
+
+Depending on the types of foods, there are three types of food chain available.  
+
+   a) Predator or Grazing Food Chain 
+
+    b) Saprophytic or Detritus Food Chain 
+
+    c) Parasitic Food Chain   
+
+a) Predator  or Grazing Food Chain 
+
+Predator means an animal that naturally preys on others. 
+
+Ex:- Sunlight→Grass→Grasshopper→Frog→Snake→ Hawk 
+
+b) Saprophytic  or Detritus Food Chain 
+
+It starts from DOM (Dead Organic Matter) & goes to detritus feeding organisms i.e. detrivores 
+i.e. bacteria, worms etc. & on to their predators. 
+
+Ex:- Dead leaves→Soil mites→Insects→Lizard  
+
+c) Parasitic  Food Chain 
+
+It is a food chain in which parasites live on the host body or within the host body to get energy. 
+
+This food chain also starts from the green plants & animals to parasitic microbes.  
+
+ 
+ 
+ 
+Food Web 
+
+In most ecosystems, food chains interlink with each other to produce food web. Food web 
+shows the food pattern of energy flow in the ecosystem. 
+
+Tropic Level 
+
+Tropic level or nutritional level or tier gives the feeding status of an organism in an ecosystem. 
+It is based on the concept who feeds on whom. 
+
+It can be -  
+
+i)First tropic level or primary  producer level  
+
+Ex: - Green plants 
+
+ii)Second tropic level or primary consumer level  
+
+Ex: - Herbivores 
+
+iii)Third tropic level or secondary consumer level 
+
+Ex: - Carnivores 
+
+Ecological pyramid 
+
+The graphical representation of tropic levels is called the ecological pyramid.  
+
+The arrangement of organisms in a food chain according to tropic levels forms a pyramid. 
+
+Generally, pyramids are of three types. 
+
+1. Pyramid of energy 
+
+ 
+2. Pyramid of biomass 
+
+3. Pyramid of numbers. 
+
+1. Pyramid of energy 
+
+Generally, 10% energy is transferred between adjacent tropic levels & rest 90% of energy  is 
+used up in that tropic level giving rise to energy pyramid. This is called 10% rule of ecosystem. 
+
+It is based on rate of energy flow & productivity at each successive tropic level.  
+
+It decreases from autotrophs to higher tropic level. 
+
+2. Pyramid of biomass 
+
+It shows the total mass of the organisms in each tropic level. It is based on total dry weight 
+present in the level. It decreases from autotrophs to higher tropic level. 
+
+ 
+ 
+3. Pyramid of Numbers 
+
+It  shows the number  of organisms in  each  tropic level. There may  be gradual  decrease or 
+increase in the number of individuals. 
+
+Standing Crop 
+
+The  amount  of living materials in different tropic  level or  in any  component population is 
+known as standing crop. It can be expressed as number/unit area or as biomass. 
+
+Ecological Succession 
+
+In an ecosystem, new species may succeed older species. The process of gradual  change in 
+the conditions of physical environment, leading to the change in the species structure of an 
+ecological community (i.e. replacement of one species by the other) over space &  time, is 
+called Ecological Succession or Ecological Development. 
+
+Biogeochemical Cycles 
+
+•  Bio means living beings 
+•  Geo means earth extended to air & water, where life exists. 
+•  Chemical means chemical elements which continuously move in the cycles. 
+
+ 
+•  The cyclic pathways through which chemical elements move from environment to the 
+
+organisms & back to the environment are called bio-geochemical cycles. 
+
+•  All parts or components of different ecological systems, on a local or global scale are  
+
+linked with the Biogeochemical Cycles. 
+
+•  Biogeochemical Cycles can have a number of phases & reservoirs. 
+
+   1) Organic Phase 
+    2) Inorganic Phase  
+
+1) Organic Phase  
+
+In this phase, nutrients pass rapidly through biotic communities using food chain.  
+
+2) Inorganic Phase  
+
+It contains all nutrient elements & are external to food chain. 
+
+The various sub-phases of the inorganic phase are – 
+
+    a) Sedimentary Phase 
+    b) Atmospheric Phase 
+    c) Aquatic Phase or Aquatic Reservoir 
+
+a) Sedimentary Phase  
+
+It involves interactions with the solid earth or rocks & results of geological activities such as 
+weathering. 
+
+b) Atmospheric Phase 
+
+It forms major part of some cycles like ‘N’ cycle & ‘C’ cycle & minor parts of some cycles like 
+‘P’ Cycle. 
+
+c) Aquatic Phase or Aquatic Reservoir 
+
+It involves plant nutrients. 
+
+Types of biogeochemical cycles 
+
+There are two types of biogeochemical cycles. 
+
+I) Air or Atmospheric Cycle. 
+II) Water or Hydrological Cycle 
+
+I) Air or Atmospheric Cycle 
+
+It can be classified into – 
+
+ i) C – Carbon 
+
+ ii) N – Nitrogen  
+ iii) O – Oxygen 
+ iv) P – Phosphorous  
+ v)S – Sulphur  
+
+i) Carbon Cycle  
+
+The carbon cycle is nature's way of reusing carbon atoms, which travel from the atmosphere 
+into  organisms  in  the  earth  and  then  back  into  the  atmosphere  over  and  over  again. 
+Most carbon is  stored  in  rocks  and  sediments,  while  the  rest  is  stored  in  the  ocean, 
+atmosphere, and living organisms. 
+
+ii) Nitrogen Cycle 
+
+Nitrogen Cycle is a  biogeochemical process through which nitrogen is converted into 
+many forms, consecutively passing from the atmosphere to the soil to organism and back into 
+the  atmosphere.  It  involves  several  processes  such  as nitrogen  fixation,  nitrification, 
+denitrification, decay and putrefaction.  
+
+ 
+ 
+iii) Oxygen Cycle 
+
+The oxygen cycle is the cycle that helps move oxygen through the three main regions 
+of  the  Earth,  the Atmosphere, the  Biosphere, and  the Lithosphere. The  Atmosphere is  of 
+course  the  region of  gases  that  lies above the  earth's  surface  and  it  is  one of  the  largest 
+reservoirs of free oxygen on earth. 
+
+iv) Phosphorous Cycle 
+
+Phosphorus moves in a cycle through rocks, water, soil and sediments and organisms. 
+Over time, rain  and weathering cause  rocks to  release phosphate ions and  other minerals. 
+This  inorganic  phosphate  is  then  distributed in  soils and  water.  Plants  take  up  inorganic 
+phosphate from the soil. 
+
+ 
+ 
+v) Sulphur Cycle 
+
+The sulphur  cycle is  the  collection  of  processes  by  which sulphur moves  between 
+rocks,  waterways and  living systems. Such  biogeochemical  cycles are important  in geology 
+because they affect many minerals.  
+
+II) Water or Hydrological  Cycle 
+
+The hydrological cycle of the earth is the sum total of all processes in which water moves from 
+the  land  and  ocean  surface  to  the  atmosphere  and  back  in  form  of  precipitation. 
+The hydrological cycle is dependent on various factors and is equally affected by oceans and 
+land surfaces. 
+
+ 
+ 
+Interception:- It is the evaporation of water from the outer surface of leaves during & after 
+rainfall. 
+
+Transpiration:-  It is the evaporation of water through foliage.  
+
+Evapotranspiration:-  It is the combination of Evaporation from water bodies & transpiration 
+from leaves. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Module  – 2: WATER & WASTEWATER 
+TREATMENT 
+
+Physical Properties of Water 
+
+The various physical properties of water that shows wide variation in magnitude includes – 
+
+•  Colour 
+•  Turbidity 
+•  Taste & odour 
+•  Temperature 
+•  Solids 
+•  Colour 
+
+It is measured in Hazen’s Scale. The permissible limit of colour for drinking water is 5mg/L or 
+ppm. 
+
+•  Turbidity 
+
+It is the measure of cloudiness in water &  caused by presence of suspended matter which 
+scatters  &  absorbs  light.  It  is  measured  in  NTU  (Nephelometric  Turbidity  Unit).  The 
+Permissible limit of turbidity for drinking water is 1NTU. 
+
+•  Taste & Odour 
+
+This  may  be due to  presence of  micro-organisms, algae, dissolved minerals, salts etc.  It  is 
+measured in TON (Threshold Odour Number). The permissible limit of TON for drinking water 
+is 1 to 3. 
+
+TON = (A + B)/ A  
+
+A - Volume of Sample with odour  
+B -Volume of Pure Water with no odour Added 
+If A was a 100  ml sample and 100  ml of water had to be added to not detect the odour - the 
+
+TON would be 2.  
+
+TON = (100  + 100)/ 100=200/100=2. 
+
+•  Temperature 
+
+The temperature of water varies with atmospheric temperature & it is a significant parameter 
+regarding characteristics of water. For drinking water, the temperature should be 10-250C. 
+
+•  Solids 
+
+Solids content of water represents the characteristics of water. 
+
+Solids present in water can be studied as follows- 
+
+a) Total Solids (TS) 
+b) Suspended Solids (SS) 
+c) Total Dissolved Solids (TDS) = TS – SS 
+d) Total Volatile Solids (TVS) 
+e) Volatile Suspended Solids (VSS) 
+f) Filterable Solids (FS) & Non-Filterable Solids (NFS)  
+
+NFS = SS (Particle Size Range is 100 to 10-3 mm) 
+
+FS can be Colloidal (Particle Size Range is 10-3 to 10-6 mm) & 
+
+Dissolved (Particle Size Range is 10-6  to 10-9  mm) 
+
+Chemical Properties of Water 
+
+It can be Inorganic & Organic 
+
+Inorganic Chemical properties of water includes  
+
+•  PH 
+•  Alkalinity & Acidity 
+•  Hardness 
+
+Conductivity 
+
+Organic Chemical properties of water includes 
+
+•  BOD (Biological Oxygen Demand) 
+•  COD (Chemical Oxygen Demand) 
+•  TOC (Total Organic Carbon) 
+•  TOD (Total Oxygen Demand) 
+
+Inorganic Chemical properties of water 
+
+•  PH 
+
+PH is Potential of Hydrogen or Power of Hydrogen 
+
+PH = - log [H+] or 
+      = - log [H3O+] 
+
+PH range for public water supplies is 6.5 to 8.5. 
+
+Q.  In  a  water  treatment plant, the  PH  values  of  incoming  &  outgoing  water  are  7.2  &  8.4 
+respectively. Assuming a linear variation of PH with time, determine the average P H value of 
+water. 
+
+•  Alkalinity & Acidity 
+
+Alkalinity is also known as ANC or (Acid Neutralizing Capacity) & Acidity is also known as BNC 
+or (Base Neutralizing Capacity) 
+
+Alkalinity can be of three types.  
+
+a) Carbonate Alkalinity 
+
+b) Bicarbonate Alkalinity & 
+
+c) Hydroxide Alkalinity 
+
+•  Hardness 
+
+Hard water has high mineral content. Hardness of water are of two types. 
+
+a) Temporary Hardness or Carbonate Hardness 
+
+b) Permanent Hardness or Non-Carbonate Hardness  
+
+a) Temporary  Hardness 
+
+It is due to carbonate & bicarbonate of Ca+2 & Mg+2. 
+
+b) Permanent Hardness 
+
+It is due to Chloride & Sulphate of Ca+2 & Mg+2. 
+
+Hardness of water is expressed in mg/L as CaCO3. The permissible limit of hardness of drinking 
+water is 200  mg/L as CaCO3. 
+
+Hardness in mg/L  as CaCO3 
+
+= [M+2(concentration in mg/L) X 50]/  [equivalent weight of M+2]  
+
+= M+2(Concentration in meq/L) X 50      
+
+Q. Determine the various hardness of the following water sample. 
+
+Concentration (in mg/L) 
+
+Constituent 
+    Ca+2                           60 
+   Mg+2                                29.3 
+-                               366 
+   HCO3
+•  Conductivity or Electrical Coductivity  
+
+It is the measure of the ability of an aqueous solution to carry an electric current. The equation 
+can be, 
+
+ec= ƩCifi 
+
+ 
+where,   
+
+ec is electrical conductivity in μs(siemens)/cm, 
+
+Ci is concentration of ionic species in solution in mg/L & 
+
+fi is conductivity factor for ionic species. 
+
+Organic Chemical properties of water 
+
+•  BOD5 = 0.6  COD 
+•  CBOD or Carbonaceous  BOD = 0.92  COD 
+
+Q. Determine COD & TOC for glucose(C6H12O6)? 
+
+Q.  If  bacteria cells are  represented by the  chemical formula C 5H7O2N,  then determine the 
+potential carbonaceous BOD, when bacteria cell concentration is 1000mg/L.   
+
+Q.  A wastewater is analysed &  is shown to  contain 100  mg/L  of ethylene glycol (C 2H6O2) & 
+120  mg/L of phenol(C6H6O). Determine COD & TOC. 
+
+Organic Content Parameter of Water 
+
+When  an  organic  waste  is  discharged to  a  stream,  the  organic  content  of  the  effluent or 
+discharge undergoes a biochemical reaction with the help of micro-organisms. 
+
+BOD = P(DOI-DOF) 
+
+Where, P is Dilution Ratio, 
+
+ 
+ 
+DOI & DOF are initial & final DO (Dissolved Oxygen) concentration 
+
+Corrected BOD = P[(DOI-DOF)-f(BI-BF)] 
+
+Where, f is the correction factor or seeding factor=1-(1/P), 
+
+BI  &  BF  are initial &  final DO  (Dissolved Oxygen) concentration of seeded diluted water  or 
+Blank 
+
+Q. The results from a BOD test diluted by 100  are given below. Calculate the BODS. 
+
+Time (in days)             DO(in mg/L) 
+      0                                     7.95 
+       1                                     3.75 
+       2                                     3.45 
+       3                                     2.75 
+       4                                     2.15 
+       5                                     1.80 
+
+Q. The results from a BOD test diluted by 100  are given below. Calculate the Corrected BOD S. 
+
+Time (in days)   DO(in mg/L)      Blank DO(in mg/L) 
+      0                          7.95                        8.15 
+       1                         3.75                        8.10 
+       2                         3.45                        8.05 
+       3                         2.75                        8.00 
+       4                         2.15                        7.95 
+       5                         1.80                        7.90 
+
+The rate of decomposition of organic matter is directly proportional to the amount of organic 
+matter available & it is a first order reaction. 
+
+i.e. d/dt(Lt)α Lt 
+
+=> d/dt(Lt) = -k1xLt  
+
+=> d(Lt)/Lt= k1xdt 
+
+Where, Lt is BOD remaining in mg/L=BODr & 
+
+K1 is deoxygenation rate coefficient 
+
+Now taking integration of both sides and putting initial condition at t=0,  Lt=L0,  we will have 
+final expression for BOD exerted at any time t i.e.  
+
+BODt=  L0(1-e-k
+
+t) 
+1
+
+Q. If K1 or deoxygenation rate coefficient is 0.15 per day, then determine the ultimate BOD or 
+BODu or L0.  
+
+Temperature effect on K1 
+
+Temperature has an effect on K1 & is given by, 
+
+KT = (K20)x(Ɵ)(T-20) 
+
+Where,  
+
+KT= The deoxygenation rate coefficient at T0C 
+
+K20=The deoxygenation rate coefficient at 200C 
+
+Ɵ = Coefficient= 1.047  for 200C<  T < 300C & 
+
+               = 1.35  for 40C < T < 200C 
+
+NBOD 
+
+The Oxygen demand associated with the oxidation of ammonia (NH3) to nitrate (NO3
+Nitrogenous BOD or NBOD. 
+
+-) is called 
+
+2NH3 + 3O2→2NO2
+
+- + 2H+ + 2H2O 
+
+2NO2
+
+- + O2 → 2NO3
+- 
+
+So 2NH3 + 4O2 → 2NO3
+
+- + 2H+  + 2H2O 
+
+Finally, NH3 + 2O2 → NO3
+
+- + H+ + H2O  
+
+Q. Determine the TOD (Total Oxygen Demand) if the sample contains 25 mg/L of N.  
+
+BOD remaining (BODr) graph 
+
+ 
+ 
+BOD exerted (BODt) graph 
+
+CBOD & NBOD  relationship 
+
+Q. 15ml of sample was diluted in 300ml bottle. Initial DO was 8.9 mg/L & final DO after 5days 
+was 4.4mg/L. The corresponding initial & final DO of diluted water was 9.1mg/L  & 9.05  mg/L. 
+Find out 5 days BOD at 200C.   
+
+ 
+ 
+Q. BOD  of an  sample incubated for one day at 300C was found to be 100mg/L.  What would 
+be the 5 day BOD at 200C. The deoxygenation rate coefficient (K1) is 0.12  at 200C. 
+
+Q. Determine the two day BOD for a wastewater at 200C, while BOD5 at 200C  is 250mg/L. The 
+deoxygenation rate coefficient(K1) value at 200C is 0.2  per day. What  shall be the BOD  after 
+the end of seven days at 250C . 
+
+Q.  A  BOD  test  was  conducted  taking  5%  wastewater  mixed  with  95%  aerated  water  for 
+dilution & the following observations were found out: 
+
+i) DO of the aerated water used for dilution is 3.6 mg/L 
+
+ii) DO of the original wastewater sample is 0.8  mg/L 
+
+iii) DO of the diluted wastewater after incubation at 200C  for 5 days is 0.7  mg/L 
+
+Calculate the 5  days BOD of the above wastewater sample if  the deoxygenation constant is 
+0.11.   
+
+Aquatic Pollution 
+
+The aquatic Pollution can be classified into three broad groups. 
+
+a) Fresh water pollution or Surface water pollution 
+
+b) Estuarine pollution 
+
+c) Marine pollution 
+
+a) Fresh water pollution 
+
+The pollution of fresh water can be caused by:- 
+
+•  Wastes from municipality & industries 
+•  Oil from industry wastes & cleaning of vehicles 
+•  Thermal waste from industries & power stations  
+• 
+
+ Heavy metals etc. 
+
+b) Estuarine pollution 
+
+Estuarine means tidal mouth of river or where river mixes with the sea. So if surface water is 
+polluted then it can lead to pollution of estuarine. 
+
+c) Marine pollution 
+
+The main pollutants for Marine pollution are:- 
+
+i) Manmade organic poisons like Pesticides & herbicides 
+
+ii) Radioactivity due to radioactive substances. 
+
+Point & Non-Point Sources of Pollution 
+
+Point Sources are those, which discharge pollutants from specific locations such as chimney, 
+drainpipe of factories etc. 
+
+Point Sources are easier to monitor & regulate. 
+
+Non-point sources of pollution are those, which don’t have any specific location of discharge. 
+
+As a result, these are difficult to monitor & regulate.  
+
+Ex:- Run-off from paddy fields, Lawns & Gardens. 
+
+Oxygen Sag Curve 
+
+The longitudinal profile of Oxygen concentration is Known as Oxygen sag curve. 
+
+Eutrophication 
+
+It can  be defined as the enrichment of water by inorganic plant nutrients like N & P, which 
+results in increase in primary productivity. 
+
+Artificial  eutrophication  is  known  as  cultural  eutrophication  which  is  caused  by  adding 
+
+fertilizers.   
+
+The problems arising due to Eutrophication are:- 
+
+•  Water quality may have unacceptable taste & odour 
+•  Water may be injurious to health 
+
+ 
+•  The household usefulness of water may decrease. 
+
+Oxygen transfer in waterbodies 
+
+The oxygen transfer in waterbodies is given by Orlob equation i.e. 
+
+{(Cg-C0)/(Cg-Ct)} = ek
+
+2t 
+
+Where,  
+
+Cg = Saturation Concentration of oxygen 
+
+C0 = Initial Concentration of oxygen 
+
+Ct = Concentration of oxygen after time ‘t’ 
+
+K2 = reaeration rate constant 
+
+Q.  If saturation  concentration of  oxygen in water  is 9.2mg/L  &  the initial concentration  of 
+oxygen is 2.1mg/L, then determine the time it takes to become 7.5mg/L, having K 2 value 0.25 
+per day. What is the time required for Ct to be 5,6,7,8,9  mg/L. 
+
+Ground water  Quality/Contamination 
+
+The  simplest model of  decay of  a  contaminant is  to  assume  the decay  to  be  a  first order 
+reaction i.e.  
+
+r = - kc & 
+
+Ct = C0e-Kt 
+
+Where,  
+
+Ct = Concentration at time ‘t’ in mg/L 
+
+C0 = Initial Concentration in mg/L 
+
+t = time in days 
+
+K = first order decay coefficient  
+
+Q.  Determine the concentration of a  contaminant at the downstream well, if the upstream 
+concentration is 80mg/L. Assume decay constant (k) to be 10-4  per day & time (t) = 274  years 
+
+Ground Water Recharge 
+
+It is also known as deep percolation. It is a hydrologic process, where water moves downward 
+from surface to ground. 
+
+Recharge can occur both naturally & artificially. 
+
+•  Natural way of recharge is occurred through hydrological cycle. 
+•  Recharge  occurs  artificially, when  rainwater, reclaimed  water  or  recycled water  is 
+
+injected or routed to the subsurface. 
+
+Recharge can help move excess salts that accumulate in the root zone to deeper soil layers or 
+into the deep groundwater system. 
+
+Ground Water Flow 
+
+The ground water flow is governed by Darcy’s law which can be expressed as follows:- 
+
+Q = KiA  
+
+= KA(dh/dL) 
+
+= KA{(h2-h1)/(L2-L1)} 
+
+Where,  
+
+Q = horizontal flow in m3/sec 
+
+K = hydraulic conductivity in m/sec 
+
+i = dh/dL= hydraulic gradient 
+
+A = cross sectional area in square mtr 
+
+h2- h1= water head drop 
+
+L2-L1 = Length difference over which water head drop occurs 
+
+q = Q/A = Specific discharge or discharge per unit area 
+
+Q.  Determine the  daily flow capacity  and  transmissivity of an  aquifer, if it’s height, width, 
+length are 15mtr,  800mtr  & 2km respectively. The water head change over the length 2km is 
+3mtr. The hydraulic conductivity (K) is 6x10-7 m/sec.  
+
+Water Table 
+
+A  water table is the underground depth, at  which point the ground  is totally saturated by 
+water. The water table may vary due to seasonal changes in precipitation, evapotranspiration 
+& topography etc. 
+
+Aquifer 
+
+An aquifer is a body of saturated rock through which water can easily move. An aquifer 
+is an underground layer of water bearing permeable rock from which ground water can  b e 
+extracted using a water well. 
+
+Aquifer can be of two types- 
+
+•  a) Unconfined aquifer 
+•  b) Confined aquifer 
+
+a) Unconfined aquifer 
+
+An unconfined aquifer is the one which is open to receive water from the ground surface & 
+whose water  table  surface  is  free to  fluctuate  up  &  down, depending on  the  recharge  & 
+discharge rate. 
+
+These are extremely susceptible to contamination. 
+
+b) Confined aquifer 
+
+These types of aquifers have rock layer with less permeability or confining bed of rock above 
+them  due  to  which  water  can’t  enter  freely into  these type  of  aquifers from  the  ground 
+surface. 
+
+These are less susceptible to contamination. 
+
+Concept of Hydrology 
+
+i) Water Balance or Water Budget 
+
+ii) Hyetograph & Hydrograph 
+
+iii)Rainfall-Runoff Relationship or Rational formula for determining runoff 
+
+ 
+i)Water Balance or Water Budget 
+
+It gives the quantitative account of hydrological cycle. The equation for water balance is based 
+on conservation of mass. 
+
+The water balance equation is 
+
+P= R+E+∆S+∆G  
+
+Where,  
+
+P is Precipitation 
+
+R is Runoff 
+
+E is Evaporation 
+
+∆S is change in soil moisture status 
+
+∆G is change in ground water status  
+
+ii) Hyetograph  & Hydrograph   
+
+Hyetograph represents rainfall intensity vs time. 
+
+Hydrograph represents runoff or stream discharge vs time. 
+
+If time is unit i.e. 1hr., then hydrograph will be unit hydrograph.  
+
+iii)Rainfall-Runoff Relationship or 
+
+Rational formula for determining runoff  
+
+Q = CIA 
+
+Where, 
+
+Q is runoff in m3/sec 
+
+C is locality coefficient 
+
+I is Rainfall Intensity in mm/hr 
+
+A is Catchment Area in square KM 
+
+Peak Discharge (QP)or Peak Run-off  
+
+It can be expressed as follows- 
+
+QP = 0.278  CIA 
+
+Modified Rational Formula given by Wallingford is- 
+
+QP =  0.278CVCRIA 
+
+Where, CV is volumetric runoff coefficient & CR is Routing Coefficient 
+
+Water Treatment 
+
+The objectives of water treatment are- 
+
+A) To produce Water which is safe for human consumption 
+
+B) To produce Water at a reasonable cost 
+
+C) To reduce water impurities to acceptable levels 
+
+Organoleptic Parameters 
+
+Organoleptic Parameters are those parameters which can be sensed or felt by human organs. 
+
+Ex:- Colour, Taste & Odour etc. 
+
+Classes of Water treatment 
+
+            Descripition 
+
+Class 
+No Treatment          
+  A 
+  B 
+Disinfection only            
+  C          Standard water Treatment     
+  D         Advanced/Special water       
+              Treatment 
+
+                Source 
+
+Borehole water 
+Borehole water 
+River,Reservoir 
+Industrial Water   
+
+Monitoring Frequency 
+
+The  water  quality  parameters  are  required to  be  monitored  depending on  the  s ource  & 
+quality of raw water. 
+
+The three categories are- 
+
+A) Minimum monitoring(C1) 
+
+B) Current monitoring(C2) 
+
+C) Periodic Monitoring(C3)  
+
+Water Treatment  Processes 
+
+The treatment processes of water can be classified into three stages- 
+
+A) Pretreatment processes 
+
+  
+ 
+ 
+ 
+ 
+B) Standard or Conventional processes 
+
+C) Special or Advanced processes 
+
+A) Pretreatment processes 
+
+Some treatment processes are required prior to standard water treatment processes which 
+may include- 
+
+i) Screening 
+
+ii) Storage 
+
+iii) Aeration 
+
+iv) Chemical pre-treatment 
+
+i) Screening:- 
+
+Different types of screens are used in this process. Those are can be - 
+
+a) Coarse Screen 
+
+b) Fine Screen 
+
+c) Micro Screen  
+
+a) Coarse Screen:- 
+
+These screens contain typically inclined bars of 25mm dia & 100mm  spacing, preventing large 
+floating matters from entering the treatment plant 
+
+b) Fine Screen:- 
+
+If storage  is not  provided, then  fine screens are  fitted after the coarse  screens. If  there is 
+storage, then fine screens are placed at the outlet of the storage tanks. 
+
+Fine screens are typically mesh with openings about 6mm dia or square 
+
+C) Micro Screen:- 
+
+In micro screens, mesh openings range from 20 to 40 µm.These type of screens are used only 
+for relatively uncontaminated water.   
+
+ii) Storage:- 
+
+Storage  tanks  balance the  flows going to  the  treatment plant. Storage  capacity  should be 
+equivalent to 7 to 10  days of the average water demand. The period of storage shouldn’t be 
+long, so as not to encourage the growth of unwanted organisms 
+
+iii) Aeration:- 
+
+Aeration is the supply of oxygen from the atmosphere to water to effect beneficial changes 
+in the quality of water. It is a common treatment process for groundwater 
+
+Aeration is generally used for the followings- 
+
+a) To release excess H2S gas which may cause undesirable taste & odour. 
+
+b) To release excess CO2 which may have corrosive properties 
+
+c) To increase oxygen content of water. 
+
+iv) Chemical pre-treatment:- 
+
+The chemical pre-treatment to remove undesirable properties of water like algae or  excess 
+colour is a more expensive process than chemical post-treatment. In pre-treatment, greater 
+amount  of  chemicals are  required to  effect the same  result as  some of  the chemicals are 
+absorbed by turbidity of water.  
+
+The two Chemical pre-treatment processes which are generally used are- 
+
+a) Pre-Chlorination 
+
+b) Activated Carbon  
+
+a) Pre-chlorination:-  
+
+It is used on low turbidity water with a high coliform count. The chlorine is injected into the 
+water stream & it oxidizes & precipitates iron & manganese. It also kill pathogens & reduces 
+colour. The chlorine dose used is 5mg/L.  Pre-chlorination also reduces NH3 in both  surface 
+water & ground water supplies.   
+
+b) Activated Carbon:- 
+
+The activated Carbon is used for- 
+
+i) Removal of Photosynthetic Algae 
+
+ii) Improvement of colour & odour 
+
+iii) Removal of organic compounds 
+
+Activated Carbon can be used either as PAC (Powdered Activated Carbon) or as GAC (Granular 
+Activated Carbon). Generally for water treatment PAC is used, but GAC is used where taste & 
+
+odour of water have an industrial base. 
+
+PAC has lower cost & efficiency than GAC. Doses may vary from 3 to 20 mg/L. 
+
+B) Standard  or Conventional processes 
+
+It includes- 
+
+i) Sedimentation 
+
+ii) Coagulation 
+
+iii) Flocculation 
+
+iv) Filtration & 
+
+V) Disinfection 
+
+i) Sedimentation 
+
+The  heavier  large  particles  settle  down  by  the  force  of  gravity  at  the  bottom  of  the 
+sedimentation tank,  which  is  called Sedimentation. Stoke’s law for  settling velocity is  the 
+deciding force for sedimentation.  
+
+Stoke’s law can be represented by- 
+
+VS=(g/18µ)(ρs- ρw)d2 
+
+Where,  
+
+VS is settling velocity 
+
+g is acceleration due to gravity 
+
+µ is dynamic viscocity 
+
+d is dia of settling particle 
+
+ρs is density of particle settling  
+
+ρw is density of water 
+
+ii) Coagulation 
+
+The lighter smaller particles don’t settle down by the force of gravity. To make them settle 
+down, some amount of coagulants are added to the water, which is called Coagulation. 
+
+Some examples of coagulants are- 
+
+•  Alum i.e. aluminium sulphate 
+•  Ferric Chloride 
+•  Ferric Sulphate 
+•  Ferrous Sulphate 
+
+iii) Flocculation 
+
+When coagulants are added to the water, the lighter smaller particles coagulate or combine 
+with each other forming bigger particles, known as floc & the process is called flocculation.  
+
+iv) Filtration 
+
+It is the process of passing water through a  porous medium, with the expectation that the 
+filtrate water has better quality than the incoming water. Generally, two types of filters are 
+used 
+
+a)Rapid gravity filter:- 
+
+Here rate of filtration is high i.e. 5 to 20m/hr. 
+
+b) Slow sand filter:- 
+
+Here rate of filtration is slow i.e. 0.1 to 0.2m/hr. 
+
+V) Disinfection 
+
+By disinfection, pathogens & micro-organisms are killed, thereby making water more pure. 
+
+The requirements of a good disinfectant are- 
+
+a) It should be toxic to micro-organisms. 
+
+b) It should have a fast rate of kill. 
+
+ 
+c) It should be persistent enough to prevent regrowth of organisms in the distribution system. 
+
+d) It shouldn’t produce undesirable compounds. 
+
+e) It should be safe to handle. 
+
+f) It should be of reasonable cost. 
+
+Chick’s law 
+
+The rate of destruction of micro-organisms is often a first order chemical reaction as given by 
+Chick’s law i.e. 
+
+Where, 
+
+Nt = Number of organisms at time ‘t’ 
+
+N0 = Number of organisms at time ‘t’= 0 
+
+K = Rate constant depends on types of micro-organisms present & types of disinfectants used 
+
+The various examples of disinfectants are- 
+
+a) Chlorine dioxide 
+
+b) Chlorination 
+
+c) Chloramines 
+
+d) UV radiation 
+
+Chlorine demand & Breakpoint  Chlorination 
+
+When chlorine is added to water, the chlorine at first oxidizes inorganic compounds & 
+some amount of chlorine will be consumed by organic matter present in water. Then some 
+amount of chlorine will be used for formation & subsequent destruction of chloramines.  
+
+The  amount of  chlorine required to  fulfill the above consumption requirements are called 
+chlorine demand. The point at which the chlorine demand is satisfied is called the breakpoint 
+chlorination.    
+
+()0()()(),ttttkttddNNNkNdtdtSoNNe−=−= 
+The excess dose of chlorine after breakpoint, is available for disinfection which appears as 
+residual  chlorine.  A  residual  chlorine  of  minimum  0.5mg/L  is  maintained  in  disinfection 
+practices. 
+
+C) Special or Advanced processes 
+
+The purposes of advanced water treatment processes are- 
+
+i)  To  take  water  treated  by  standard  water  treatment  processes  &  to  improve  it  to  an 
+exceptionally high-quality water as often required by particular industries like food industry 
+& pharmaceuticals etc. 
+
+ii) To treat water containing specific chemical or microbiological contaminants, so that they 
+can be brought to an acceptable standard. 
+
+ 
+ 
+Wastewater Treatment 
+
+Introduction 
+
+Generation of wastewater is based on our water consumption rate, which is increasing 
+
+& the way we use water.  
+
+As undesirable contaminants are likely to be present in the wastewater, it can  contaminate 
+or degrade our surface water or ground water resources, hence it should be properly treated 
+before releasing to the water bodies or environment. 
+
+Types of wastewater 
+
+a) Domestic/Sanitary wastewater 
+
+b) Industrial wastewater 
+
+c) Agricultural wastewater 
+
+d) Storm/Runoff water 
+
+Common Terms 
+
+Sewage- It refers to domestic / sanitary wastewater.  
+
+Sewer- It refers to pipes carrying sewage. 
+
+ 
+Sewerage- It refers to sewer network systems. 
+
+FOG- It refers to Fat, Oil & Grease, which are basically immiscible layer in the wastewater.  
+
+Wastewater Treatment Processes 
+
+a) Pre-treatment 
+
+b) Primary treatment 
+
+c) Secondary or Biological treatment 
+
+a) Pre-treatment 
+
+Pre-treatment of municipal wastewater is required to make it useful for further treatment & 
+to  decrease overall load  on  the system. It  includes Screening, Grit  Channels, Oil &  Grease 
+removal, Chemical pre-treatment etc. 
+
+b) Primary  treatment 
+
+It basically removes suspended solids (SS) from the wastewater. Sometimes, it also removes 
+some  organic  solids  along  with  inorganic  suspended  solids.  It  includes  sedimentation, 
+coagulation etc. The removal efficiency w.r.t. SS is 50-70% and  w.r.t. removal of BOD is 25-
+40%. 
+
+c) Secondary  or Biological treatment 
+
+It can be divided into two major categories, depending on the availability of oxygen.  
+
+i) Aerobic Process i.e. it occurs in presence of oxygen & 
+
+ii) Anaerobic Process i.e. it occurs in absence of oxygen. 
+
+i) Aerobic Process 
+
+Aerobic Processes like Trickling Filter, RBC  (Rotating Biological Contactor) &  ASP (Activated 
+Sludge Process) etc. 
+
+ii) Anaerobic Process 
+
+Anaerobic process  has  three major  steps like Hydrolysis, Acidogenesis or  Fermentation & 
+Methanogenesis. 
+
+Aerobic vs Anaerobic Process 
+
+• 
+
+• 
+
+In  aerobic  process, molecular oxygen present which is  absent in  case  of  anaerobic 
+process. 
+In aerobic process, stable oxidized end products like CO2 & H2O are generated, but in 
+case of anaerobic process stable reduced end products like CH4 & NH3 are generated. 
+
+• 
+• 
+
+• 
+
+• 
+
+In aerobic no byproduct recovery, but in anaerobic by product methane gas is useful. 
+In  aerobic  appreciable  microbial  growth  occurs,  but  in  anaerobic  no  appreciable 
+growth of microbes.  
+In  aerobic  less skilled operation &  in  anaerobic more  skilled/stringent operation is 
+required. 
+In  aerobic  low  capital  cost  but  high  operating  cost  &  in  anaerobic  high  capital 
+investment but low operating cost. 
+
+•  Aerobic  process  is  suitable for  low  BOD  wastewater  like sewage  while  anaerobic 
+process is suitable for high BOD wastewater/ sludge coming from sugar mills and other 
+agrochemical operations.  
+
+ASP (Activated Sludge Process) 
+
+It  is  an  excellent method of  treating  either raw  sewage or  more generally the settled 
+sewage. The sewage discharged from the primary sedimentation tank, which is normally used 
+in  this  process,  is  mixed  with  20  to  30%  of  activated  sludge,  which  contains  a  large 
+concentration  of  highly  active  aerobic  micro-organisms,  which  increases  the  rate  of 
+decomposition.   
+
+•  The ASP unit basically consists of CSTR (Continuously Stirred Tank Reactor), which is 
+
+an aeration basin equipped with surface aerators and secondary clarifier unit.  
+•  The aerobic bacteria culture is developed in the reactor and remain i n suspension.  
+
+Monod Model 
+
+Monod  Kinetics is used for microbial growth calculations and reactor  sizing in the activated 
+sludge process.   
+
+The pertinent equations are  rg  = dX/dt =μ X=   [μmax {S /(Ks + S)}]X ,  
+
+where the terms have the usual meanings. S, substrate Conc, X, microbe conc. 
+
+The diagram below shows how Ks is determined from μmax .   Monod's equation is an empirical 
+equation to determine rg ,  the growth rate of microbes. 
+
+ 
+Wastewater treatment flow diagram 
+
+Reactor Configuration 
+
+In environmental engineering, particularly in water & waste water treatment reactors  used 
+are of 3 types –  
+
+ i) Batch Reactor (BR) 
+
+ii) Continuously Stirred Tank Reactor (CSTR) 
+
+iii) Plug Flow Reactor (PFR) 
+
+i) Batch Reactor  (BR) 
+
+ 
+ 
+In this case, the reactants  or inputs enter into the reactor,  remain for desired time &  then 
+discharged. 
+
+Ex:- BOD test 
+
+ii) Continuously Stirred Tank  Reactor  (CSTR) 
+
+In this case, reactants  continuously enter into the reactor  &  the products are  continuously 
+discharged from a well-mixed vessel. 
+
+Ex:- Waste water treatment 
+
+ 
+ 
+ 
+iii) Plug Flow Reactor (PFR) 
+
+In this case, the reactants or inputs are entered at one end & products are discharged at the 
+other end, after spending a minimum retention time in the system. 
+
+Ex:- mixing of pollutant in river flow 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Module  – 3: ATMOSPHERIC  CHEMISTRY, 
+SOIL CHEMISTRY, GROUND WATER 
+RECHARGE, NOISE SOURCE & ABATEMENT 
+
+Soil Chemistry 
+
+The order of 10  most abundant elements in soil & crustal rocks are  –  
+
+In soil: 
+
+O > Si > Al > Fe > C > Ca > K > Na > Mg > Ti 
+
+In Crustal rock:  
+
+O > Si > Al > Fe > Ca > Mg = Na > K > Ti > P  
+
+Soil minerals 
+
+The most common soil minerals are –  
+
+Quartz - SiO2 
+
+Calcite - CaCO3 
+
+Gypsum - CaSO4.2H2O 
+
+Gibbsite - Al(OH)3 
+
+Soil Salinity 
+
+A  soil solution is considered saline, if  the electrical  conductivity  (EC)  is  greater  than  4000 
+micro-siemens/cm or µs/cm. This condition occurs, when evaporation exceeds precipitation. 
+If this condition continues then, saltpan will occur. 
+
+General Composition of soil 
+
+1)Inorganic or Mineral matter–45% (Ca,Mg etc.) 
+
+2) Organic matter – 5% (Humus) 
+
+3) Soil water – 25% 
+
+4) Soil air – 25% 
+
+Types of soil in India 
+
+1. Red soil 
+
+2. Black soil 
+
+3. Mountainous soil  
+
+4. Desert soil 
+
+5. Alluvial soil (fine grained fertile soil present in river bed)  
+
+Elemental properties of soil in relation to infiltration 
+
+1. Bulk Density or Dry Density (ρb)  
+
+    = Md/Vt = Dry mass of soil/Total volume of soil 
+
+2. Particle Density(ρm) = Md/Vd = Dry mass of soil/Dry volume of soil  
+
+3. Porosity(φ)= (Va+Vw)/Vs = (Volume of air + Volume of water)/Volume of soil  
+
+4. The water content (ϴ) = Vw/Vs = Volume of water/ Volume of soil                                  
+
+5. Degree of saturation(s): - It is a measure of wetness. 
+
+    So, S = Vw/(Va+Vw) = (Vw/Vs)/[(Va+Vw)]/Vs = ϴ/ φ  
+
+Soil Moisture Deficit (SMD)  
+
+The Soil Moisture Deficit is the term used when soil moisture is below the Field Capacity (FC) 
+of soil. 
+
+Field Capacity  (FC)  
+
+It  is the maximum % of  volumetric soil moisture that  a  soil sample will hold freely against 
+earth gravity. It varies from 5% for sandy soil to 30% for dry soil. 
+
+Atmospheric Chemistry 
+
+Primary Pollutant 
+
+The Primary Pollutants are those which are emitted by identifiable manmade sources.  
+
+Ex:- SOX, NOX,CO 
+
+Secondary Pollutant 
+
+The secondary pollutants are those formed in the atmosphere by chemical or photochemical 
+reactions of primary pollutants. 
+
+Ex:- Acid rain, Photochemical Smog 
+
+Photochemical smog  
+
+It is basically the product of HC(Hydrocarbon) + NOx + Sunlight 
+
+PAN 
+
+PAN is a class of compounds, Peroxy- Acyl- Nitrates, that are formed by photochemical 
+reactions at the ground level.  It is a key ingredient of SMOG, is a respiratory inhibitor and an 
+eye irritant.  The commonest PAN is Peroxy-Acetyl- Nitrate. 
+
+reactions 
+
+involving  PAN 
+
+totally  well 
+formation  are 
+The 
+understood.   However, the  equations below  give  a  rough  pathway  to  the  photochemical 
+formation of PAN compounds. 
+
+complex, and  not 
+
+PANs are secondary pollutants which are present in photochemical smog. PANs are 
+not directly emitted as exhaust from power plants or internal combustion engines, but they 
+are  formed  from  other  pollutants  by  chemical  reactions  in  the  atmosphere. Free  radical 
+reactions catalyzed by UV light from the sun oxidize unburned hydrocarbons to  aldehydes, 
+ketones &  dicarbonyl compounds  whose secondary reactions  create  peroxyacyl (the most 
+common  is  the  peroxyacetyl)  radicals,  which  combine  with  the  NO2 radical  to  form 
+Peroxyacylnitrates (PANs); if the  radical  is  peroxyacetyl, then peroxyacetylnitrate (PAN) is 
+formed.  
+
+The reactions involved, in a simplified manner, are as follows: 
+
+•  NO2  +  hv ------->   NO  +  O 
+• 
+ O  +  O2   --------->   O3 
+• 
+ O3  +  NO -------->   NO2 +  O2 
+
+When the nascent oxygen combines with hydrocarbon (i.e. HC or RC), then acyl radicals, RCO, 
+are formed: 
+
+• 
+
+    RC  +  O  ---------->   RCO 
+
+Then these acyl radicals combine with oxygen molecule to form peroxy-acyl radicals  
+
+•  RCO + O2 -----> RCO3                                                                                            
+
+and finally, peroxy-acyl radicals RCO3 combine with NO2 to form RCO3NO2. 
+
+•  RCO3  +  NO2  ---------->  RCO3NO2 ,  a peroxy-acyl nitrate 
+
+If R is CH3 (methyl group) then, CH3COOONO2 or  C2H3NO5 (peroxy-acetyl nitrate) is formed, 
+which is called PAN. 
+
+Vertical Temperature Profile of earth’s atmospheric Region 
+
+There are basically four regions are there. 
+
+•  Troposphere – 0-12  km 
+•  Stratosphere – 12-50  km 
+•  Mesosphere – 50-80  km 
+•  Thermosphere – 80-700  km 
+
+•  The Troposphere  is mostly heated by transfer of energy from the earth surface and 
+
+• 
+
+• 
+• 
+
+temperature decreases with altitude or height.  
+In Stratosphere temperature increases with height due to increased absorption of UV  
+radiation by Ozone Layer. 
+In Mesosphere temperature decreases with height due to decreasing solar heating. 
+In  Thermosphere  temperature  increases  with  height  due  to  absorption  of  highly 
+energetic solar radiation which causes atmosphere particles in this layer to become 
+electrically charged.   
+
+Criteria Pollutants 
+
+The  criteria  pollutants  as  defined  by  USA,  EC(European  Community)  &  WHO  includes 
+CO,NO2,SO2,Pb,PM-10(Particulate Matter of dia less than 10µm). These are generally found 
+in urban environment. 
+
+Non-Criteria Pollutants 
+
+The non-criteria air pollutants are those for  which emission limits from industry are set or 
+fixed. These are more poisonous & hazardous w.r.t. criteria pollutants. 
+
+Ex:- Benzene(C6H6),Carbon disulphide(CS2), Arsenic, Asbestos 
+
+ 
+ 
+Acid Deposition 
+
+Normal clean rain has a pH  value of between 5.0  and  5.5,  which is slightly acidic. However, 
+when rain combines with sulfur dioxide or nitrogen oxides which are produced from power 
+plants  and  automobiles  the rain becomes  much  more acidic.  Typical acid  rain has  a pH 
+value of 4.0. 
+
+Hydrocarbon  (HC), SOX, NOX emitted from industries & vehicles are the main source of acid 
+deposition on the earth. 
+
+GHG (Green House Gases) 
+
+A  GHG  absorbs  &  emits  radiation  within  the  thermal  infrared  range  having  wavelength 
+between 700nm to 1mm i.e.700x10-9 m to 10-3m. The major GHG in order of their contribution 
+are CO2>CFCs>CH4>N2O(Nitrous  Oxide) 
+
+Air Pollution Meteorology 
+
+The meteorological factors are – 
+
+•  Wind speed & direction 
+•  Temperature & humidity 
+•  Turbulence  
+•  Atmospheric Stability 
+•  Topographic effects on meteorology 
+
+Scales 
+
+Air pollution emission can be measured in 3 scales- 
+
+a) Microscale 
+
+b) Mesoscale 
+
+c) Macroscale  
+
+a) Microscale 
+
+It is of the order of 1km & duration is minutes to hours. 
+
+Ex:- Chimney gases 
+
+b) Mesoscale 
+
+It is of the order of 100km  & duration is hours to days. 
+
+Ex:- Mountain valley wind  
+
+c) Macroscale 
+
+It is of the order of 1000km  & duration is days to weeks. 
+
+Ex:- wind over oceans & continents 
+
+Wind Speed 
+
+Wind speed at any height(z) can be determined using power law relationship i.e.  
+
+UZ=U10(Z/Z10)P 
+
+Where, 
+
+UZ is wind speed at height Z mtr 
+
+U10  is wind speed at 10mtr  height 
+
+Z is height in mtr 
+
+Z10  is 10  mtr height 
+
+P is exponent depends on terrain & stability class  
+
+Q. Use power law velocity profile equation to determine U20,U50,U100,U200 if U10 is 5m/sec & p 
+is 0.2. 
+
+Lapse Rate 
+
+In  the  lower  troposphere,  the  temperature  usually  decreases  with  altitude.  The  rate  of 
+temperature change or  gradient  is known as  the lapse rate. Lapse  rate  can  be ambient or 
+adiabatic. 
+
+Ambient Lapse Rate (ALR) or Environmental Lapse Rate (ELR) 
+
+The temperature change or gradient with respect to rising altitude is known as ambient lapse 
+rate & it varies from day to day & day to night. This is the actual change of temperature with 
+altitude for the stationary atmosphere. 
+
+Adiabatic Lapse Rate 
+
+The temperature change of a  parcel  of air against  rising altitude under adiabatic condition 
+(i.e. occurring without the addition or loss of heat) is called the adiabatic lapse rate.  
+
+Adiabatic Lapse Rate can be of two types- 
+
+i) Dry  Adiabatic Lapse Rate(DALR) 
+ii) Moist adiabatic  lapse rate (MALR) or Saturated  adiabatic lapse rate(SALR) 
+
+For dry air i.e. DALR value is 0.980C  per 100mtr  or approximately 10C per 100mtr  or 100C  per 
+KM height. 
+
+For moist air i.e. MALR value is 0.550C  per 100mtr  or approximately 0.60C  per 100mtr  or 60C 
+per KM height.  
+
+Pasquill – Gifford stability classes 
+
+Atmospheric Dispersion 
+
+For determining atmospheric dispersion, generally 5 models are used like –  
+
+•  Gaussian model 
+•  Numerical model 
+•  Statistical model 
+•  Emperical model 
+•  Physical model  
+
+Out of the above models, Gaussian model is generally used. 
+
+The various assumptions of Gaussian model are –  
+
+i) There is no variation in wind speed & direction between the source & receptor.  
+
+ii) All discharges remain in the atmosphere. 
+
+iii) Dispersion doesn’t occur in the downward direction. 
+
+iv) Emission rates are assumed constant & continuous.    
+
+Equipment Selection & Design 
+
+The Equipment Selection & Design is made on the basis of the types of compounds which are 
+required to be removed. Generally, compounds can be of three types – 
+
+a) Volatile Organic Compounds (VOCs) 
+
+b) Inorganic Compounds 
+
+c) Particulate matter 
+
+The major types of equipments which are used are –  
+
+i) Incinerators 
+
+ii) Absorbers 
+
+iii) Adsorbers 
+
+iv) Condensors 
+
+v) Filters 
+
+vi) Scrubbers or wet collectors- 
+
+It is an apparatus using water or solution for purifying gases or vapours 
+
+vii) Various particle collection devices like ESP (Electrostatic Precipitator)  
+
+viii) Impingement separators- 
+
+By density difference, it separates solids from gases 
+
+ESP (Electrostatic Precipitator) 
+
+An electrostatic  precipitator (ESP) is a  highly efficient filtration device that removes 
+fine  particles,  like  dust  and  smoke,  from  a  flowing  gas  using  the  force  of  an  induced 
+electrostatic charge minimally impeding the flow of gases through the unit.  
+
+Basic Working Principle of ESP 
+
+In high- voltage electrostatic field, affected by the electric field force, gas ionization 
+takes place. There are tremendous amount of electrons and ions existing in the ioni zed gas. 
+After the dust particles are combined with these electrons and ions, they will be polarized, 
+most of them are negatively polarized. Under the action of the field force, negatively charged 
+particles migrates towards the positive electrode and in turn release electrons and attach to 
+the positive electrode. 
+
+When the particles agglomerate and the layers reach a certain thickness on the plate, rapping 
+system  will start  to  work  and  the  particles  will be  dislodged from  the  collecting plate by 
+vibration and falling into the hopper. That ends the collection process. 
+
+The efficiency of an ESP with plate collector is given by Anderson-Deutsch equation which can 
+
+be expressed as follows- 
+
+Efficiency = 1- e(-AW/Q)  
+
+where,  
+
+A = area of the plates in square mtr 
+
+W= particle sedimentation velocity in an electric field in mtr/sec 
+
+Q= Gas flow rate in m3/sec 
+
+Q.  A  quantity of  50  m3/sec  of  air  flows from  a  cement  manufacturing  facility. It  contains 
+cement particles whose settling velocity is 0.12 mtr/sec. If 99% removal ef ficiency is required, 
+calculate the surface area of the ESP or design an ESP. 
+
+Q. Calculate the percentage increase in area of the ESP plates, if the efficiency of the ESP unit 
+is to be increased from 99%  to 99.7%.  Given the flow rate is 50m3/sec & particulate velocity 
+is 0.15mtr/sec. 
+
+Q. The drift velocity of fly ash particle is given by the empirical equation w= 1.5X105  dp, where 
+dp is particle size. Determine the plate area  required to remove particles of dia 0.7µm  with 
+removal efficiency 95%. Flow to ESP is 5m3/sec.  
+
+Noise Pollution 
+
+Sounds are mechanical waves of pressure which allow us to hear & listen. Sounds can 
+be  transmitted  through  solid,  liquid &  gas.  Generally  human  beings  can  perceive  sound 
+frequencies between 20 Hz & 20  KHz.   
+
+Noise is a sound, that is loud, unpleasant, unexpected or undesired. 
+
+ 
+Sounds, particularly loud ones, that disturb people or make it difficult to hear wanted sounds, 
+are called noise. Noise is a subset of sound.   
+
+Sources of Noise Pollution 
+
+Sources can be classified into outside & inside. Outside include construction sites, road traffic, 
+airport, factories etc. Inside include phones, tv, radio, home appliances etc.  
+
+Main source is urbanization & increasing population 
+
+Source 
+Normal conversation 
+Alarm Clock 
+Car horn 
+Jet  
+Gunshot 
+Rocket Launching   
+
+      Sound in dB 
+60 
+80 
+120 
+130 
+140 
+180 
+
+Effects of Noise Pollution 
+
+Lack of productivity 
+
+•  Sleep disturbance 
+• 
+•  Causes stress & depression 
+•  Hormone imbalance 
+•  Higher heart rate 
+
+Noise Control or Attenuation 
+
+Noise has following medium. 
+
+Source→Transmission Path →Receiver 
+
+The acoustic treatment of above three can help in attenuation. 
+
+Ways to reduce Noise Pollution 
+
+•  Wear ear plugs 
+•  Avoid using multiple appliances at a time 
+•  Keep vehicles & machines in proper condition 
+•  Buildings  can  be  designed  with  suitable  noise  absorbing  material  for  the  walls, 
+
+windows, and ceilings.  
+
+•  Social awareness programs should be taken up to educate the public about the causes 
+
+and effects of noise pollution.  
+
+Physical Properties of Sound 
+
+The various physical properties of sound are – 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Amplitude(A)- Amplitude is maximum or minimum pressure. 
+
+•  Wavelength(λ)- Wavelength is the distance between successive crest or trough. 
+
+•  Time Period (T or P)- Time period is the time gap between successive crest or trough 
+
+•  Frequency(f)- Frequency is the number of complete pressure variations or cycles per 
+
+second. 
+
+•  Speed of sound(c)- Speed of sound is 340m/sec. 
+
+Noise Criteria 
+
+The various noise criteria can be – 
+
+• 
+
+• 
+
+• 
+
+LAeq (Equivalent Continuous Level) 
+
+LAE (Sound Exposure Level) 
+
+LAN (Sound Level Exceeded for N% of time) 
+
+Indian Standard  for ambient noise level 
+
+Area code 
+
+      Area                        Daytime         Nighttime 
+
+      A           Industrial Area  
+
+75dB               70dB 
+
+      B 
+
+       Commercial Area            65dB        
+
+55dB 
+
+      C 
+
+       Residential Area              55dB                45dB 
+
+      D              Silence Zone  
+
+50dB               40dB 
+
+The above values are of LAeq.  
+
+Inverse Square Law of sound Propagation 
+
+It states that, the sound intensity(I) is inversely proportional to the square of the distance (r) 
+it propagates. 
+
+I = W/4πr2 i.e. 
+
+I α 1/r2,  
+
+where,  
+
+W is Sound power of noise source in watt.  
+
+The sound power level is measured in decibel(dB) i.e. 
+
+LW=10  log(W/10-12) 
+
+     
+      
+where, 
+
+LW is sound power level in dB for 10-12  watt & W is sound power of noise source in watt. 
+
+The sound pressure level is measured in decibel(dB) & is directly proportional to the square 
+of sound pressure i.e. 
+
+LP=10log{P2/(P0)2}  
+
+   = 20  log (P/P0) 
+
+Where, 
+
+LP is sound pressure level in dB, 
+
+P is measured pressure in Pascal &  
+
+P0 is reference pressure = 20μPa  
+
+Q. The sound from a voice shouting source is 0.001W.  What is the sound power level? 
+
+Q.If a sound source has a pressure of 2000μPa  at 10mtr  distance, calculate 
+
+a) Sound Pressure Level in dB 
+
+b) Sound Intensity in Watt/m2 
+
+c) Sound Power in Watt. 
+
+Q.If two sound sources have equal pressure of 2000μPa,  then determine the sound pressure 
+in dB. 
+
+Q.  An air  conditioner generates a  noise level of 75dB  for five minutes in every hour.  If the 
+
+background noise level is 55dB, then calculate the LAeq. 
+
+ 
+ 
+ 
+ 
+Module  – 4: SOLID WASTE, HAZARDOUS 
+WASTE & E-WASTE MANAGEMENT 
+
+Solid Waste Management 
+
+Solid  waste  is  the  unwanted  or  useless solid materials  generated  from  combined 
+
+residential, industrial and commercial activities in a given area.  
+
+Management of solid waste reduces or eliminates adverse impacts on the environment and 
+human health and supports economic development and improved quality of life.  
+
+It may be categorised according  to its origin (domestic, industrial, commercial, construction 
+or institutional); according to its contents (organic materials like plastics, rubber, food items 
+& inorganic materials like glass, metal etc); or according to hazard potential (toxic, non-toxic, 
+flammable, radioactive, infectious etc).  
+
+A number of processes are involved in effectively managing waste for a municipality.  
+
+•  These include monitoring, collection, transport, processing, recycling and disposal.  
+
+The order or hierarchy of solid waste management includes –  
+
+i) Waste prevention & minimization 
+
+ii) Reuse & Recycling 
+
+iii) Transformation 
+
+iv) Landfill  
+
+Reuse 
+
+A newly purchased product is put to another use after the first use is completed.  
+
+Recycling 
+
+It  is  the  processing  of  used  materials  or  waste  into  new  products  to  prevent  waste  of 
+potentially useful materials. 
+
+Properties of MSW (Municipal Solid Waste) 
+
+The various properties of MSW  includes – 
+
+i) Physical Properties of MSW 
+
+ii) Biological Properties of MSW 
+
+iii) Chemical & Energy Properties of MSW 
+
+i) Physical Properties of MSW 
+
+The various Physical Properties of MSW  are – 
+
+a) Particle Size Distribution 
+
+b) Density & Moisture Content 
+
+c) Field Capacity 
+
+d) Shear Strength 
+
+e) Hydraulic Conductivity 
+
+a) Particle Size Distribution 
+
+Particle size is measured in terms of size of screens in mm through which wastes are passing. 
+This distribution will provide the information of various materials present. 
+
+b) Density & Moisture Content 
+
+Density is mass  per unit  volume, which is a  useful physical parameter  used for  separating 
+various wastes from each other before treatment. 
+
+The moisture content is expressed as mass of water vapour per unit mass of substance. 
+
+Moisture Content (%) = {(a-b)/a}X100 
+
+Where,  
+
+‘a’ is initial mass of sample &  
+
+‘b’ is mass of sample after drying 
+
+c) Field Capacity (FC) 
+
+It is the maximum percentage of volumetric soil moisture that a MSW sample will hold freely 
+against earth’s gravity. 
+
+FC can be calculated by – 
+
+FC = 0.6  – 0.55{W/(4500+W)} 
+
+Where,  
+
+W is overburden weight in Kg. 
+
+d) Shear Strength 
+
+Solid wastes when compacted  usually have high  shearing strength &  hence don’t  flow on 
+standing, but sludge has poor shearing strength & therefore very often sludge is co-disposed 
+with MSW. 
+
+e) Hydraulic Conductivity 
+
+Sludge in landfills tend to resist the movement of water through them due to low hydraulic 
+conductivity, as sludge has high moisture content. 
+
+ii) Biological Properties of MSW 
+
+Organic or biological matter in MSW is significant for the energy recovery by biodegradation.  
+
+Biodegradation can be accomplished either by aerobic or anaerobic process.  
+
+The biodegradability of the organic fraction of MSW is given by – 
+
+BF = 0.83  - 0.028LC 
+
+Where,  
+
+BF is Biodegradable Fraction 
+
+LC is Lignin(organic) Content in % of dry weight 
+
+High LC will give low biodegradability. 
+
+iii) Chemical & Energy Properties of MSW 
+
+The various steps involved in this are – 
+
+a) Proximate Analysis 
+
+b) Ultimate Analysis 
+
+c) Energy Content 
+
+a) Proximate Analysis 
+
+It  deals  with  the  determination  of  moisture  content(W%),  volatile  matter(VM%),  non -
+combustible fraction (i.e. ash%) & Fixed Carbon(FC). 
+
+FC can be found out by – 
+
+FC=100  - W(%) - VM(%) - ash(%) 
+
+FC is the solid combustible residue that remains after the material is heated &  the volatile 
+matter is ejected. 
+
+b) Ultimate Analysis 
+
+It is the elemental analysis of essential major elements like C,H,O,N,P,S in percentage mass.  
+
+c) Energy Content 
+
+Heating value or calorific value of MSW  may be defined as the amount of heat liberated in 
+calorie, when a gram of MSW  is burnt. It gives the amount of organic matter present in the 
+MSW. 
+
+Generally, terms like E, Hu, Hwf, Hawf are used to express energy content. 
+
+E is Energy Content 
+
+Hu is LHV(Lower Heat Value) i.e. energy received from waste as collected from site  
+
+Hwf is NHV(Normal Heat Value) i.e. energy received from water-free waste 
+
+Hawf is HHV(Higher Heat Value) i.e. energy received from ash-water-free waste  
+
+Hu = Hawf x B – 2.445  x W 
+
+Where,  
+
+B is flammable fraction or combustible component  
+
+W is moisture content fraction or water content  
+
+The energy content of MSW  can be determined from following equations –  
+
+i) Dulong Equation 
+
+ii) Khan Equation  
+
+i) Dulong Equation 
+
+Hawf =337(C  )+1419{(H)-0.125(O)}  +93(S)  +23(N) 
+
+Where, C, H, O, S, N are the % by weight of each element present in the material. 
+
+ii) Khan  Equation 
+
+E= 0.051{F  + 3.6(CP)} + 0.352(PLR) 
+
+Where,  
+
+E = Energy content, 
+
+F = % of food material by weight 
+
+CP = % of Cardboard & Paper by weight 
+
+PLR = % of Plastic & Rubber by weight  
+
+Separation of MSW 
+
+The different major components of MSW  must be separated from one & the other in order 
+to have suitable management of MSW.  
+
+The component separation can be done at the household or at the industry i.e. at the source 
+or at the transfer station or at the final destination, where mechanical sorting or separation 
+is possible. 
+
+Storage & Transport  of MSW 
+
+It depends on types of collection facility available & materials present, which can be – 
+
+i) Door Step Collection 
+
+ii) Regular Roadside Collection 
+
+iii) Dustbins at market places 
+
+iv) Community Recycle bin  
+
+Integrated Waste Management 
+
+The ideal integrated waste management plan might have following priorities –  
+
+i) Minimize all components of waste fraction. 
+
+ii) Recycle paper, cardboard, non-ferrous metals. 
+
+iii) Reuse plastics, ferrous metals, glass.  
+
+iv) Compost food fraction of MSW. 
+
+v) Incinerate the remaining food waste. 
+
+vi) Landfill the remaining after proper treatment.  
+
+Land fill vs Open Dump 
+
+A Sanitary Landfill is a carefully engineered tract of land, designed by engineers. The 
+system consists of a  large excavated area  in the ground,  with a  thick lining of  plastic over 
+which there is a  compacted  clay  liner. The  bottom  of the  pit also  has  a  liner that  helps in 
+preventing the liquid waste (that comes out from the solid waste mostly if rainwater is soaked 
+in the  landfill) from leaking through, as  it could  contaminate the water  supply. This liquid 
+waste that gets collected is called leachate. The compacted garbage (or refuse) is then added 
+to the landfill in the form of organized layers (layers of garbage alternating with layers of soil).  
+
+This  is  done  for  the  elimination of  any  unpleasant  odors  and  to  expedite the rotting  or 
+decomposition process. When the landfill is fully covered, it is further sealed by a  layer of 
+compacted clay. Moreover, a gas (methane) is often produced as the waste deteriorates due 
+to which a  system is required to collect and pump it. If this is not managed effective ly, the 
+methane gas can explode. The methane collected can be utilized to generate electricity.  
+
+In most  Western Countries, there are  different types of landfills, mainly depending on the 
+nature  of waste  materials.   A  landfill is built for  each  of  the garbage  types like household 
+waste, hazardous chemicals or radioactive waste, construction waste, etc. 
+
+An open dump, as the name suggests, is an open area typically outside city limits where the 
+garbage is dumped; this usually results in very unhygienic conditions and often pollutes the 
+groundwater nearby, from toxic chemicals leaching into the groundwater. 
+
+Leachate in Landfills 
+
+Leachate  is  the  contaminated  water  in  landfills which  arrive  at  the  landfill site  through 
+external precipitation. 
+
+The amount of leachate produced in a landfill depends on it’s water balance, which can  be 
+expressed as follows –  
+
+LC = PR + SRT  – SRO  – EP – ST  
+
+ 
+Where,  
+
+LC is Leachate, 
+
+PR is Precipitation 
+
+SRT is Surface Run To i.e. water outside the site entering the landfill  
+
+SRO is Surface Run-off 
+
+EP is Evapotranspiraton 
+
+ST is Change in water storage 
+
+Q.  Calculate the Landfill area  requirement for  20  years for  a  city  of population of  about  5 
+lakhs. Assume MSW generation as 500gm  per capita per day & density of MSW  is 500kg/m 3. 
+
+Hazardous Waste Management 
+
+Hazardous  waste is  defined as,  any  waste  which because  of  it’s physical, chemical 
+quality, quantity and infectious characteristics can cause significant hazards to human health 
+or the environment, when improperly treated, stored, transported or disposed. 
+
+A substance is hazardous, if it exhibits one or more of the following characteristics.  
+
+i) Ignitable:- The substance causes or enhances fire. 
+
+ii) Reactive:- The substance reacts with other materials & may explode.  
+
+iii) Corrosive:- The substance destroys tissues or metals. 
+
+iv) Toxic:- The substance is a danger to health, water, food & air. 
+
+Hazardous Category              Nature of Waste 
+Explosive 
+Oxidiser 
+Highly Flammable 
+Flammable 
+Irritant 
+Harmful 
+
+H1                                    
+H2 
+H3A 
+H3B 
+H4 
+H5 
+
+Generation of Hazardous  Waste 
+
+Industry Type   
+Battery 
+ Electroplating  
+Printing 
+Textiles  
+
+Hazardous Substances 
+Cd, Pb, Ag, Zn 
+Co,Cr,Cu,Zn 
+As,Cr, Cu,Pb,Se 
+Cr, Cu, Organics 
+
+  
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+  
+ 
+ 
+   
+ 
+  
+ 
+Medical Hazardous Wastes 
+
+These  are  the  wastes  generated  from  hospitals, medical  colleges, nursing  homes,  clinical 
+laboratories & operation theatres etc. 
+
+Medical hazardous wastes include – 
+
+i) Expired or Obsolete medicines 
+
+ii) Infectious dressing materials 
+
+iii) Pathological wastes from medical laboratories & operation theatres 
+
+iv) Wastes from dental clinics etc. 
+
+Household Hazardous  Waste 
+
+The household hazardous wastes come from kitchen, bathroom, garage, garden etc.  
+
+It may include – 
+
+i)Used or Exhausted batteries 
+
+ii)Chemicals like dyes, perfumes 
+
+iii)Pesticides, herbicides, used oils, lubricants etc. 
+
+Transportation  of Hazardous  Waste 
+
+The data or information required for Transportation of Hazardous Waste are  – 
+
+i) Waste Generator 
+
+ii) Composition of Waste 
+
+iii) Physical Appearance 
+
+iv) Method of Packaging  
+
+v) ADR/RID classification 
+
+ADR means transport of dangerous goods by road 
+
+RID means transport of dangerous goods by rail 
+
+vi) UN Number(United Nation Number) 
+
+ADR/RID  classification 
+
+Class  
+ 1a 
+
+Item Description 
+Explosive Items 
+
+ 
+ 
+Items loaded with explosives 
+ Detonators & similar types of goods 
+ Gases, Compressed, Condensed or  
+
+ 1b 
+ 1c 
+  2 
+                            dissolved under pressure  
+  3 
+
+Flammable Liquids 
+
+UN Number (United Nation Number) 
+
+The UN  numbers range  from  UN0001  to  about  UN3500  and  are  assigned  by  the United 
+Nations Committee of Experts on the Transport of Dangerous Goods. 
+
+UN Number 
+     1001   
+     1002   
+     1003   
+     1005 
+
+Hazardous Item 
+Acetylene Dissolved 
+Compressed Air 
+Liquefied air, refrigerated 
+NH3, dry, liquefied 
+
+Treatment of Hazardous  waste 
+
+i) Thermal Treatment (Incineration) 
+
+ii) Chemical Treatment (Neutralization) 
+
+iii) Physical Treatment (Filtration, Flocculation) 
+
+iv) Disposal (Secure Landfill) 
+
+Incineration 
+
+Incineration can  be  defined as  controlled high  temperature oxidation of  primarily organic 
+compounds to produce CO2 & H2O with non-objectionable by-products. 
+
+3 T’s of Incineration 
+
+i) Time  
+
+ii) Temperature 
+
+iii) Turbulence 
+
+i) Time  
+
+Adequate residence time for solids for complete destruction or breaking of bonds. It depends 
+on feed rate, incinerator dimension & rotation speed. 
+
+ii) Temperature  
+
+High enough temperature is required for destruction of hazardous waste. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+iii) Turbulence 
+
+Sufficient turbulence with  adequate  air  or  oxygen  for  mixing of  waste  with  oxygen.  This 
+depends on rotation speed & incinerator types. 
+
+Types of Incinerator 
+
+i) Rotary Kiln  
+
+ii) Liquid injection  
+
+iii) Plasma Arc Destruction 
+
+iv) Wet Air Oxidation 
+
+V) Fluidized Bed Combustion  
+
+i) Rotary  Kiln 
+
+This is most common type of incinerator. Here Chemical destruction of waste occurs. 
+
+ii) Liquid injection 
+
+This is for treating liquid organic waste. 
+
+iii) Plasma Arc Destruction 
+
+In this case, electric arc of very high temperature is used. 
+
+iv) Wet Air Oxidation 
+
+It is an aqueous phase oxidation where materials are exposed to gaseous source of oxygen. 
+
+v) Fluidized Bed Combustion 
+
+This is suitable for uniform types of waste. In this case, heat transfer is very fast & uniform.  
+
+Rotary kiln incinerator 
+
+A  rotary  kiln  incinerator  is  typically  a  slightly  inclined  rotating  cylinder,    with 
+dimensions around 2 m in diameter and 10 m long,  on a pilot plant scale.  There is a firebrick 
+or refractory lining inside the cylinder.  The kiln can handle all sorts of wastes and hazardous 
+wastes  including solids,  liquids, sludges  and  gases.   Partially  combusted  gases  are  often 
+passed through a secondary combustion chamber for complete combustion.    By the nature 
+of its design and construction, the three Ts of combustion are adhered here - good contact or 
+residence time, fair degree of turbulence, and operating at a  high enough temperature.  A 
+schematic diagram is below : 
+
+DRE (Destruction & Removal Efficiency) 
+
+Destruction and removal efficiency (DRE) is the efficiency of the unit (kiln) in destruction and 
+removal of a particular targeted organic compound. 
+
+In incineration DRE of above 99% is required. 
+
+DRE can be calculated by using the following formula –  
+
+DRE=  {(Win – Wout)/Win} x 100 
+
+Where, 
+
+Win is mass feed rate of specific organic component to the incinerator 
+
+Wout  is mass emission rate of same organic component from the incinerator 
+
+CE(Combustion Efficiency) 
+
+Combustion efficiency is a measurement of how well the fuel being burned or is being utilized 
+in the combustion process. 
+
+CE can be calculated by using the following formula – 
+
+CE = {(CCO2 – CCO)/CCO2} x 100 
+
+Where, 
+
+CCO2 is concentration of CO2 in the emitted gas 
+
+ 
+CCO is concentration of CO in the emitted gas 
+
+Q.  Find  out  CE(Combustion  Efficiency)  &  DRE(Destruction  &  Removal  Efficiency)  of  an 
+incinerator from the following data – 
+
+i) Input of phenolic waste is 18.2%  & outlet phenol is 0.04% 
+
+ii) Outlet gas concentration of CO is 0.1% & CO2 is 25.7%   
+
+E-Waste Management 
+
+E-  waste or  Electrical/Electronics waste is an  environment killer. Today’s  electronic 
+
+gadgets, tomorrow’s electronic wastes. 
+
+'E-waste' means waste from electrical and electronic equipments; whole or in part or rejects 
+from their manufacturing and repair process which are intended to be discarded as waste.  
+
+E-waste is the term used to cover all items of electrical and electronic equipment (EEE) an d 
+its parts that have been discarded by its owner as waste without the intent of re -use.  
+
+It is also referred to as WEEE  (Waste Electrical and Electronic Equipment) or electronic waste 
+or e-scrap in different regions. 
+
+Electronic  waste  or  e-waste  describes  discarded  electrical  or  electronic  devices  &  used 
+electronics which are destined for reuse, resale, recycling, or disposal are also considered e -
+waste. 
+
+Informal processing of  e-waste in developing countries can  lead to  adverse human  health 
+
+effects and environmental pollution. 
+
+It is the fastest growing portion of municipal waste & its management will prevent -  
+
+•  Pollution of ground water.  
+•  Acidification of soil.  
+•  Emission of toxic fumes and gases.  
+•  Release of harmful gases into the air. 
+
+Sources/Types of E-Waste 
+
+1. Waste generated from the products used for data processing such as computers, computer 
+devices like monitor, speakers, keyboards, printers etc.  
+
+2. Electronic devices used for entertainment like TV, DVDs, and CD players.  
+
+3. Equipment or devices used for communication like phones, landline phones, fax etc. 
+
+4.  Household  equipment’s like vacuum  cleaner, microwave  ovens,  washing  machines, air 
+conditioners etc.  
+
+5. Audio, visual components such as VCRs, Stereo equipment etc.  
+
+Components of E-Waste 
+
+EEE contains various materials including hazardous, valuable and scarce metals.  
+
+Common  hazardous  materials found  in e-waste are  heavy metals  (such  as  mercury,  lead, 
+cadmium etc.) 
+
+E-Waste also contains many valuable materials (such as iron, copper, aluminum and plastics) 
+and precious metals (like gold, silver, platinum and palladium) that can be recycled.  
+
+In fact, up to 60  elements from the periodic table can be found in complex electronics, and 
+many of them are recoverable, though it is not always economic to do so presently.  
+
+From the resource perspective, e-waste is a potential “urban mine” that could provide a great 
+amount of secondary resources for remanufacture and recycling. 
+
+E-Waste Composition (Approx.) 
+
+•  Monitors - 10%  , 
+•  Television -10%,  
+•  Computers,Televisions, Fax, Printers etc.-15% , 
+•  DVD/VCR Player, CD Player, Radio etc.- 15% , 
+•  Refrigerators -20% , 
+•  Washing Machine, Dryers, AC, Vacuum Cleaners etc.- 30% 
+
+Is E-Waste hazardous? 
+
+E-Waste  in itself is  not  hazardous.  However, the hazardous  constituents present in  t he e-
+waste render it hazardous & when such wastes are dismantled & processed, they pose hazard 
+to health and environment. 
+
+Reasons of E-waste generation 
+
+•  Advancement in technology.  
+•  Changes in style, fashion and status 
+•  Products nearing the end of their useful life  
+•  Not taking precautions while using them  
+
+How E-Waste handled currently in India & across the world? 
+
+Around  90%  of  the  e-waste  generated  in  India  are  handled  by  the  informal  sectors. 
+Incineration & Landfilling are used currently for majority of e waste. 
+
+Incineration i.e. E- Waste are destroyed by burning which produces harmful gases.  Land filling 
+which often leads to contaminate water and soil. Very less percentage of e -waste is recycled 
+
+RoHS and WEEE directives 
+
+•  Companies  selling  electrical  and  electronic  goods  in  the  European  Union  must 
+conform to the EU  legislation for electrical and electronic equipment (EEE). The two 
+most important directives are: 
+
+•  The Waste Electrical and Electronic Equipment Directive (WEEE), which sets out  the 
+responsibilities of EEE producers for the collection and recycling of their products at 
+the end of their lifecycle. 
+
+•  The Restriction  of  Hazardous  Substances  Directive  (RoHS),  which  bans  the  use  of 
+certain hazardous substances (such as lead, mercury, cadmium, hexavalent chromium 
+and some polybrominated flame retardants) in EEE. 
+
+•  WEEE  and  RoHS  Directives are  complex pieces of legislation that apply to  a  similar 
+
+range of products.  
+
+•  Each  directive  imposes  obligations  and  outcomes  that  EU  Member  States  must 
+achieve. However, neither directive dictates how the Member States must fulfill their 
+obligations. Therefore, when exporting to Europe, U.S. exporters need to be mindful 
+that national rules for implementing each directive will differ from country to country.  
+
+Effects of e-waste on the environment 
+
+Emissions from E-Waste create environmental damage. Toxic chemicals from e-waste enter 
+the "soil-crop- food pathway,” and these are non-biodegradable and cause soil pollution. E-
+Waste dumping yards and nearby places are polluted and cause health hazards. 
+
+Effects of e-waste on human body 
+
+Elements present in e-waste affect human body in various ways.  
+
+Lead damage to central and peripheral nervous systems , blood systems and kidney damage 
+and affects brain development of children.  
+
+Chromium leads to asthmatic bronchitis & DNA damage. 
+
+Cadmium   leads to toxic irreversible effects on human health &  accumulates in kidney and 
+liver. causing neural damage 
+
+Mercury leads to chronic damage to brain and respiratory system.  
+
+Plastics  including  PVC  -  Burning  produces  dioxin  which  can  cause  reproductive  and 
+developmental problems, Immune system damage & Interfere with regulatory hormones etc.  
+
+Disposal of e-waste 
+
+We should ensure safe disposal of these e-waste, because – 
+
+1. Land fill disposal allows heavy metals to leach into ground water.  
+
+2. Incineration makes hazardous materials pollute air.  
+
+3. Disposal to water is dangerous and cause water and soil contamination. 
+
+Methods of Recycling 
+
+Disassembly/Dismantling 
+
+It is the systematic removal of components , parts or a group of parts or a subassembly from 
+a product in e-waste. 
+
+Upgrading 
+
+It includes comminuting(breaking) and separation of materials using mechanical/physical or 
+metallurgical processing .  
+
+Materials recovery 
+
+The materials are recovered by recycling facilities. The plastic, glass, metals can be recovered 
+by sorting them before mixing them with other waste.  
+
+Advantages of recycling e-waste 
+
+•  Assets recovery   
+•  Reduction of need for landfills  
+•  Resale and reuse  
+•  Creation of jobs 
+•  E waste has emerged as one of the fastest growing waste streams world wide today.  
+• 
+•  Reuse and Recycle are more beneficial than simple disposal.  
+
+ Electronic gadgets, without proper disposal can cause environmental harm  
+
+How to Dispose E-waste 
+
+•  Donate working older equipment to schools colleges or government entities in need.  
+• 
+If computers are out of order then return it to the manufacturers. (HCL and Wipro in 
+India has best take back service)  
+
+•  Send waste goods to authorized recycling facility for proper disposal. 
+
+Probable Solutions 
+
+•  Need for stringent health standards and environmental protection laws in India  
+•  Extended producer responsibility 
+• 
+Import of waste under license  
+•  Producer-public-government cooperation 
+•  Awareness program, following safer and efficient methods  
+•  Choosing safer technology and cleaner substitute 
+•  Monitoring of compliance rules  
+
+•  Reduction of waste at source 
+•  Recognition to the unorganized sectors in India. 
+•  Designing of products using environment friendly raw items can make a change.  
+•  Government should take steps to reduce e-waste disposal. 
+
+E- Waste (Management & Handling) Rules 2011 
+
+•  E- Waste (Management & Handling) Rules 2011  were notified in 2011  and had come 
+
+• 
+
+into force since 1st May, 2012.   
+In order to ensure effective implementation of E-Waste Rules, Government of India 
+modified the above one on 23.03.2016  which has been effective from 01-10-2016.   
+•  These rules are applicable to every producer, consumer or bulk consumer, collection 
+centre, dismantler and recycler of e-waste involved in the manufacture, sale, purchase 
+and processing of electrical and electronic equipment or components 
+
+•  Two categories of electrical and electronic equipment namely – 
+• 
+• 
+
+(i) IT and Telecommunication Equipment and  
+(ii) Consumer Electricals and Electronics such as TVs, Washing Machines, Refrigerators 
+Air  Conditioners  including  fluorescent  and  other  mercury  containing  lamps  are 
+covered under these Rules. 
+
+Waste Minimization 
+
+Waste minimization is necessary to - 
+
+i) Control pollution 
+
+ii) Decrease the depletion rate of resources 
+
+iii) Increase efficiency & hence profitability  
+
+Elements of a waste minimization strategy 
+
+It includes – 
+
+i) Reduction at source 
+
+ii) Recycle/ Reuse 
+
+iii) Treatment 
+
+iv) Disposal 
+
+ 
+ 
+ 
+Waste Minimization Hierarchy 
+
+Waste Reduction Techniques 
+
+It has four major categories. 
+
+i) Inventory Management 
+
+ii) Production Process Modification 
+
+iii) Volume Reduction 
+
+iv) Recovery 
+
+i) Inventory Management 
+
+Inventory means detailed list of articles, goods, property. 
+
+Inventory management includes –  
+
+a) Inventory Control 
+
+b) Materials Control 
+
+ii) Production  Process Modification 
+
+ 
+It includes – 
+
+a) Operational & maintenance procedures 
+
+b) Materials Change 
+
+c) Process equipment modification 
+
+iii) Volume Reduction 
+
+It includes – 
+
+a) Source Segregation 
+
+b) Concentration 
+
+iv) Recovery 
+
+It includes – 
+
+a) on-site 
+
+b) off-site 
+
+Life Cycle Assessment (LCA) 
+
+LCA is an useful environmental management tool. 
+
+Any product may have the following stages in it’s lifecycle – 
+
+i) Raw material acquisition 
+
+ii) Bulk material processing 
+
+iii) Engineered & specialty materials production 
+
+iv) Manufacturing & assembly 
+
+v) Uses & services 
+
+vi) Retirement or expired 
+
+vii) Disposal 
+
+Phases of LCA  
+
+i) Planning 
+
+ii) Screening 
+
+iii) Data Collection 
+
+iv) Data treatment 
+
+v) Evaluation 
+
+Environmental Impact Assessment (EIA) 
+
+Environmental Impact Assessment (EIA) is a process that requires consideration of the 
+environment & public participation in the decision-making process of project development.  
+
+Environmental  Impact  Assessment  (EIA)  is  an  important  management  tool  for  ensuring 
+optimal use of natural resources for sustainable development.  
+
+Origin of EIA 
+
+All  ecosystems  including  human  beings  have  threshold  of  tolerance  for  pollution  & 
+disturbances,  beyond  which  the  system  may  suffer  anything  from  temporary  upsets  to 
+complete destruction. After second  world war  industrial &  agricultural practices  began  to 
+cause environmental damage which crossed the thresholds & lead to origin of EIA.  
+
+Stages of EIA 
+
+The stages of EIA include – 
+
+i) Screening 
+
+ii) Scoping 
+
+ 
+iii) EIS preparation 
+
+iv) Review 
+
+i) Screening 
+
+By  screening,  it  is  to  be  decided  which  projects  should  be  subject  to  environmental 
+assessment. 
+
+ii) Scoping 
+
+It  is the  process which defines the key  or  important issues that  should be included in  the 
+environmental assessment.  
+
+iii) EIS preparation 
+
+It  is  the  scientific &  objective analysis  of  the  scale,  significance &  importance  of  impacts 
+identified. 
+
+iv) Review 
+
+The review panel guides the study & then advises the decision makers. 
+
+EIA Procedure 
+
+There are generally three options for establishing EIA procedures. 
+
+i) Legislative Option i.e. Legal approach 
+
+ii) Middle Ground Option i.e. within accepted planning & Procedures 
+
+iii) Policy Option i.e. within the administrative policy of government 
+
+Project Screening for EIA 
+
+The  success  of  EIA  depends on  effective coverage  &  application  of  projects.  The  various 
+methods commonly used to select projects for EIA are –  
+
+i) The use of positive (EIA required) & negative (EIA not required) list 
+
+ii) The use of project criteria 
+
+iii) The sensitive area criteria 
+
+ 
+iv) Matrices 
+
+v) Initial Environmental Evaluation(IEE) 
+
+Initial Environmental Evaluation  (IEE) 
+
+IEE  is  a  mini-EIA. It  requires a  description of  the  environment &  the  development &  the 
+identification of environmental impacts those are anticipated. 
+
+Environmental Impact Statement (EIS) 
+
+EIS is a review document prepared for assessment in the EIA process. 
+
+Scope Studies of EIS   
+
+Scoping is the procedure for establishing the TOR (Terms Of Reference) for the EIS. In general, 
+the objectives would be to identify the concerns & issues those need attention, necessary for 
+public  involvement &  to  prepare  a  detailed report  for  the  investigation of  specific issues 
+associated with the development. 
+
+Preparation of an EIS 
+
+One  of  the  important  elements of  any  project  is  the  preparation  of  documentation  to 
+communicate the findings & conclusions of the study. 
+
+The value of the project is sharply diminished, if it’s findings don’t reach it’s requisite results 
+or intended audiences. 
+
+The important points to be considered are – 
+
+i) Planning  
+
+ii) Purpose 
+
+iii) Audience 
+
+iv) Structure 
+
+Review of an EIS 
+
+The functions of the review authority includes-  
+
+i) The scope of the assessment i.e. which projects should be subjected to a full or partial EIS.  
+
+ii) General or specific guidelines & advice on the methods of EIS. 
+
+iii) Formulate the TOR(Terms Of Reference) & initiate a detailed EIS. 
+
+iv) Ensure that, the EIS had been adequately completed within the TOR.  
+
+Module  – 5: ENVIRONMENTAL GRADIENTS, 
+LAWS AND HUMAN HEALTH 
+
+Environmental Gradients 
+
+The environment or environmental factors are  not similar over the globe or around 
+the  earth,  giving rise to  Environmental Gradients  &  due  to  which  different species live in 
+different places. 
+
+The  physical, chemical factors  like light, temperature &  PH  are known  as  conditions  &  the 
+factors the organism actually uses like food, water, shelter are known as resources. 
+
+There is a global gradient change from the equator towards north or south. 
+
+This is a  normally distributed bell-shaped curve, as the change in environmental conditions 
+are gradual from equator towards north or south. This curve is best described by a Gaussian 
+(Normal) Distribution function, of the form f(x)=e-x2.  
+
+But, pollution can make it skew-shaped i.e. sharp decrease of curve towards left or right from 
+range of optimum.  
+
+ 
+ 
+ 
+Limiting Factors 
+
+The resources in shortage of supply or the conditions over which the species has the smallest 
+range of optimum will limit the species function & is called the limiting factor. 
+
+Ex:- Plant growth is strongly correlated with rain, but in arid region sufficient light is available, 
+but water scarcity is there which is the limiting factor. 
+
+The tolerance of species to different environmental conditions or resources level vary from 
+each other.  
+
+The  favourable  environmental factors  to  a  species provide wide tolerance  curve  &  broad 
+range of optimum known as Eurytopic factors. 
+
+The  unfavourable  environmental factors  to  a  species provide  narrow  tolerance  curve  & 
+narrow range of optimum known as Stenotopic factors. 
+
+Regulatory Structure  of Indian Env. Laws 
+
+• 
+
+Central Govt. 
+
+MOEF 
+
+CPCB 
+
+State Govt. 
+
+State Dept. of Env. 
+
+SPCB 
+
+Regional Offices 
+
+MoEF – Ministry of Environment & Forest, Government of India 
+
+CPCB – Central Pollution Control Board 
+
+SPCB – State Pollution Control Board 
+
+Indian Env. Laws 
+
+•  Water Laws 
+•  Air Laws 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Wildlife & Forest Laws 
+•  General Env. Laws 
+
+Water Laws 
+
+The various env. Laws on water are – 
+
+1) The Water (Prevention & Control of Pollution) Act – 1974 
+
+2) The Water (Prevention & Control of Pollution) Act rules – 1975   
+
+ 3) The Water (Prevention & Control of Pollution) Cess Act – 1977   
+
+ 4) The Water (Prevention & Control of Pollution) Act, rules & amendments – 1992   
+
+Objectives of Water Law 
+
+The objectives are –  
+
+a) Prevention & control of water pollution 
+
+b) Maintaining good quality of water 
+
+c) Establishment of boards for the prevention & control of water pollution.   
+
+Air Laws 
+
+The various env. Laws on air are – 
+
+1) The air (Prevention & Control of Pollution) Act – 1981 
+
+2)The air (Prevention & Control of Pollution) Act rules – 1982   
+
+3) Atomic Energy Act – 1982   
+
+4) Motor Vehicles Act – 1988   
+
+Objectives of Air Law 
+
+The objectives are –  
+
+a) Prevention & control of air pollution 
+
+b) Maintaining good quality of air 
+
+c) Establishment of boards for the prevention & control of air pollution 
+
+Wildlife & Forest Laws 
+
+The various env. Laws for wildlife & forest are-  
+
+1) The wildlife protection act – 1972   
+
+2) The wildlife protection act and amendments – 1991   
+
+3) The forest conservation act – 1980 
+
+4) The national forest policy – 1988   
+
+Objectives of Wildlife & Forest Laws 
+
+The Objectives are –  
+
+a) Protection & conservation of wildlife 
+
+b) To preserve biodiversity 
+
+c) To maintain essential ecological processes & life supporting systems. 
+
+General Env. Laws 
+
+The various laws in this category are –  
+
+1) The environmental protection act (EPA) – 1986  or Umbrella act 
+
+2) Hazardous waste (management & handling) rules – 1989   
+
+3) Biomedical waste (management & handling) rules – 1998   
+
+Objectives of Umbrella act 
+
+•  Protection  &  improvement  of  environment  &  prevention of  hazards  to  all  living 
+
+creatures. 
+
+•  Maintenance  of  harmonious  relationship  between  human  beings  &  their 
+
+environment.   
+
+National Green Tribunal (NGT) 
+
+The Indian govt. established a National Green Tribunal in October 2010,  headed by a former 
+judge of the supreme court. It is a tribunal exclusively dedicated to environmental issues. This 
+body was established by an act of parliament i.e. National Green Tribunal Act of 2010, which 
+will deal with all matters related to and arising out of environmental issues. 
+
+Eco-labelling of products 
+
+An eco-label is used to mark a consumer product to indicate that it is environment- friendly 
+with regards  to its manufacture and  use. The label means that the product  satisfies certain 
+eco-friendly criteria laid down by the govt. In1991,  the govt. of india launched its first eco -
+label called Eco-mark for easy identification of environment-friendly products. 
+
+Comprehensive Nuclear-Test-Ban Treaty  (CTBT) 
+
+Comprehensive Nuclear-Test-Ban Treaty or CTBT bans nuclear explosive testing for everyone, 
+everywhere, in all environments. CTBT makes very difficult for the countries to test or develop 
+any nuclear weapon. 
+
+Some Important  env. Laws 
+
+1. London Law of Sea (1962)  is for prevention of sea pollution by oil.  
+
+2.Stockholm Agreement (1972)  is for banning of ocean dumping wastes. 
+
+3. Montreal Protocol (1987)  is for eliminating CFCs & other ozone depleting substances.  
+
+4. Rio Summit (1992)  is with its objectives on sustainable development. 
+
+Kyoto Protocol 
+
+The  Kyoto  Protocol  (1992)  was  signed to  try  and  limit  Greenhouse gases,    based  on  the 
+premise that Global Warming is occurring due to increased Greenhouse gas emissions.  
+
+Paris Agreement 
+
+The Paris Agreement of 2015  is  to combat  climate change and reduce the temperature rise 
+to less than 2°C per century. 
+
+Environmental Institutions in India 
+
+1. TERI(Tata Energy Research Institute) established in1974. 
+
+2. NEERI(National Environment Engineering Research Institute) established in1958.  
+
+3. EPTRI(Environmental Protection Training and Research Institute) established in 1990.  
+
+4. IIFM(Indian Institute of Forest Management) established in 1982. 
+
+5. WII(Wildlife Institution of India) established in 1982 etc. 
+
+Environmental movements in India 
+
+1. Chipko movement started in 1973  to fight against deforestation. 
+
+2.  Silent valley  movement   started  against  setting  up  of  a  75MW  hydroelectric project  to 
+protect species of flora and fauna. 
+
+3.  Narmada  Bachao  Andolan started against  a  multipurpose project over river narmada  by 
+Baba Amte & Medha Patker. 
+
+4. Baliyapal Movement started against acquiring cultivated lands for testing missiles etc.  
+
+Important  Env. Data 
+
+The idea of sustainable development was defined for the first time by the world commission 
+on environment and development in the year-----  
+
+•  1987 
+
+World Wildlife Fund was founded in ---- 
+
+•  1961 
+
+Earth day is observed on ---- 
+
+•  April 22. 
+
+World environment day is celebrated every year on ----- 
+
+•  5th June. 
+
+First International Conference on environment was held on ---- 
+
+• 
+
+June,1972. 
+
+Green Revolution 
+
+The Green Revolution within India commenced in the early 1960s  that  led to an increase in 
+food grain production, especially in Punjab, Haryana, and Uttar  Pradesh. Major milestones in 
+this undertaking were the development of high-yielding varieties of wheat, and rust resistant 
+strains of wheat. 
+
+Environment & Human Health 
+
+Env. Conditions Affecting Health 
+
+i) Cleanliness of working area 
+
+ii) Proper Lighting arrangement 
+
+iii) Sufficient Temperature & Ventilation 
+
+iv) Noise control 
+
+V) Dust control 
+
+Vi) Proper Working space & seating arrangements 
+
+Factors  affecting Health 
+
+Physical factors  like unhygienic living conditions, lack of education & overcrowding in small 
+areas lead to health problems. 
+
+Chemical factors  like improper or excess use of pesticides, herbicides and exposure to toxic, 
+hazardous and radioactive substances lead to health problems. 
+
+Climate changing factors 
+
+Diseases of human and Their Control  
+
+Interaction  of  the  agents  like micro-organisms  with the  hosts  like human  beings and  the 
+environment can lead to various diseases.  
+
+Following three factors  are important in this case.  
+
+• 
+• 
+• 
+
+sufficient strength of micro-organisms,  
+lower immunity of the person &  
+favouring environment for the transmission of agents  
+
+Prevention can be done by -  
+
+•  Enforcing immunization laws  
+•  Providing health education to all 
+• 
+
+Implementing good hand washing procedures.   
+
+Common Diseases 
+
+•  Hepatitis is inflammation of the liver and often caused by viral infection. 
+•  Typhoid is an acute illness associated with fever can be caused by bacteria salmonella 
+
+typhi & spread to other people by contaminated water. 
+
+•  Malaria  is  caused  by  a  parasite  called plasmodium which  is  transmitted to  human 
+
+beings by the bite of infected female anopheles species mosquitoes.  
+
+•  Dengue fever is an infection caused by dengue viruses. 
+
+Role of IT in Env. & Human  Health 
+
+• 
+
+• 
+
+IT or Information Technology, is one of the fastest growing recent technologies & as 
+technology is advancing, the role of IT is increasing day by day. 
+IT is used in the development & application of computational tools to acquire, store, 
+organize, achieve, analyze & visualize various data which can be used for observation 
+& protection of env. & human health. 
+
+Role of IT in environment 
+
+•  A large amount of information is easily available through remote sensing technology, 
+GIS(Geographic Information System) & GPS(Global Positioning System) which can be 
+used for various environmental purposes. 
+
+•  This  data  and  knowledge  about  global  environment can  be  used  for  mapping  & 
+monitoring  various  natural  resources,  thereby  helping  in  various  environmental 
+studies. 
+
+•  GIS helps in detecting the existence of species of flora & fauna & counting the numbers 
+
+of animals like tiger, elephant etc. 
+
+•  MoEF(Ministry  of  Env.  &  Forest)  &  GOI(Govt.  of  India)  have  established  ENVIS 
+(Environmental Information System) in 1982  in different organizations for providing 
+important information.  
+
+Role of IT in Human  Health 
+
+• 
+
+• 
+
+• 
+
+IT  helps  in  the  development  of  biotechnology,  gene  engineering,  research  & 
+developments in drug technologies. 
+IT  plays a  major  role for a  better human health in the fields like bioinformatics and 
+online medical transcription. 
+IT  can  be  used  for  audio,  visual &  data  communications  for  medical  consultation, 
+nursing & medical education. 
+• 
+IT helps in spreading awareness about endemic, epidemic & communicable diseases.  
+•  Using Remote sensing & GIS, areas which are prone to diseases like malaria, dengue 
+etc. can be identified & accordingly steps for prevention or spreading of these diseases 
+can be taken.  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DISCLAIMER: 
+
+The courseware material  prepared may  contain  some text, figures  and diagrams  taken 
+from google  images and other readily  available  web sources. The contents are prepared for the 
+use of students  in Silicon  Institute  of Technology  as additional  reference material,  and not for 
+any commercial  purpose. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+

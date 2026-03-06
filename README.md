@@ -1,4 +1,4 @@
-# Chemistry QA Trainer (Local, Multi-PDF)
+# SMALL LANGUAGE MODEL
 
 This project builds a local QA system from one or more chemistry PDFs.
 It uses your local tokenizer, local model, and local files only.

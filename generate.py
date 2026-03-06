@@ -1,5 +1,23 @@
 from pathlib import Path
+import os
 import re
+import sys
+
+
+def ensure_project_venv() -> None:
+    base_dir = Path(__file__).resolve().parent
+    candidates = [
+        base_dir / ".venv" / "bin" / "python",  # macOS/Linux
+        base_dir / ".venv" / "Scripts" / "python.exe",  # Windows
+    ]
+
+    current_python = Path(sys.executable).resolve()
+    for candidate in candidates:
+        if candidate.exists() and current_python != candidate.resolve():
+            os.execv(str(candidate), [str(candidate), str(Path(__file__).resolve()), *sys.argv[1:]])
+
+
+ensure_project_venv()
 
 import sentencepiece as spm
 import torch

@@ -10,6 +10,18 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 
+def get_pipeline_python() -> str:
+    # Prefer project-local virtual environment when available.
+    candidates = [
+        BASE_DIR / ".venv" / "bin" / "python",  # macOS/Linux
+        BASE_DIR / ".venv" / "Scripts" / "python.exe",  # Windows
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
+    return sys.executable
+
+
 def run_step(script_name: str, extra_env: dict[str, str] | None = None) -> None:
     script_path = BASE_DIR / script_name
     if not script_path.exists():
@@ -19,8 +31,10 @@ def run_step(script_name: str, extra_env: dict[str, str] | None = None) -> None:
     if extra_env:
         env.update(extra_env)
 
+    python_exec = get_pipeline_python()
     print(f"\n=== Running: {script_name} ===")
-    result = subprocess.run([sys.executable, str(script_path)], cwd=str(BASE_DIR), env=env)
+    print(f"Using Python: {python_exec}")
+    result = subprocess.run([python_exec, str(script_path)], cwd=str(BASE_DIR), env=env)
     if result.returncode != 0:
         raise RuntimeError(f"Step failed ({script_name}) with exit code {result.returncode}")
 

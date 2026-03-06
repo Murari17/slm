@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 import nltk
 from nltk.tokenize import sent_tokenize
@@ -24,6 +25,11 @@ output_path = base_dir / "data" / "cleaned" / "sentences.txt"
 ensure_tokenizer_resources()
 
 text = input_path.read_text(encoding="utf-8")
-sentences = sent_tokenize(text)
+try:
+    sentences = sent_tokenize(text)
+except LookupError:
+    # Offline fallback when NLTK resources cannot be downloaded.
+    parts = re.split(r"(?<=[.!?])\s+", text.strip())
+    sentences = [s.strip() for s in parts if s and s.strip()]
 
 output_path.write_text("\n".join(sentences) + "\n", encoding="utf-8")

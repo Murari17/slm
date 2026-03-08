@@ -3491,6 +3491,1711 @@ I take this opportunity to thank all the members of the SAGA group for a job wel
 I sincerely hope that this courseware material comes in handy and is utilized to the fullest extent.
 These are readily available additional resources prepared in accordance with the Silicon autonomy syllabus, to complement textbooks and classroom lectures.
 If there are any errors, I would be grateful if they are brought to my notice so that we can correct them in subsequent versions.
+Dr. Jaideep Talukdar, Principal Silicon Institute of Technology Bhubaneswar December 2020 Module – 1: WAVES 1.0 Wave: a wave can be described as a disturbance that travels through a medium, transporting energy from one location to another location without transporting matter.
+As a disturbance moves through a medium from one particle to its adjacent particle, energy is being transported from one end of the medium to the other.
+The general name of this disturbance or wave is called progressive wave.
+Types of waves: Waves are of two types ➢ Transverse wave ➢ Longitudinal wave If the disturbance takes place perpendicular to the direction of propagation of wave, the wave is called transverse wave.
+If the disturbance takes place along the direction of propagation of wave, then it is called longitudinal wave.
+Wave as a periodic variation in space and time ➢ A wave is a disturbance that travels through a medium from one location to another.
+➢ A wave is the motion of a disturbance that moves through a medium in such a manner that at any position, the displacement of the particle of the medium is a function of time, and at any instant, the displacement of the particles of the medium is a function of the position at that point.
+➢ The disturbance that is propagated is called a progressive or a travelling wave.
+➢ During its propagation, energy is transferred through the medium ➢ At a given instant, the wave periodically varies with position and at a given position, wave varies periodically with time.
+Example: • • In sound wave, the disturbance is a pressure variation in a medium.
+In light wave, the disturbance is the variation of the strength of electric and magnetic fields.
+1.1 Wave in one dimension: If we consider the initial phase factor Ø 𝜓(𝑥, 𝑡) = 𝐴 𝑠𝑖𝑛( 𝑘𝑥 ± 𝑤𝑡 + Ø) Wave Characteristics: ❖ Amplitude (A) – Maximum displacement of particle of the medium from its equilibrium point.
+The bigger the amplitude, the more energy the wave carries.
+❖ Wavelength () – Distance between two consecutive crests (max positive displacement) or between two consecutive trough (max negative displacement).
+❖ Wave vector or propagation vector (k) – 2 /  ❖ Period (T) –The time required for one complete oscillation.
+It is the reciprocal of frequency: T = 1 / f. ❖ Frequency (f) – The number of oscillations/vibrations per second.
+The SI unit for frequency is the Hertz (Hz).
+❖ Wave speed (v) – How fast the wave is moving (the disturbance).
+Speed depends on the medium.
+It is expressed as v =  f. 1.2 Wave equation in differential form: Let’s take the equation, 𝜓(𝑥, 𝑡) = 𝐴 𝑠𝑖𝑛( 𝑘𝑥 − 𝑤𝑡 + 𝜙) Again, = −𝑤𝐴𝑐𝑜𝑠(𝑘𝑥 − 𝑤𝑡 + 𝜙) 𝜕𝜓 𝜕𝑡 𝜕2𝜓 𝜕𝑡2 = −𝑤2𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝑤𝑡 + 𝜙) = −𝑤2𝜓 = 𝑘𝐴𝑐𝑜𝑠(𝑘𝑥 − 𝑤𝑡 + 𝜙) 𝜕𝜓 𝜕𝑥 𝜕2𝜓 𝜕𝑥2 = −𝑘2𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝑤𝑡 + 𝜙) == −𝑘2𝜓 )](sin[)sin(),(vtxkAwtkxAtx== = 𝑘2 𝑤2 𝜕2𝜓 𝜕𝑡2 = 1 𝑣2 𝜕2𝜓 𝜕𝑡2 So, 𝝏𝟐𝝍 𝝏𝒙𝟐= 𝟏 𝒗𝟐 𝝏𝟐𝝍 𝝏𝒕𝟐 It is the general wave equation, in second order differential form with wave velocity/ phase velocity 𝒗 = 𝒘 .
+𝒌 1.3 Reflection and transmission of a transverse wave at boundary of two media When a wave strikes an obstacle, or comes to the end of the medium in which it is traveling, part of it is reflected and a part is transmitted ✓ Incident wave – the wave that strikes the boundary ✓ Reflected wave – the wave that is returned as a result of reflection ✓ Transmitted wave – the wave that is propagated to the second medium 1.3.1 Rarer to Denser medium: Parameters Reflected Component Transmitted Component Amplitude Decreases Decreases Velocity No change Decreases Frequency No Change No change Wavelength No change Decreases Phase Changes by π No change 1.3.2 Denser to Rarer medium Parameters Reflected Component Transmitted Component Amplitude Decreases Decreases Velocity No change Increases Frequency No Change No change Wavelength No change Increases Phase No change No change Superposition 2.1 Principle of Superposition: The principle of superposition states that the resultant displacement of a particle of a medium acted upon by two or more waves simultaneously is the algebraic sum of the displacement of the same particle due to individual waves.
+Let the displacement of the particle due to individual waves are 1 and 2 Then the resultant displacement is 𝜳 = 𝜳𝟏 + 𝜳𝟐 (If both are in same direction) and 𝜳 = 𝜳𝟏 − 𝜳𝟐 (If both are in opposite direction) 2.2 Types of Superposition: • Coherent Superposition • Incoherent Superposition Coherent Superposition • Phase difference remains constant.
+• The resultant intensity differs from sum of the individual intensity.
+• 𝐼 ≠ 𝐼1 + 𝐼2.
+• It gives an interference (fringe) pattern.
+Incoherent Superposition • Phase difference changes frequently and randomly.
+• The intensity of the resultant wave is equal to the sum of the intensities of the component waves.
+• 𝐼 = 𝐼1 + 𝐼2.
+• Cannot form interference pattern because their intensity is constant.
+2.3 Two beam Superposition: Let’s take two beams or two waves having different amplitude, same frequency and different phases superpose 1 = 𝐴1sin (𝑘𝑥 − 𝑤𝑡 + 𝜙1 ) 2 = 𝐴2sin (𝑘𝑥 − 𝑤𝑡 + 𝜙2) The resultant wave is  = 1 + 2  = 𝐴1 sin(𝑘𝑥 − 𝑤𝑡 + 𝜙1 ) + 𝐴2sin (𝑘𝑥 − 𝑤𝑡 + 𝜙2) = 𝐴1 [sin(𝑘𝑥 − 𝑤𝑡)𝑐𝑜𝑠𝜙1 + cos (𝑘𝑥 − 𝑤𝑡)𝑠𝑖𝑛𝜙1] + 𝐴2 [sin(𝑘𝑥 − 𝑤𝑡)𝑐𝑜𝑠𝜙2 + cos (𝑘𝑥 − 𝑤𝑡)𝑠𝑖𝑛𝜙2] = sin(𝑘𝑥 − 𝑤𝑡)[𝐴1𝑐𝑜𝑠𝜙1 + 𝐴2𝑐𝑜𝑠𝜙2]+ cos(𝑘𝑥 − 𝑤𝑡)[𝐴1𝑠𝑖𝑛𝜙1 + 𝐴2𝑠𝑖𝑛𝜙2 ] Let 𝐴𝑐𝑜𝑠𝜙 = [𝐴1𝑐𝑜𝑠𝜙1 + 𝐴2𝑐𝑜𝑠𝜙2] 𝐴𝑠𝑖𝑛𝜙 = [𝐴1𝑠𝑖𝑛𝜙1 + 𝐴2𝑠𝑖𝑛𝜙2 ] Then  = sin(𝑘𝑥 − 𝑤𝑡)𝐴𝑐𝑜𝑠𝜙 + cos(𝑘𝑥 − 𝑤𝑡)𝐴𝑠𝑖𝑛𝜙 = 𝐴sin (𝑘𝑥 − 𝑤𝑡 + 𝜙) So the resultant wave is of same nature as that of the incident wave.
+Where A is the resultant amplitude and 𝜙 is the resultant phase.
+So 𝐴2 = (𝐴𝑠𝑖𝑛𝜙)2 + (𝐴𝑐𝑜𝑠𝜙)2 = (𝐴1𝑠𝑖𝑛𝜙1 + 𝐴2𝑠𝑖𝑛𝜙2 )2 + (𝐴1𝑐𝑜𝑠𝜙1 + 𝐴2𝑐𝑜𝑠𝜙2)2 = 𝐴1 2+𝐴2 2 + 2𝐴1𝐴2cos(𝜙1 − 𝜙2) The third term of above equation is the interference term.
+The resultant intensity depends upon the interference term.
+2.3.1 Coherent superposition: In this case phase difference remains constant, so (𝜙1 − 𝜙2) is constant Case I If (𝜙1 − 𝜙2) = 2𝑛𝜋, where 𝑛 𝑖𝑠 𝑎𝑛 𝑖𝑛𝑡𝑒𝑔𝑒𝑟𝑒 = 0, ±1, ±2, ±3, … … … … Then cos (𝜙1 − 𝜙2)= 1, 𝐴2 = (𝐴1 + 𝐴2)2 So intensity 𝐼 = 𝐼𝑚𝑎𝑥 = (𝐴1 + 𝐴2)2 Special case If 𝐴1 = 𝐴2 = 𝑎, Then 𝐼𝑚𝑎𝑥 = 4𝑎2, that means the resultant intensity (intensity of bright fringe) is four times the intensity of the individual wave.
+Case II If (𝜙1 − 𝜙2) = (2𝑛 + 1)𝜋, where 𝑛 𝑖𝑠 𝑎𝑛 𝑖𝑛𝑡𝑒𝑔𝑒𝑟𝑒 = 0, ±1, ±2, ±3, … … … … Then cos (𝜙1 − 𝜙2)= -1, 𝐴2 = (𝐴1 − 𝐴2)2 So intensity 𝐼 = 𝐼𝑚𝑖𝑛 = (𝐴1 − 𝐴2)2 Special case If 𝐴1 = 𝐴2 = 𝑎 , Then 𝐼𝑚𝑖𝑛 = 0, that means the resultant intensity is zero.
+Dark fringe is formed.
+So, in case of coherent superposition alternate bright and dark fringes appear.
+2.3.2 Incoherent superposition: In this case phase difference changes frequently and randomly, so any particular value cannot be taken.
+So, time average value of cos (Ø1 − Ø2) is considered.
+But< cos(𝜙1 − 𝜙2) >= 0, as its value varies in between +1 to -1.
+So, 𝐴2 = 𝐴1 2+𝐴2 2 Special case If 𝐴1 = 𝐴2 = 𝑎 , then 𝐴2 = 2𝑎2 , which is constant always.
+So, no fringe pattern is observed.
+Intensity distribution curve 2.4 Multiple beams Superposition: Let’s take a number of beams or waves having different amplitude, same frequency and different phases superpose 1 = 𝐴1sin (𝑘𝑥 − 𝑤𝑡 + 𝜙1 ) 2 = 𝐴2sin (𝑘𝑥 − 𝑤𝑡 + 𝜙2) 3 = 𝐴3sin (𝑘𝑥 − 𝑤𝑡 + 𝜙3) n = 𝐴nsin (𝑘𝑥 − 𝑤𝑡 + 𝜙𝑛 ) The resultant wave is  = 1 + 2 + 3 + ………+n n  = ∑ i i=1 = ∑ 𝐴𝑖 𝑠 𝑖=1 𝑛 𝑖𝑛(𝑘𝑥 − 𝑤𝑡 + 𝜙𝑖) Where 𝐴𝑖and Ø𝑖 represents amplitude and phase of the i th component wave.
+By comparison with two beam superposition the resultant wave is 𝛹 = 𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝑤𝑡 + Ø) where 𝐴 𝑠𝑖𝑛Ø = [𝐴1𝑠𝑖𝑛𝜙1 + 𝐴2𝑠𝑖𝑛𝜙2 + 𝐴3𝑠𝑖𝑛𝜙3 + ⋯ + 𝐴𝑛𝑠𝑖𝑛𝜙𝑛]=∑ 𝐴𝑖 𝑛 𝑖=1 𝑠𝑖𝑛𝜙𝑖 and 𝐴 𝑐𝑜𝑠Ø = [𝐴1𝑐𝑜𝑠𝜙1 + 𝐴2𝑐𝑜𝑠𝜙2 + 𝐴3𝑐𝑜𝑠𝜙3 + ⋯ + 𝐴𝑛𝑐𝑜𝑠𝜙𝑛]=∑ 𝐴𝑖 𝑛 𝑖=1 𝑐𝑜𝑠𝜙𝑖 So 𝐴2 = (∑ 𝑛 𝑖=1 𝐴𝑖 𝑠𝑖𝑛Ø𝑖)2 + (∑ 𝑛 𝑖=1 𝐴𝑖 𝑐𝑜𝑠𝜙𝑖) 2 =∑ 𝐴𝑖 𝑛 𝑖=1 2 + 2 ∑ 𝐴𝑖𝐴𝑗cos (𝜙𝑖 − 𝜙𝑗) 𝑛 𝑖,𝑗=1 𝑖≠𝑗 Discussion: 2.4.1 Coherent superposition: (𝜙𝑖 − 𝜙𝑗) remains constant (𝜙𝑖 − 𝜙𝑗) =2nπ where 𝑛 = 0, ±1, ±2, ±3, … … … … So, cos(𝜙𝑖 − 𝜙𝑗) =1 Then 𝐴2 = =∑ 𝐴𝑖 𝑛 𝑖=1 2 + 2 ∑ 𝐴𝑖𝐴𝑗 𝑛 𝑖,𝑗=1 𝑖≠𝑗 2 + 𝐴3 Example Let n=3 so 𝐴2 = 𝐴1 =(𝐴1 + 𝐴2 + 𝐴3)2 2 + 𝐴2 2 + 2𝐴1𝐴2 + 2𝐴2𝐴3 + 2𝐴1𝐴3 Special Case: If 𝐴1 = 𝐴2 = 𝐴3 = 𝑎 Then 𝐴2 = (3𝑎)2=9𝑎2 So, in general 𝑰𝒄𝒐𝒉 = (𝒏𝒂)𝟐 where ‘n’ is the number of beams superpose.
+2.4.2.
+Incoherent superposition: (𝜙𝑖 − 𝜙𝑗) changes frequently and randomly So < cos (𝜙𝑖 − 𝜙𝑗) >= 0 2 Then 𝐴2 =∑ 𝐴𝑖 𝑛 𝑖=1 Example Let n=3 so 𝐴2 = 𝐴1 2 + 𝐴2 2 2 + 𝐴3 Then 𝐴2 = 3𝑎2 So, in general 𝑰𝒊𝒏𝒄𝒐𝒉 = 𝒏𝒂𝟐 where ‘n’ is the number of beams superpose.
+𝑰𝒄𝒐𝒉 = 𝒏𝑰𝒊𝒏𝒄𝒐𝒉 2.5.
+Superposition of multiple waves with a constant and successive phase difference: Consider ‘N’ number of waves having same amplitudes, frequencies but phase varies with a constant amount (Ф, say) and are represented as follows; 𝜓1 = 𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝜔𝑡) 𝜓2 = 𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝜔𝑡 + 𝜙) 𝜓3 = 𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝜔𝑡 + 2𝜙) 𝜓𝑁 = 𝐴𝑠𝑖𝑛(𝑘𝑥 − 𝜔𝑡 + [𝑁 − 1]𝜙) Phase difference between successive waves is Ø.
+The resultant superposed wave can be written as; 𝜓 = 𝜓1 + 𝜓2 + ⋯ + 𝜓𝑁 In order to get the resultant wave in a convenient way we can express the wave function in exponential form 𝜓1 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡) 𝜓2 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡+𝜙) 𝜓3 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡+2𝜙) Similarly, 𝜓𝑁 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡+(𝑁−1)𝜙) So the resultant superposed wave can be written as; 𝜓(𝑥, 𝑡) = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡){1 + 𝑒𝑖𝜙 + 𝑒𝑖2𝜙 + 𝑒𝑖3𝜙 + ⋯ + 𝑒𝑖(𝑁−1)𝜙}……………(i) 𝜓 = 𝜓1 + 𝜓2 + ⋯ + 𝜓𝑁 Using the Algebraic Formulation; 1 + 𝑥 + 𝑥2 + 𝑥3 + ⋯ + 𝑥𝑚 = 1−𝑥𝑚+1 1−𝑥 Now, equation (i) can be written as; 𝜓 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡) { 1−𝑒𝑖𝑁𝜙 1−𝑒𝑖𝜙 } = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡){ 𝑒𝑖𝑁𝜙−1 𝑒𝑖𝜙−1 } With suitable arrangement of the exponent power terms; 𝜓 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡) 𝑒𝑖(𝑁 2⁄ )𝜙 [𝑒𝑖(𝑁 2⁄ )𝜙−𝑒−𝑖(𝑁 2⁄ )𝜙] 𝑒𝑖(𝜙 2⁄ )[𝑒𝑖(𝜙 2⁄ )−𝑒−𝑖(𝜙 2⁄ )] 𝜓 = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡+𝑁−1 2 𝜙) = 𝐴𝑒𝑖(𝑘𝑥−𝜔𝑡+𝑁−1 2 (2𝑖𝑠𝑖𝑛 2𝑖𝑠𝑖𝑛 𝑁𝜙 ) 2 𝜙 2 𝜙) 𝑠𝑖𝑛 𝑠𝑖𝑛 𝑁𝜙 2 𝜙 2 ………….
+(ii) If we represent the resultant wave function as 𝜓 = 𝑅𝑒𝑖(𝑘𝑥−𝑤𝑡+𝜃)…………(iii) where R------- Resultant amplitude 𝜃 ⋯ ⋯ ⋯ 𝑅𝑒𝑠𝑢𝑙𝑡𝑎𝑛𝑡 𝑝ℎ𝑎𝑠𝑒 Then comparing equations (ii) and (iii), we have 𝑅 = 𝐴 𝑠𝑖𝑛 𝑠𝑖𝑛 𝑁𝜙 2 𝜙 2 and 𝜃 = 𝑁−1 2 𝜙 We will apply this resultant amplitude expression in diffraction phenomena like, single slit and multiple slit (diffraction grating).
+3.1 Interference: We have already discussed that in case of coherent superposition, there is redistribution of light intensity leading to interference.
+Definition: When two light waves from different coherent sources meet together (superpose), then the resultant amplitude (or intensity) in the region of superposition is different than that of the amplitude (or intensity) of individual waves.
+This modification in the distribution of intensity (light energy) due to superposition of two or more light waves is called "Interference of light.
+Examples ✓ One of the best examples of interference is demonstrated by the light reflected from a film of oil floating on water.
+✓ The thin film of a soap bubble, which reflects a spectrum of beautiful colors when illuminated by natural or artificial light sources.
+Interference is of two types: ❖ Constructive interference ❖ Destructive interference Constructive interference occurs when the wave amplitudes reinforce each other, building a wave of even greater amplitude.
+It occurs when the crests of one wave overlap with the crests of the other wave, and troughs of one wave with the troughs of the other wave, causing an increase in wave amplitude/intensity.
+Or the resultant amplitude is the sum of the amplitudes of the waves Condition: Path difference = nλ or 2n ( 𝜆 ) 2 Phase difference = 2nπ, n is an integer = 0, ±1, ±2, ±3, … … … … Destructive interference occurs when the wave amplitudes oppose each other, resulting in waves of reduced amplitude.
+It occurs when the crests of one wave overlap with the troughs of the other wave, causing a decrease in wave amplitude/intensity.
+Or if we take two waves then the resultant amplitude is the difference of two amplitudes, then that is called destructive interference.
+Condition: Path difference = (2n + 1) 𝜆 2 Phase difference = (2n + 1)π, n is an integer = 0, ±1, ±2, ±3, … … … … (Phase difference = 𝟐𝝅 𝝀 x path difference) 3.2 Methods of obtaining interference: i.
+Division of Amplitude: In this method, the amplitude of the incident beam is divided into two or more parts either by partial reflection or refraction.
+Thus, we have coherent beams produced by division of amplitude.
+These beams travel different optical paths and are finally united together to produce interference.
+Examples are Newton’s rings, Michelson interferometer.
+ii.
+Division of Wave front: Under this category, the coherent sources are obtained by dividing the wave front, originating from a common source, by employing mirrors, biprisms or lenses.
+These beams travel unequal optical path and fin ally reunite to produce interference.
+Examples are Fresnel’ biprism, Lloyds single mirror.
+3.2.1 Condition for Interference of light: To obtain a permanent or stationary interference pattern the conditions are classified into following three categories ▪ Condition for sustained interference ▪ Condition for clear observation ▪ Condition for good contrast between maxima and minima 3.2.2 Condition for Sustained Interference Pattern: ▪ The two interfering wave should be coherent i.e., both light waves are in same pha se or maintain constant phase difference between them.
+▪ The source should have same frequency.
+▪ Both the wave must be in same set of polarization.
+3.2.3 Condition for clear observation of fringes ✓ The distance between the coherent sources should small.
+✓ The distance between the source and screen must be large.
+✓ The background should be dark.
+3.2.4 Condition for Good Contrast between maxima and minima ✓ The amplitude of the both interfering wave be the equal or very nearly equal.
+✓ The sources must be narrow.
+✓ The sources must be monochromatic.
+Newton’s Rings (Fringes due to Division of Amplitude) 4.1: Description: When a plane-convex lens of large focal length is placed as a plane glass plate, a thin film of air is formed between the plano-convex lens and plane glass plate.
+The thickness of the air film is very small at the point of contact and gradually increased from the centre upwards.
+If a monochromatic light is allowed to fall normally on this film, a set of alternate dark and bright fringes will be seen in the film.
+The fringes are concentric circle.
+These circles or rings are called Newton’s rings.
+Normal incidence of monochromatic light on the plano- convex lens will produces bright and dark concentric rings around the point of contact between the lens and the glass plate.
+The phenomenon first explained by Newton so called Newton’s rings.
+Experimental arrangement: S – Source, producing monochromatic light like, sodium light L1 - Convergent lens, used to produce parallel rays G - A glass plate, making an angle 450 with the direction of incident light, so that vertically reflected downward reflected rays are produced L - A plano-convex lens of large radius of curvature, placed on a plane glass plate P, with its convex surface facing upward M - A travelling microscope, which is used to see the fringe patterns 4.1.1 Explanation of formation of Fringes: Newton’s rings are formed as a result of interference between light wave reflected from the upper and lower surfaces of the air film.
+Fig.
+below shows that from a single incident ray (A), two reflected rays (E&F) are produced by division of amplitude.
+These two reflected rays are coherence and superimpose to produce interference pattern.
+Suppose, the radius of curvature of the plano-convex lens is R and the thickness of the air film is ‘t’.
+The ray E and F are coherent as they produced from same incident ray A.
+The effective path difference between the interfering rays is ∆= 2µ𝑡𝑐𝑜𝑠𝑟 + 𝜆 2 For air, μ=1 and for normal incidence, r = 0 So effective path difference in this case is ∆= 2𝑡 + At the centre, 𝑡 = 0 So effective path difference ∆= is dark.
+𝜆 , this is the condition for minimum intensity.
+So the centre 2 𝜆 ……………………(1) 2 For the bright fringes ∆= 𝒏𝝀 So 2𝑡 + 𝜆 = 𝒏𝝀 2 Or, 2𝑡 = (2𝑛 − 1) 𝜆 ……………………………………… (2) 2 For the dark rings ∆= (𝟐𝒏 + 𝟏) 𝝀 𝟐 𝜆 𝝀 So 2𝑡 + = (𝟐𝒏 + 𝟏) 𝒏 = 𝟎, 𝟏, 𝟐, 𝟑, 𝟒 ….
+2 𝟐 Or, 2𝑡 = 𝒏𝝀 ……………………………………………… (3) It is clear that a bright or dark fringe of any order n depend upon the thickness of the air film.
+Since t is constant along a circle with its centre at the point of contact, the fringes are in the form of concentric circle.
+4.1.2 Diameter of Bright Rings Substituting the value of t in eqn.
+(2) For bright rings So from eqn.
+5 Thus, the diameters of bright rings are proportional to the square root of the odd number The separations between successive rings are 0.732:0.504:0.410.
+4.1.3 Diameter of Dark Rings From equation (3) and (4) If D is the diameter of dark ring Thus, the diameters of dark ring are proportional to the square root of natural number 4.1.4 Newton’s rings by transmitted light: The effective path difference between the interfering rays is ∆= 2µ𝑡𝑐𝑜𝑠𝑟 For μ=1 and for normal incidence r=0 So effective path difference in this case is ∆= 2𝑡 At centre 𝑡 = 0 So effective path difference ∆= 0 , this is the condition for maxima so center is bright.
+For the bright fringes ∆ = 𝒏𝝀 So 2𝑡 = 𝒏𝝀 So, for bright fringe 𝐷𝑛 2 = 4𝑅𝑛𝝀 so 𝐷𝑛 = √4𝑅𝑛𝝀 For the dark rings ∆ = (𝟐𝒏 − 𝟏) 𝝀 𝟐 So 2𝑡 = (𝟐𝒏 − 𝟏) 𝝀 𝟐 𝒏 = 𝟏, 𝟐, 𝟑, 𝟒 ….
+So 𝐷𝑛 2 = 2𝑅𝝀(𝟐𝒏 − 𝟏) So 𝐷𝑛 = √𝟐𝑹𝝀(𝟐𝒏 − 𝟏) Hence, the fringe patterns, in reflected and transmitted light are complimentary.
+4.1.5 Application of Newton’s rings: 4.1.5.1 Determination of wavelength of light: By forming Newton’s rings and measuring the radii of the rings formed, we can calculate the wavelength of the light used if the radius of curvature of the lens is known.
+Let R be the radius of curvature of the lens and 𝜆 is the wavelength of the light used.
+So the diameter of the nth dark ring can be written as Dn 2 = 4 n 𝜆𝑅 (1) Similarly, the diameter of the (n +m) th dark ring is 2 D(n+m) = 4 (𝑛+m) 𝜆𝑅 (2) Subtracting equation (1) from (2) we get 2 D(n+m) − Dn 2 = 4 (𝑛+m) 𝜆𝑅 – 4 n 𝜆𝑅 = 4mRλ Or, λ = 𝟐 −𝐃𝐧 𝟐 𝐃(𝐧+𝐦) 𝟒𝒎𝑹 Using the above relation, wavelength of the monochromatic light can be calculated 4.1.5.2 Determination of refractive index of a liquid using Newton’s rings: By forming Newton’s rings and measuring the diameter of the rings formed, we can calculate the refractive index of the liquid.
+In air film, the diameters of the nth and (n+m)th dark rings are measured with the help of travelling microscope.
+D(n+m) 2 − Dn 2 = 4 (𝑛+m) 𝜆𝑅 – 4 n 𝜆𝑅 = 4mRλ ………………………… (3) Now, the air film is replaced by liquid film (refractive index µ).
+In liquid film, the diameters of the same nth and (n+m)th dark rings are 𝐷′𝑛 and 𝐷′(n+m) are measured with the help of travelling microscope.
+D′n 2 = 4 n 𝜆𝑅/µ and D′(n+m) 2 = 4 (𝑛+m) 𝜆𝑅/µ 2 So, D′(n+m) – D′n 2 = 4mRλ/µ ………………………………………..(4) Dividing equation (3) by (4) 𝟐 𝐃(𝐧+𝐦) 𝟐 𝐃′(𝐧+𝐦) 𝟐 −𝐃𝐧 𝟐 = µ –𝐃′𝐧 Using the above relation 𝜇 can be calculated.
+Numerical: 1.
+A wave along s string is given by the equation 𝑦 = 0.01 sin(50𝜋𝑡 − 31.4𝑥) 𝑚 calculate the speed with which the wave travels.
+Sol: V= 𝑤 𝑘 = 50𝜋 31.4 = 5𝑚/𝑠 2.
+Two coherent sources, whose intensity ratio is 9:4, produce interference fringes.
+Find the ratio of maximum to minimum intensity of the fringe system.
+Sol: Let I1 and I2 be the intensities, and a1 and a2 the amplitudes of the two interfering beams.
+We can write 𝐼1 𝐼2 = 2 𝑎1 2 𝑎2 𝑎1 𝑎2 3 2 = or, = √ 𝐼1 𝐼2 If 𝑎1 =3x then 𝑎2 = 2x (𝑎1+𝑎2)2 (𝑎1−𝑎2)2 = 𝐼𝑚𝑎𝑥 𝐼𝑚𝑖𝑛 Now, = (3𝑥+2𝑥)2 (3𝑥−2𝑥)2 = 25𝑥2 𝑥2 = 25 1 3.
+Find the ratio of the intensity at the center of a bright fringe in an interference pattern to the intensity at a point one-quarter of the distance between two fringes from the center.
+Sol: Resultant intensity I = 2𝑎2( 1 + cos ϕ ) Where a is the amplitude of the wave.
+At the center, ϕ = 0 So, I0 = 2𝑎2( 1 + cos ϕ ) = 2𝑎2( 1 + cos 0 ) = 4𝑎2 At one-quarter of the distance between two fringes from the center, ϕ = π/2 I1 = 2𝑎2( 1 + cos ϕ ) = 2𝑎2( 1 + cos π/2)= 2𝑎2 So, I0 : I1 = 4𝑎2: 2𝑎2 = 2 :1 4.
+In a two source interference experiment, let ‘p’ be a point on the screen, which is equidistant from both the sources.
+If one source is closed the intensity at ‘p’ is 0.02 watt/m2 then what will be the intensity at ‘p’ when both sources are opened?
+Sol: ‘P’ is the point of central principal maxima I1=0.02 watt/m2 Resultant intensity I= 4I1=0.08 watt/m2 5.
+Twenty five sinusoidal waves of equal amplitude superpose incoherently to produce a resultant intensity of 0.5 watt/m2.
+What would be the maximum possible resultant intensity if the superpose coherently?
+Sol: In case of incoherent superposition, Iin-coherent = na2 =nI, and in case of coherent superposition, I coherent = n2a2 =n2I So, Icoherent = n Iin-coherent = 25 × 0.5 = 12.5 watt/m2.
+6.
+Newton’s rings are observed normally in reflected light of wavelength 5893 Å.
+The diameter of the 10th dark ring is 0.005 m. Find the radius of curvature of the lens and the thickness of the film.
+2 = 4 n 𝜆 𝑅 Sol: Dn Here, Dn = 0.005 m, n=10, 𝜆 = 5893 × 10-9 m. Now, R = 2 Dn 4 n λ = 1.06 m = 106 cm If t be the thickness of the film corresponding to a ring of diameter D, then we have 2t = 2 Dn 4 R = 6 × 10-6 m or, t = 3 × 10-6 m 7.
+If in a Newton’s rings experiment, the air in the interspace is replaced by a liquid of refractive index 1.33, in what proportion would the diameter of a ring change?
+Sol: = µ 𝑎𝑖𝑟 2) (Dn 2) (Dn 𝑙𝑖𝑞𝑢𝑖𝑑 (𝐷𝑛)𝑙𝑖𝑞𝑢𝑖𝑑 (𝐷𝑛)𝑎𝑖𝑟 or, 1 =0.867 = √ µ The rings are contracted to 0.867 their previous diameter.
+8.
+In a Newton’s rings experiment in air, the diameter of 10th dark ring is 0.272 cm and that of 15th dark ring is 0.555 cm.
+If the radius of curvature of the plano-convex lens is 200 cm, calculate the wavelength of the monochromatic light used.
+Sol: 𝐷𝑛 = 0.272 cm 𝐷𝑛+𝑝 = 0.555 cm 𝑛 = 10, n + m =15, m = 5 𝑅 = 200 cm We know that λ = or, λ = 0.5552− 0.2722 4×5×200 2 − Dn 2 D(n+m) 4𝑚𝑅 = 5851 Å.
+9.
+In a Newton’s rings experiment, the diameter of the 10th bright ring changes from 1.5 cm to 1.27 cm when a liquid is introduced between the plate and the lens.
+Calculate the refractive index of the liquid.
+10.
+In a Newton’s rings experiment, the diameter of the 5th ring was 0.336 cm and the diameter of the 15th ring was 0.59 cm.
+Find the radius of curvature of the plano convex lens if the wavelength of light is 5890 Å.
+Questions: Short & medium answer type 1.
+Write the difference between coherent and incoherent superposition.
+2.
+Discuss why two independent sources of light of the same wavelength cannot produce interference fringes 3.
+Do you expect any fringe pattern in case of incoherent superposition?
+Give justification to your answer.
+4.
+Find the ratio of intensity at the centre of a bright fringe to the intensity at a point one quarter of the distance between two fringes from the centre.
+5.
+Write down the condition for the destructive interference in terms of phase difference and in terms of path difference.
+6.
+Write the conditions of sustained interference pattern.
+7.
+Write the conditions for good contrast between dark and bright fringes.
+8.
+What are the different methods of obtaining interference pattern?
+Give example of each.
+9.
+Show the intensity distribution curve in an interference pattern.
+10.
+Why the fringes in Newton’s ring interference are circular?
+11.
+In a Newton’s ring experiment the center is bright, whether it is formed by reflected light or transmitted light.
+Justify your answer.
+12.
+In a Newton’s ring experiment the center is dark, whether it is formed by reflected light or transmitted light.
+Justify your answer.
+13.
+Why the planoconvex lens has large radius of curvature in Newton’s ring experiment?
+14.
+In a Newton’s ring experiment, the fringes near to the center are wider than the fringes away from the centre.
+Justify it why?
+15.
+Write down the formula for the refractive index of a liquid determined by In a Newton’s ring experiment.
+16.
+Explain how refractive index of liquid can be determined by Newton's rings method.
+Long answer type 1.
+Show that the resultant wave due to the superposition of two harmonic waves of same frequency, different phases and travelling in same direction is also harmonic.
+Find the amplitude and phase of the resultant wave.
+2.
+Show that coherent superposition leads to interference pattern, discuss it with two beams having different amplitude, different phases propagating in same direction.
+3.
+Draw the schematic diagram for production of Newton's rings with reflected light.
+Explain how will u obtained two coherent waves.
+4.
+With a suitable diagram, explain the formation of Newton’s rings.
+Derive the expression for the diameter of Newton's rings formed by transmitted light.
+Explain why the fringes in Newton’s rings interference are circular.
+5.
+Explain the formation of fringes in a Newton’s rings in reflected light with a suitable diagram.
+Prove that in reflected light (i) diameters of the dark rings are proportional to the square root of natural numbers, and (ii) diameters of the bright rings are proportional to the square root of odd natural numbers.
+DIFFRACTION 5.1 Diffraction is the slight bending of light as it passes around the edge of an object.
+The amount of bending depends on the relative size of the wavelength of light to the size of the opening.
+If the opening is much larger than the light's wavelength, the bending will be almost unnoticeable.
+Diffraction of light Diffraction is the spreading out of waves as they pass through an aperture or around objects.
+It occurs significantly when the size of the aperture or obstacle is of similar linear dimensions to the wavelength of the incident wave.
+The essential condition for diffraction to occur is that the wavelength of light should be comparable to that of the size of the object/obstacle.
+It might also occur if the size of the object is less than the wavelength of light.
+It is due to the interaction among the secondary wavelets which are not blocked off by the obstacle.
+Diffraction pattern The most striking examples of diffraction are those that involve light; for example, the closely spaced tracks on a CD or DVD act as a diffraction grating to form the familiar rainbow pattern seen when looking at a disc.
+Difference between Diffraction and Interference Interference Diffraction Interference may be defined as waves emerging from two different coherent sources, producing different wave fronts.
+Diffraction on the other hand can be termed as secondary waves that emerge from the different parts of the same wave.
+In interference the intensity of all the positions on maxima are equal.
+In diffraction, there is a variance of the intensity of all maxima positions.
+The width of the fringes in interference may be equal (bi-prism) or may not be equal (Newton’s rings).
+It is absolutely dark in the region of minimum intensity, in the case of interference.
+The widths of the fringes are not equal in diffraction.
+In the case of diffraction, the position of minima is not perfectly dark If the number of sources are few such as two sources, then they are referred to as interference sources.
+If the number of sources is many, that is more than two then it is referred to as diffraction sources.
+Types of diffraction (Fresnel diffraction and Fraunhofer diffraction) Characteristics Fresnel diffraction Fraunhofer diffraction Observation distance Either the source or screen or both are at finite distance from the obstacle The source and the screen are effectively at infinite distance from the obstacle Requirement of lens Lens are not required Wave fronts Diffraction pattern Cylindrical or spherical wave fronts Shape and intensity of diffraction pattern change as the waves propagate downstream of the scattering source (usually 02) are Lens required Plane wave fronts and Shape remain constant intensity Movement diffraction pattern of Move along the corresponding shift in the object Remains in a fixed position 5.1.1 Diffraction due to Single Slit (Fraunhofer diffraction) .
+‘AB’ is a narrow slit of width ‘e’ perpendicular to the plane of the paper.
+Consider a plane wavefront ‘ww’ originated from a monochromatic source of wavelength ‘λ’ propagating normal to the slit be incident on it.
+After diffraction Let the diffracted rays are focused by using a convex lens and the screen placed at the focal plane of the lens.
+According to Hygen’s theory, each point of the wave front in the plane of the slit is a source of secondary wavelets.
+The secondary wavelets traveling normal to the slits are brought to focus by the lens at the point P0 on the screen.
+So, the point P0 must be the point of maxima called as central principal maxima.
+In order to consider all the secondary wavelets originated and propagated in different directions, consider the secondary wavelets in the direction of’ θ’ are brought to the focus by the lens to the point P 1 on the screen as shown in the figure.
+The intensity at the point P1 is either minimum or maximum and depends upon the path difference between the secondary waves originating from the corresponding points of the wave front.
+Theory: In order to find out the intensity at P1, draw a perpendicular AC on BR.
+The path difference between secondary wavelets from A and B in directionθ is BC i.e., So, the phase difference, Let us consider that the width of the slit is divided into ‘n’ equal parts and the amplitude of the wave from each part is ‘a’.
+So, the phase difference between two consecutive points ............(2.32) Then the resultant amplitude R is calculated by using the method of vector addition of amplitudes The resultant amplitude of n number of waves having same amplitude 'a' and having common phase difference of ' ' is ...................(2.33) Substituting the value of in equation (2.33) 𝑅 = 𝑎 sin (𝑛 (2𝜋 2 𝑛𝜆 )1 sin (1 𝑛 2 )𝑒𝑠𝑖𝑛𝜃) 2𝜋 𝜆 𝑒𝑠𝑖𝑛𝜃 So, 𝑅 = 𝑎 sin ((𝜋 )𝑒𝑠𝑖𝑛𝜃) 𝜆 𝜋 sin1 𝑒𝑠𝑖𝑛𝜃 𝜆 n ............(2.34) Substituting in equation 2.34 As is small value; and na = A Therefore, ..............(2.35) Therefore, the Intensity is given by .........(2.36) Case (i): Principal Maximum: Eqn (2.35) takes maximum value for =0 or The condition The condition means that this maximum is formed by the secondary wavelets which travel normally to the slit along OPo and focus at Po.
+This maximum is known as “Principal maximum”.
+Intensity of Principal maxima Therefore Case (ii): Minimum Intensity positions: For minimum intensity, sin =0.
+The values of ' ' which satisfy are where ...(2.37) In the above eq.
+(2.37) n = 0 is not applicable because corresponds to principal maximum.
+Therefore, the positions according to eq.
+(2.37) are on either side of the principal maximum.
+Case (iii): Secondary maximum: In addition to principal maximum at minima positions.
+The positions of these weak secondary maxima can be obtained with the rule of finding maxima and minima of a given function in calculus.
+So, differentiating eq n (2.35) and equating to zero, we have = 0, there are weak secondary maxima between Because correspond to minima positions so, 𝛼𝑐𝑜𝑠𝛼 − 𝑠𝑖𝑛𝛼 = 0 ...........(2.38) The values of ' curves and ' satisfying the eqn (2.38) are obtained graphically by plotting the on the same graph.
+The points of intersection of the two curves gives the values of ' for which satisfy eqn (2.38).
+’ The points of intersections are But , gives principal maximum, substituting the values of ' ' in eqn(2.36), we get and so on.
+From the above expressions, Imax, I1, I2, I3… it is evident that most of the incident light is concentrated at the principal maximum.
+5.1.2 Intensity distribution graph: A graph showing the variation of intensity with ' ' is as shown in the adjacent figure 5.1.3 Plane diffraction grating [Diffraction due to N-Slits (Grating)]: An arrangement consisting of large number of parallel slits of the same width and separated by equal opaque spaces is known as Diffraction grating.
+Plane diffraction grating consists of a number of parallel and equidistant lines ruled on an optically plane and parallel glass plate by a fine diamond point.
+Each ruled line behaves as an opaque line while the transparent portion between two consecutive ruled lines behaves as a slit.
+If a is the width of transparency and b is width of opacity (width of ruling lines) then a+b is called grating element.
+Theory: A section of a plane transmission grating AB placed perpendicular to the plane of the paper is as shown in the figure.
+Let ‘e’ be the width of each slit and‘d’ the width of each opaque space.
+Then (e+d) is known as grating element and XY is the screen.
+Suppose a parallel beam of monochromatic light of wavelength ' ' be incident normally on the grating.
+By Huygen’s principle, each of the slit sends secondary wavelets in all directions.
+Now, the secondary wavelets travelling in the direction of incident light will focus at a point Po on the screen.
+This point Po will be a central maximum.
+Now consider the secondary waves travelling in a direction inclined at an angle ' ' with the incident light will reach point P1 in different phases.
+As a result dark and bright bands on both sides of central maximum are obtained.
+The intensity at point P1 may be considered by applying the theory of Fraunhofer diffraction at a single slit.
+The wavelets proceeding from all points in a slit along their direction are equivalent to a single wave of amplitude starting from the middle point of the slit, Where If there are N slits, then we have N diffracted waves.
+The path diffe rence between two consecutive slits is Therefore, the phase difference ......(2.39) Hence the intensity in a direction can be found by finding the resultant amplitude of N vibrations each of amplitude and a phase difference of '' Since in the previous case Substituting these in equation The resultant amplitude on screen at P1 becomes ..........(2.40) Thus, Intensity at P1 will be ...(2.41) The factor gives the distribution of Intensity due to a single slit while the factor gives the distribution of intensity as a combined effect of all the slits 5.1.4 Intensity Distribution: Case (i): Principal maxima: The eqn (2.40) will take a maximum value if .......(2.42) n = 0 corresponds to zero order maximum.
+For n = 1,2,3,… we obtain first, second, third,… principal maxima respectively.
+The ± sign indicates that there are two principal maxima of the same order lying on either side of zero order maximum.
+Case(ii): Minima if but Positions: The eq.
+(2.40) takes minimum value .
+..........(2.43) where m has all integral values except m = 0, N, 2N, …, nN, because for these values becomes zero and we get principal maxima.
+Thus, m = 1, 2, 3, …, (N-1).
+Hence where gives the minima positions which are adjacent to the principal maxima.
+Case(iii): Secondary maxima: As there are (N-1) minima between two adjacent principal maxima there must be (N-2) other maxima between two principal maxima.
+These are known as secondary maxima.
+To find their positions Only ............(2.44) The roots of the above equation other than those for which secondary maxima The eqn (2.44) can be written as give the positions of From the triangle we have Since intensity of principal maxima is proportional to N2, Hence if the value of N is larger, then the secondary maxima will be weaker and becomes negligible when N becomes infinity.
+5.1.5 Formation of Spectra with Grating The principle maxima in a grating are formed in direction given by (𝒆 + 𝒅)𝒔𝒊𝒏𝜽 = 𝒏𝝀.
+where (𝒆 + 𝒅) is the grating element, ‘n’ the order of the maxima and ‘ ’ the wavelength of the incident light.
+1) For a given wavelength ‘ different orders.
+’ the angle of diffraction’ ’ is different for principal maxima of 2) For white light and for a particular order n, the light of different wavelengths will be diffracted in different directions.
+The longer the wavelength, greater is the angle of diffraction.
+So in each order, we will get the spectra having as many lines as the wavelength in the light source.
+At centre (n = 0, zero gives the maxima of all wavelengths.
+So here different wavelengths coincide to order) form the central image of the same color as that the light source.
+Similarly, the principal maxima of all wavelengths corresponding to n = 1 will form the first order spectrum, the principal maxima of all wavelengths corresponding to n = 2, will form the second order spectrum and so on.
+Important characteristics of grating spectra: ✓ Spectra of different orders are situated symmetrically on both sides of zero order.
+✓ Spectral lines are almost straight and quite sharp.
+✓ Spectral colors are in the order from Violet to Red.
+✓ Spectral lines are more dispersed as we go to higher orders.
+✓ Most of the incident intensity goes to zero order and rest is distributed among the other orders.
+5.1.6 Maximum number of orders formed by a Grating: The principal maxima in a grating satisfy the condition Or The maximum angle of diffraction is 90o, hence the maximum possible order is given by Ex: Consider a grating having grating element which is less than twice the wavelength of the incident light, then i.e., only the first order is possible.
+5.1.7 Absent spectrum with a diffraction grating: We know the intensity maxima at a point due to grating can be observed when that satisfies the maxima for single slit s well as for ‘N’ no.
+of slits.
+But when the condition for principal maxima due to ‘N’ no.
+of slits and the condition for minima due to single slit are satisfied simultaneously for the same angle θ, then the principal maxima due to grating for that particular order will be missed or absent, which is called missing spectra.
+We know that, in case of a grating the principal maxima are obtained in the directions given by 𝑛 = 0,1,2,3,4 … … Also, in case of a single slit, the minima are obtained in the directions given by 𝑚 = 1,2,3,4 … … ..
+If both the conditions are satisfied simultaneously for same angle ‘θ’, a particular maximum of order n will be missing in the grating spectrum.
+Dividing above equations we have which is the condition of absent spectra.
+If the width of the ruling is equal to the width of the slit, the second order spectrum will be missed.
+5.1.8 Dispersive power of grating Dispersive power of grating is defined as the ratio of the difference in the angle of diffraction of any two neighboring spectral lines to the difference in the wavelength between the two spectral lines.
+It can also be defined as the difference in the angle of diffraction per unit change in wave length.
+The diffraction grating of the nth order principal maxima for wavelength given by equation (𝑒 + 𝑑)𝑠𝑖𝑛𝜃 = 𝑛𝜆 Differentiating this equation, we have , (𝑒 + 𝑑)𝑐𝑜𝑠𝜃 𝑑𝜃 = 𝑛 𝑑𝜆 (e+d) is constant and ‘n’ is constant for given order.
+So, 𝑑𝜃 𝑑𝜆 is the dispersive power of grating 𝑑𝜃 𝑑𝜆 = 𝑛 (𝑒+𝑑)𝑐𝑜𝑠𝜃 So dispersive power of grating 𝑑𝜃 𝑑𝜆 α n (order of spectrum) α 1 (𝑒+𝑑) α 1 𝑐𝑜𝑠𝜃 5.1.9 Determination of Wavelength Using Grating In laboratory, the grating spectrum can be obtained by using a spectrometer.
+Adjustments: Before performing the experiment, the following adjustments are made.
+(1) The spectrometer is adjusted for parallel rays by Schuster’s method.
+(2) The grating is adjusted for normal incidence.
+: When a white light is incident on the grating normally, the beam gets Measurement of dispersed and in each order of the spectrum we can observe constituent wavelengths ( i.e., VIBGYOR) 1) The telescope is now turned to get the first order spectrum in the field of view on left.
+2) The cross-wire is adjusted on the line whose wavelength is to be determined (say on RED line) 3) Now, the readings of the two verniers are noted.
+4) 5) 6) The telescope is then turned to the right side to receive the first order spectrum and repeat steps (2) & (3).
+The difference between readings of the same vernier gives twice the angle of diffraction θ for that line in first order.
+By substituting the values of ‘θ’, (𝑒 + 𝑑) and n in determine the wavelength of light.
+we can The same procedure from step (1) through (6) is repeated for second order and even in higher orders.
+Numerical: 1.
+In Fraunhoffer diffraction due to a narrow slit, a screen is placed 2 meters away from the lens to obtain the pattern.
+If the slit width is 0.2 mm and the first minima lie 5 mm on either side of the central maximum, find the wavelength of light.
+Sol: In the Fraunhoffer diffraction due to a single slit of width e, the direction of minima are given by e sin θ = ±m λ For first minima on either side of central maximum, m =1.
+Also, when θ is very small sin θ = θ.
+Hence, e θ = λ or, θ = λ/e = λ/0.02 θ is also given by 0.5/200 So, λ/0.02 = 0.5/200 or, λ = 5000 Å 2.
+A parallel beam of light is normally incident on a plane transmission grating having 4250 lines per cm and a second order spectral line is observed at an angle of 300.
+Calculate the wavelength of light.
+Sol: We know that (e +d) sinθ = nλ, n is an integer Here, (e +d) is the grating element, n is the order of the spectrum There are 4250 lines per cm.
+therefore 1 (e +d) = cm 4250 Also, n =2, θ = 300 (e +d) sinθ So, λ = = 5882 Å 𝑛 3.
+In a grating spectrum, which spectral line in 4th order will overlap with 3rd order line of 5600 Å?
+Sol: The grating equation is (e +d) sinθ = nλ If nth order of λ1 coincides with (n+1)th order of λ2, then (e +d) sinθ = nλ1 = (n+1) λ2 or, λ2 = nλ1 𝑛+1 = 4 3×5600 = 4200 Å 4.
+What is the highest order spectrum which may be seen with light of wavelength 5000 Å by means of a grating with 3000 lines/cm?
+Sol: The grating equation is (e +d) sinθ = nλ The maximum value of sinθ is 1.
+Therefore, the highest order visible with grating spectrum is given by 𝑒+𝑑 1 nmax = = 3000×5 ×10−5 =6.6 λ So, the highest order, which may be seen, is 6.
+5.
+A plane transmission grating having 5000 lines per cm is being used under normal incidence of light.
+If the width of opaque parts be double than that of the transparent parts of the grating, then which orders of spectra will be absent?
+Sol: The condition for absent spectra is 𝑒+𝑑 𝑛 = where m = 1,2,3……………… e 𝑚 If d = 2e, then n = 3m = 3, 6, 9, …………… Hence the 3rd, 6th, 9th ………..order spectra would be absent.
+6.
+For a grating with grating element 18000 Å, obtain the dispersions in the first order spectrum around wavelength 5000 Å, assuming normal incidence.
+Sol: The expression for angular dispersion is given by 𝑑𝜃 dλ = 𝑛 (𝑒+𝑑)𝑐𝑜𝑠𝜃 = 1 2 √(𝑒+𝑑 ) 𝑛 −λ2 (𝑒 + 𝑑)= 18000 Å, λ = 5000 Å, n=1 Substituting, we get 𝑑𝜃 = 5.78 × 10-5 rad/ Å. dλ 7.
+In a plane transmission grating, the angle of diffraction for the second order principal maxima for wavelength 5000 Å is 300.
+Calculate the number of lines in one cm of the grating surface.
+8.
+A plane transmission grating produces an angular separation of 0.01 radian between two wavelengths observed at an angle of 300.
+If the mean value of the wavelength is 5000 Å and the spectrum is observed in the second order, calculate the difference in the two wavelengths.
+Questions: Short & medium answer type 1.
+Distinguish between Fresnel’s and Frounhofer’s diffraction.
+2.
+Distinguish between diffraction and interference.
+3.
+Diffraction can occur if slit width is greater than wavelength of light.
+Justify.
+4.
+Find the approximate expression for the secondary maxima in case of Fraunhofer’s single slit diffraction pattern.
+5.
+Explain the meaning of missing spectra in the diffraction pattern of a plane transmission grating.
+Obtain the expression for missing spectra.
+6.
+In a plane diffraction grating, if the width of opaque space is equal to the slit width, find the orders of missing spectra.
+7.
+Define dispersive power of grating.
+Write the factors on which it depends.
+8.
+A glass piece and a student grating both are identical in size and shape is given to you.
+How can you distinguish the students grating from the glass piece without using any optical instrument?
+9.
+Find the position of maxima, minima and secondary maxima in a single slit diffraction pattern.
+10.
+Draw the intensity distribution curve in case of a single slit diffraction.
+11.
+Why the secondary maxima are not visible in case of grating?
+12.
+Write the characteristics of grating spectra.
+Long answer type 1.
+Derive an expression for intensity incase of Fraunhofer’s single slit diffraction with a neat diagram.
+2.
+In Fraunhofer’s diffraction due to single slit, obtain the conditions for principal maximum, secondary maxima and minima.
+Find its expression, and then show it graphically.
+3.
+How grating spectra are formed?
+Write its important characteristics.
+Explain the meaning of missing spectra in the diffraction pattern of a plane transmission grating.
+Obtain the expression for missing spectra.
+4.
+Define dispersive power of grating.
+Obtain the expression for it Write the factors on it depends.
+Show that the dispersive power of a grating is which 𝑛 ⁄ 1 {(𝑎 + 𝑏)2 − 𝑛2𝜆2} 2 Where (𝑎 + 𝑏) is the grating element and ′𝑛’ is the order of the spectrum.
+Module – 2: ELECTROMAGNETISM Scalar and Vector Function: A scalar function f(x, y, z) specifies a magnitude but independent of directi ons.
+A vector function F(x, y, z) specifies a magnitude and a direction at every point (x, y, z) in some region of space.
+We can picture a vector function as a collection of arrows (Fig.
+1), one for each point (x, y, z).
+Fig.
+1: Vector function The direction of the arrow at any point is the direction specified by the vector function, and its length is proportional to the magnitude of the function.
+A vector function, like any vector, can be resolved into components as in fig.
+2.
+Fig.
+2: Vector function components Letting, i, j and k unit vectors along the x-, y-, and z-axes, respectively, we write 𝐹⃗ (x, y, z) = 𝑖̂𝐹𝑥+𝑗̂𝐹𝑦+𝑘̂𝐹𝑧 (1) Fx, Fy and Fz are themselves scalar functions of x, y and z.
+The magnitude or the direction (or both) of the vector quantities may change with position and time.
+The various laws of electromagnetism describe how the different scalar and the vector functions change with position and time.
+The laws are expressed mathematically in terms of derivatives of the fields with respect to space coordinates and time.
+The derivatives w.r.t.
+space coordinates are expressed in terms of gradient, divergence and curl operators.
+Gradient(𝛁⃗⃗⃗): Suppose, we have a function of three variables—say, the temperature T (x, y,z) in this room.
+(Start out in one corner, and set up a system of axes; then for each point (x, y,z) in the room, T gives the temperature at that spot.)
+We want to generalize the notion of “derivative” to functions like T , which depend not on one but on three variables.
+A derivative is supposed to tell us how fast the function varies, if we move a little distance.
+But this time the situation is more complicated, because it depends on what direction we move.
+In fact, the question “how fast does T vary?” Taking the total derivatives on the temperature (T), we have; 𝑑𝑇 = 𝜕𝑇 𝜕𝑥 𝑑𝑥 + 𝜕𝑇 𝜕𝑦 𝑑𝑦 + 𝜕𝑇 𝜕𝑧 𝑑𝑧 (2) This tells us how T changes when we alter all three variables by the infinitesimal amounts dx, dy, dz.
+Interestingly, the eq.
+(2) is a reminiscent of the dot product i.e., 𝑑𝑇 = (𝑖̂ 𝜕𝑇 𝜕𝑥 + 𝑗̂ 𝜕𝑇 𝜕𝑦 + 𝑘̂ 𝜕𝑇 𝜕𝑧 ) ∙ (𝑖̂𝑑𝑥 + 𝑗̂𝑑𝑦 + 𝑘̂𝑑𝑧) (3) 𝑑𝑇 = (∇𝑇) ∙ (𝑑𝑟) where 𝛁𝑇 ≡ 𝑖̂ 𝜕𝑇 𝜕𝑥 + 𝑗̂ 𝜕𝑇 𝜕𝑦 + 𝑘̂ 𝜕𝑇 𝜕𝑧 (4) is the gradient of T. Note that ∇⃗⃗⃗𝑇 is the generalized derivative and is a vector quantity i.e., like any vector, the gradient has magnitude and direction.
+To determine its geometrical meaning, we can rewrite the total derivative as; 𝑑𝑇 = (∇𝑇) ∙ (𝑑𝑟) = |𝑑𝑇||𝑑𝑟| cos 𝜃 (5) If we fix the magnitude |dr| and search around in various directions (that is, vary θ), the maximum change in T evidentally occurs when θ = 0.
+That is, for a fixed distance |dr|, dT is greatest when I move in the same direction as ∇⃗⃗⃗𝑇.
+Thus, The gradient points in the direction of maximum increase of the scalar function (f say).
+In other words, ∇⃗⃗⃗𝑓is normal to the surface of constant f. The Del (𝛁) Operator: The gradient has the formal appearance of a vector, ∇⃗⃗⃗, operates a scalar function as seen from the eq (4).
+Generally, we can represent the del operator in vector notation as; ∇⃗⃗⃗= 𝑖̂ 𝜕 𝜕𝑥 + 𝑗̂ 𝜕 𝜕𝑦 + 𝑘̂ 𝜕 𝜕𝑧 (6) It is also known as the nabla operator.
+Operation with the Del/Nabla operator: Just like vector operations, Del operates with scalar and vector functions in three different ways.
+These are The Divergence (∇⃗⃗⃗.
+): From the definition of ∇⃗⃗⃗ we construct the divergence: ∇⃗⃗⃗.
+𝑓⃗ = (𝑖̂ 𝜕 𝜕𝑥 + 𝑗̂ 𝜕 𝜕𝑦 + 𝑘̂ 𝜕 𝜕𝑧 ) .
+(𝑖̂𝑓𝑥 + 𝑗̂𝑓𝑦 + 𝑘̂𝑓𝑧) = ( 𝜕𝑓𝑥 𝜕𝑥 + 𝜕𝑓𝑦 𝜕𝑦 + 𝜕𝑓𝑧 𝜕𝑧 ) (7) Where fx, fy and fz are the components of the vector function f. The divergence operates on a vector function f yields a scalar quantity.
+The divergence of a vector function (F) is, like any dot product of a vector.
+Geometrical Interpretation: The name divergence is well chosen, for ∇⃗⃗⃗ ∙ f⃗ is a measure of how much the vector f spreads out (diverges) from the point in question.
+For example, the vector function in Fig.
+3 has a large (positive) divergence (if the arrows pointed in, it would be a negative divergence).
+Fig.
+3: positive divergence Example 2.
+Here, 𝑖̂, 𝑗̂ and 𝑘̂ are replaced by 𝑥̂, 𝑦̂ and 𝑧̂ respectively.
+Solenoidal Field: If divergence of a vector field/function (say 𝑓⃗) vanishes (∇⃗⃗⃗.
+𝑓⃗ = 0) then the field is known as a solenoidal field.
+The Curl (𝛁⃗⃗⃗ ×): From the definition of ∇ we construct the curl of a function as; ∇⃗⃗⃗ × 𝐹⃗ = (𝑖̂ 𝜕 𝜕𝑥 + 𝑗̂ 𝜕 𝜕𝑦 + 𝑘̂ 𝜕 𝜕𝑧 ) × (𝑖̂𝐹𝑥 + 𝑗̂𝐹𝑦 + 𝑘̂𝐹𝑧) ∇⃗⃗⃗ × 𝐹⃗ = 𝑖̂ ( 𝜕𝐹𝑦 𝜕𝑧 − 𝜕𝐹𝑧 𝜕𝑦 ) + 𝑗̂ ( 𝜕𝐹𝑥 𝜕𝑧 − 𝜕𝐹𝑧 𝜕𝑥 ) + 𝑘̂ ( 𝜕𝐹𝑦 𝜕𝑥 − 𝜕𝐹𝑥 𝜕𝑧 ) (8) Notice that the curl of a vector function (F) is, like any cross product of a vector.
+Geometrical Interpretation: The name curl is also well chosen, for 𝛻⃗⃗ × 𝐹⃗ is a measure of how much the vector F swirls around the point.
+Example: Irrotational Field: The (vector) field (F say) is said to be irrottaional if curl of the field vanishes i.e., ∇⃗⃗⃗ × 𝐹⃗ = 0 Operations using the Del: (vii) Divergence of gradient of a scalar function (say T): i.e., ∇ · (∇T ) = ∇2T = 𝜕2𝑇 𝜕𝑥2 + 𝜕2𝑇 𝜕𝑦2 + 𝜕2𝑇 𝜕𝑧2 = Laplacian of T (viii) Curl of gradient of a scalar function (say T) is always zero i.e., ∇ × (∇T) = 0 (ix) has not been given any special name of its own.
+Gradient of divergence ‘∇(∇ · v)’ seldom occurs in physical applications, and it (x) The divergence of a curl, like the curl of a gradient, is always zero: ∇ · (∇ × v) = 0 (xi) Curl of curl: ∇ × (∇ × v) = ∇(∇ · v) − ∇2 v (For readers perspective 𝛻⃗⃗ is here replaced by ∇ in the above formulas) Integrals: Line, Surface and the Volume Integrals: In electrodynamics, we encounter several different kinds of integrals, among which the most important are line (or path) integrals, surface integrals (or flux), and volume integrals.
+a.
+Line Integrals of a vector field: A line integral is an expression of the form where v is a vector function, dl is the infinitesimal displacement vector, and the integral is to be carried out along a prescribed path, from point a to point b as shown in the fig.
+4.
+(9) Fig.
+4: Line integral between two points a and b.
+If the path in question forms a closed loop (that is, if b = a), we shall put a circle on the integral sign then, the line integral becomes; (10) Ordinarily, the value of a line integral depends critically on the path taken from a to b, but there is an important special class of vector functions for which the line integral is independent of path and is determined entirely by the end points.
+In this case, the vector field is known as a conservative field.
+b.
+Surface Integrals: A surface integral is an expression of the form (11) where v is again some vector function, and the integral is over a specified surface (see Fig.
+5).
+Fig.
+5: surface integral Here da is an infinitesimal patch of area, with direction perpendicular to the surface.
+For a closed surface, the surface integral can be written as; If v describes the flow of a fluid (mass per unit area per unit time), then represents the total mass per unit time passing through the surface— hence the alternative name, ‘flux’.
+c. Volume Integrals: A volume integral is an expression of the form (12) where T is a scalar function and dτ is an infinitesimal volume element.
+In Cartesian coordinates, dτ = dx dy dz For example, if T is the density of a substance (which may vary from point to point), then the volume integral would give the total mass.
+Theorems: Gauss Divergence Theorem: The volume integral of divergence of a vector field (say V) over a given volume is equal to the surface integral of the vector over a closed surface (a) enclosing the volume.
+Mathematically, (13) Stoke’s Theorem: The surface integral of the curl of a vector field over a given region (say S) is equal to the line integral of the vector along the boundary of the area (P).
+(14) Maxwell’s Equations: The various laws of electromagnetism were pulled together and were cast into four equations involving time and space derivatives of electric and magneti c fields.
+These equations are known as Maxwell’s electromagnetic equations.
+The equations are as follows; 1).
+Gauss’ Law in Electrostatics: Statement: The total electric flux ‘ɸE’ over a closed surface is equal to 1/ϵ0 times the net charge enclosed by the surface.
+We have, the electric flux (ɸE) associated with the charge (as seen from the fig.6) enclosed by a surface‘s’ is given by ɸE = 𝑞𝑒𝑛𝑐 𝜖0 (15) Fig.6: Flux emanating from the elementary surface ‘ds’.
+Here, q enc = +q where ϵ0 is permittivity of the free space.
+Also, the electric flux is defined as the surface integral of the electric field i.e., ɸE = 𝐸⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ (16) Equating both the equations, finally the Gauss’ law can be expressed mathematically as; ɸE = 𝐸⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = 𝑞𝑒𝑛𝑐 𝜖0 (17) Notes: ➢ The charge enclosed (qenc ) by the surface may be point charges or continuously distributed charges.
+➢ The net enclosed charges may be positive, negative or zero.
+Accordingly, the net electric flux may be outward, inward or zero.
+➢ The surface enclosing the charges is termed as a Gaussian surface.
+➢ The electric flux doesn’t depend on the shape or size of the Gaussian surface as long as the charges are enclosed by the surface.
+➢ Symmetry is crucial w.r.t.
+application of the Gauss’ law.
+➢ The eq.
+(17) is known as the integral form of the Gauss’ law 1.1: Gauss’ Law in terms of Electric Displacement (D): We have the electric displacement vector (D) in vaccum/free space is defined as; 𝐷⃗⃗⃗ = 𝜖0𝐸⃗⃗ Putting this value in the equation (17), we get ɸE = 𝐷⃗⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = 𝑞𝑒𝑛𝑐 (18) 1.2: Gauss’ Law in differential form: Let, ρ is the volume charge distributions (dq/dV).
+The net enclosed charge by the Gaussian surface will be, qenc = ρ dV (19) where dV is the elementary volume encloses by the Gaussian surface.
+Putting the equation (19) in eq (17), we get; 𝐸⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = ( ρ dV)/ ϵ0 (20) Applying the Gauss’ divergence theorem to the left hand side of eq.
+(20), we have 𝐸⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = (∇⃗⃗⃗.
+𝐸⃗⃗)𝑑𝑉 (21) Equating eq.
+(21) and (22), we get (∇⃗⃗⃗.
+𝐸⃗⃗)𝑑𝑉 = 1 𝜖0 ρ dV Or (∇⃗⃗⃗.
+𝐸⃗⃗ − 𝜌 𝜖0 )dV =0 The integrand must vanish, leading to ∇⃗⃗⃗.
+𝐸⃗⃗ = 𝜌 𝜖0 (22) This is the differential form of the Gauss’ law.
+In terms of Displacement Vector, eq.
+(22) can be written as; ∇⃗⃗⃗.
+𝐷⃗⃗⃗ = 𝜌 (23) 2.
+Gauss’ law in Magnetostatics: Statement: The magnetic flux (ɸB ) over a closed surface enclosing the volume is always zero.
+Mathematically, ɸB = 𝐵⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = 0 (24) where B, is the magnetic flux density (magnetic flux per unit area) with unit is Weber/m 2.
+Since the magnetic poles always occur in pairs, isolated magnetic poles don’t exi st.
+Therefore, within any macroscopic volume, the net magnetic pole is always zero.
+Applying the Gauss’ divergence theorem to the equation (24), we have ɸB = 𝐵⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ = (∇⃗⃗⃗.
+𝐵⃗⃗)𝑑𝑉 = 0 or (∇⃗⃗⃗.
+𝐵⃗⃗) = 0 (25) Equation (25) describes the differential form of the Gauss’ law in Magnetostatics.
+In other words, it shows that non-existence of magnetic monopoles.
+3.
+Faraday’s Law of Electromagnetic Induction: In 1831 Michael Faraday reported that A changing magnetic field induces an electric field or simply an emf ‘ε’.
+The magnitude of the emf induced in the loop is equal to the negative rate of change of magnetic flux through the surface enclosed by the loop.
+Mathematically, 𝜀 = − 𝑑ɸ𝐵 𝑑𝑡 (28) The emf (ε) is defined as the line integral of the electric field i.e., ε = ∮ 𝐸⃗⃗ .𝑑𝑙⃗⃗⃗⃗ C (29) Equating eq.
+(28) and (29) respectively, ∮ 𝐸⃗⃗ .𝑑𝑙⃗⃗⃗⃗ = − C 𝑑ɸ𝐵 𝑑𝑡 ∮ 𝐸⃗⃗ .𝑑𝑙⃗⃗⃗⃗ = − 𝑑 ∮ 𝐵⃗⃗ .𝑑𝑠⃗⃗⃗⃗⃗ 𝑑𝑡 (ɸB = 𝐵⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗) or This is known as the Faraday’s law of Electromagnetic Induction.
+3.1: Differential form of the Faraday’s Law: Applying Stoke’s theorm to the lhs and equating both side, we get (∇⃗⃗⃗ × 𝐸⃗⃗).
+𝑑𝑠⃗⃗⃗⃗⃗ = − 𝑑 ∮ 𝐵⃗⃗ .𝑑𝑠⃗⃗⃗⃗⃗ 𝑑𝑡 (∇⃗⃗⃗ × 𝐸⃗⃗) = − 𝑑𝐵⃗⃗ 𝑑𝑡 (30) or, The eq.
+(30) is known as the diferential form of the Faraday’s Law of Electromagnetic Induction.
+4.
+Ampere’s Circuital Law: Statement: The line integral of magnetic field along a closed loop (C) is equal to μ0 times the net electric current enclosed by the loop.
+C (26) Here I = Ienc= algebraic sum of the currents enclosed by the loop C (Amperian loop).
+Let us considered an Amperian loop, which encloses the current I 1, I2 respectively as shown in fig.7.
+The Ampere’s circuital law becomes Fig.
+7: Amper’s loop carrying current in two straight wires.
+∮ 𝐵⃗⃗ .𝑑𝑙⃗⃗⃗⃗ = 𝜇0(𝐼1 + 𝐼2) C Alternatively says, the integral of magnetic field intensity (H) along an imaginary closed path is equal to the current enclosed by the path.
+Example: Use Ampere’s circuital law, find the magnitude of the magnetic field B, at a point due to a straight, infinitely long conductor carrying a steady current.
+Solution: Let us consider an infinitesimal length dl of the Amperian loop at the same point.
+At each point on the Amperian loop, the value of B is constant since the perpendicular distance of that point from the axis of conductor is fixed, but the direction will be along the tangent on the loop at that point.
+Now, according to Ampere’s Circuital Law (B, dl are in the same direction) Therefore, or B = μ0I/2πr (here, B indicates a vector quantity) 4.1 Ampere’s Law in Differential Form: We have, From the current distribution, I = 𝐽⃗⃗⃗⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ where J = current density (current per unit area).
+𝐵⃗⃗.
+𝑑𝑙⃗⃗⃗⃗ =μ0 𝐽⃗⃗⃗⃗⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ Applying the Stoke’s theorm to the lhs, (∇⃗⃗⃗ × 𝐵⃗⃗).
+𝑑𝑠⃗⃗⃗⃗⃗ = μ0 𝐽⃗⃗⃗⃗.
+𝑑𝑠⃗⃗⃗⃗⃗ Equating both sides, we have (∇⃗⃗⃗ × 𝐵⃗⃗) = μ0 𝐽⃗⃗⃗ (27) The eq.
+(27) is known as the diferential form of the Ampere’s Circuital Law.
+5.0: Maxwell’s Equations: 5.1: Electrodynamics before Maxwell So far, we have encountered the following laws, specifying the divergence and curl of electric and magnetic fields: These equations represent the state of electromagnetic theory, when Maxwell began his work.
+5.2: Maxwell’s Correction to the Ampere’s Law: Just as a changing magnetic field induces an electric field (Faraday’ law) , Maxwell proposed that ‘a changing electric field induces a magnetic field’.
+The real confirmation of Maxwell’s theory came in 1888 with Hertz’s experiments on electromagnetic waves.
+Maxwell called his extra term the displacement current (Id): 𝐼𝑑 = 𝜖0𝐴 𝑑𝐸⃗⃗ 𝑑𝑡 (28) The displacement current exists as long as the electric field changes with time.
+When the electric field attains a constant value (just like the plates of the capacitor gets fully charged), displacement current vanishes and the filed is established by the conduction current (I = due to flow of charge particles).
+Maxwell introduced this displacement current in the Amper’s Circuital Law for a time varying electric field and modified the equation as; ∮ 𝐵⃗⃗.𝑑𝑙⃗⃗⃗⃗ = 𝜇0 (𝐼 + 𝐼𝑑) (29) This is known as the Modified Amper’s Circuital Law with Maxwell’s correction.
+The corresponding differentional form will be, (∇⃗⃗⃗ × 𝐵⃗⃗) = μ0 (𝐽⃗+ 𝐽𝑑⃗⃗⃗⃗) Where, 𝐽𝑑⃗⃗⃗⃗ is known as the displacement current density (Id/A).
+or, (∇⃗⃗⃗ × 𝐵⃗⃗) = μ0 (𝐽⃗+ 𝜖0 𝑑𝐸⃗⃗ 𝑑𝑡 ) (30) (31) 5.3: Distinction between the displacement and the conduction currents.
+Displacement Current Conduction Current The displacement current evolves due The Conduction current originates from the to time varying electric field.
+flow of charges in a conducting medium or in a metal.
+It is a ficticious current which can exist It is a real current.
+in vaccum or in any medium.
+It depends on the electric permitivity of It obeys the Ohm’s Law and depends on the the medium and the rate at which the resistance and potential difference of the electric field changes with time.
+conductor.
+Now, the finishing touches on Maxwell’s equations are: (32) This is known as the differential form of Maxwell’s Equations.
+The final differential and Integral form of the Maxwell’s equations can be qritten as; Gauss’ Law for Electrostatic s Gauss’ Law for Magnetism Faraday’s Law of Induction Ampere’s Law Electric flux through a closed is surface proportional to the charged enclosed magnetic No monopole; The total flux magnetic through a closed surface is zero Changing magnetic flux gives emf.
+Electric current and changing electric flux produces a magnetic field For a charge and current free medium (free space), the Maxwell’s equations become; Corresponding the Integral forms are; (33) (34) 5.4: Physical Significance of Maxwell’s Equations: ➢ Maxwell’s equations incorporate all the laws of electromagnetism, which were developed from experimental observations and were expressed in the form of various emprical laws.
+➢ Maxwell’s equations lead to the existence of electromagnetic waves, which has been amply confirmed by experimental observations.
+These equations are consistence with all the observed properties of e.m. waves.
+➢ Maxwell’s equations are consistence with the special theory of relativity.
+➢ Maxwell’s equations are used to describe the classical electromagnetic field as well as the quatum theory of interaction of charged particles with electromagnetic field.
+➢ Maxwell’s equations provided a unified description of the electric and magnetic phenomena which were treated independely.
+0=•dAE0=•dABdtddlEB−=•dtddlBE=•00 Electromagnetic Waves 6: Maxwell’s Equations in Free space/vacuum: In free space, the charge density 𝜌 and the current density 𝐽⃗ are zero.
+So the four Maxwell’s equations in free space are (i) ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 (ii) ∇⃗⃗⃗.
+𝐵⃗⃗ = ∇⃗⃗⃗.
+𝐻⃗⃗⃗ = 0 𝜕𝐵⃗⃗ 𝜕𝑡 (iii) ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐷⃗⃗⃗ 𝜕𝑡 (iv) ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = (with 𝜌 and σ are zero, 𝐽⃗ = σ𝐸⃗⃗ = 0, 𝐷⃗⃗⃗ = ε0𝐸⃗⃗, and 𝐵⃗⃗ = 𝜇0𝐻⃗⃗⃗) 6.1: Electromagnetic Wave Equations in terms of 𝐸⃗⃗ From Maxwell’s 3rd equation ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 Taking curl on both the sides, we can write ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = − 𝜕 𝜕𝑡 (∇⃗⃗⃗ × 𝐵⃗⃗) = −µ0 (∇⃗⃗⃗ × 𝐻⃗⃗⃗) 𝜕 𝜕𝑡 Applying Maxwell’s 4th equation to the right hand side of the above equation we get; Or, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = −ε0µ0 𝜕2𝐸⃗⃗ 𝜕𝑡2 …………….
+(1) But, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ Now, equation (1) can be written as ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ = −ε0µ0 𝜕2𝐸⃗⃗ 𝜕𝑡2 ……………………..(2) From, Maxwell’s 1st equation, ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 Equation (2) can be written as - ∇2𝐸⃗⃗ = −ε0µ0 Or, 𝛁 𝟐𝑬⃗⃗⃗ = ε0µ0 𝜕2𝐸⃗⃗ 𝜕𝑡2 𝝏𝟐𝑬⃗⃗⃗ 𝝏𝒕𝟐……………………………..(3) Equation (3) is the required electromagnetic wave equation in free space, in terms of electric vector, 𝐸⃗⃗ (2nd order differential wave equation).
+6.2 Electromagnetic Wave Equations in terms of 𝐻⃗⃗⃗ We have Maxwell’s 4th equation ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = − 𝜕𝐷⃗⃗⃗ 𝜕𝑡 Taking curl on both the sides, we can write ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐻⃗⃗⃗) = − 𝜕 𝜕𝑡 (∇⃗⃗⃗ × 𝐷⃗⃗⃗) = −ε0 𝜕 𝜕𝑡 (∇⃗⃗⃗ × 𝐸⃗⃗) ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐻⃗⃗⃗) = −ε0µ0 𝜕2𝐻⃗⃗⃗ 𝜕𝑡2 ……………………………(4) (Applying Maxwell’s 3rd equation) Or, ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐻⃗⃗⃗) - ∇2𝐻⃗⃗⃗ = −ε0µ0 𝜕2𝐻⃗⃗⃗ 𝜕𝑡2 Or, - ∇2𝐻⃗⃗⃗ = −ε0µ0 𝜕2𝐻⃗⃗⃗ 𝜕𝑡2 (Applying Maxwell’s 2nd equation) Or, 𝛁 𝟐𝑯⃗⃗⃗⃗ = ε0µ0 𝝏𝟐𝑯⃗⃗⃗⃗ 𝝏𝒕𝟐 ……………………………(5) Equation (5) is the required electromagnetic wave equation in free space, in terms of magnetic vector, 𝐻⃗⃗⃗ (2nd order differential wave equation).
+6.3 Velocity of electromagnetic wave The general wave equation (2nd order differential wave equation) is ∇2𝛹⃗⃗⃗ = 1 𝑣2 𝜕2𝛹⃗⃗⃗⃗ 𝜕𝑡2 Comparing this equation with e.m. wave equation (equation 3 or 5), we can write the expression for velocity, 𝑣 Hence, 𝑣 = 1 √µ0ε0 ≅ 2.99 × 108 m/s ≅ 𝑐 (velocity of light) 7.0 Maxwell’s equations in a dielectric medium: Maxwell’s equations in a dielectric medium are (i) (ii) ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 ∇⃗⃗⃗.
+𝐵⃗⃗ = ∇⃗⃗⃗.
+𝐻⃗⃗⃗ = 0 𝜕𝐵⃗⃗ 𝜕𝑡 (iii) ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐷⃗⃗⃗ 𝜕𝑡 (with 𝜌 and 𝐽⃗ are zero, 𝐷⃗⃗⃗ = ε𝐸⃗⃗, and 𝐵⃗⃗ = µ𝐻⃗⃗⃗) ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = (iv) 7.1 Electromagnetic Wave Equations in terms of 𝐸⃗⃗: From Maxwell’s 3rd equation ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 Taking curl on both the sides, we can write ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = − (∇⃗⃗⃗ × 𝐵⃗⃗) = −µ 𝜕 𝜕𝑡 (∇⃗⃗⃗ × 𝐻⃗⃗⃗) 𝜕 𝜕𝑡 Or, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = −εµ 𝜕2𝐸⃗⃗ 𝜕𝑡2 …………….
+(6) (Applying Maxwell’s 4th equation) But, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ Now, equation (1) can be written as ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ = −εµ 𝜕2𝐸⃗⃗ 𝜕𝑡2 …………………… (7) From, Maxwell’s 1st equation, ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 Equation (2) can be written as - ∇2𝐸⃗⃗ = −εµ Or, 𝛁 𝟐𝑬⃗⃗⃗ = εµ 𝜕2𝐸⃗⃗ 𝜕𝑡2 𝝏𝟐𝑬⃗⃗⃗ 𝝏𝒕𝟐…………………………….. (8) Equation (8) is the required electromagnetic wave equation in a dielectric medium, in terms of electric vector, 𝐸⃗⃗ (2nd order differential wave equation).
+Similarly, we can derive for magnetic component 𝐻⃗⃗⃗ and is represented by 𝛁 𝟐𝑯⃗⃗⃗⃗ = εµ 𝝏𝟐𝑯⃗⃗⃗⃗ 𝝏𝒕𝟐 ……………………………… (9) 7.2 Velocity of electromagnetic wave: The general wave equation (2nd order differential wave equation) is ∇2𝛹⃗⃗⃗ = 1 𝑣2 𝜕2𝛹⃗⃗⃗⃗ 𝜕𝑡2 Comparing this equation with em wave equation (equation 8 or 9), we can write the expression for velocity, 𝑣 𝑣 = 1 √εµ = 1 √ε0εrμ0μr = 𝑐 √εrμr If μr =1 (non-magnetic medium), then 𝒗 = 𝒄 √𝛆𝐫 𝒄 = 𝒏 n is refractive index of the medium So, 𝑛 = √𝛆𝐫 = √𝑘 (k is dielectric constant of the medium) 8.0 Transverse nature of electromagnetic wave: Suppose the em wave is propagating in any arbitrary direction defined by the propagation vector k. The electric and magnetic vectors are represented by the equations 𝐸⃗⃗ (𝑟, 𝑡) = 𝐸⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) 𝐻⃗⃗⃗ (𝑟, 𝑡) = 𝐻⃗⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) Here, the vectors E0 and H0 are constant in time, k is propagation vector whose magnitude is equal to 2𝜋 𝜆 and its direction is the direction of propagation of wave and 𝑖 = √−1.
+8.1 Transverse nature of 𝐸⃗⃗ From Maxwell’s 1st equation (in free space) ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 or, ∇⃗⃗⃗.
+𝐸⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) = 0 or, [𝑖̂ 𝜕 𝜕𝑥 + 𝑗̂ 𝜕 𝜕𝑦 + 𝑘̂ 𝜕 𝜕𝑧 ].
+[𝑖̂𝐸0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟) + 𝑗̂𝐸0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟) + 𝑘̂𝐸0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)] = 0 or, 𝑖𝐸0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 + 𝑖𝐸0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑦 + 𝑖𝐸0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 = 0 or, 𝑖(𝐸𝑥𝑘𝑥 + 𝐸𝑦𝑘𝑦 + 𝐸𝑧𝑘𝑧) =0 or, 𝐸⃗⃗.
+𝑘⃗⃗ = 0 Two vectors are perpendicular to each other.
+That means the electric vector 𝐸⃗⃗ is perpendicular to the direction of propagation.
+8.2 Transverse nature of 𝐻⃗⃗⃗ From Maxwell’s 2nd equation ∇⃗⃗⃗.
+𝐻⃗⃗⃗ = 0 or, or, ∇⃗⃗⃗.
+𝐻⃗⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) = 0 𝜕 𝜕 or, [𝑖̂ + 𝑗̂ 𝜕𝑥 𝜕𝑦 + 𝑘̂ 𝜕 𝜕𝑧 ].
+[𝑖̂𝐻0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟) + 𝑗̂𝐻0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟) + 𝑘̂𝐻0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)] = 0 or, 𝑖𝐻0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 + 𝑖𝐻0𝑦 𝑒𝑖 (𝑤𝑡−𝑘.𝑟)𝑘𝑦 + 𝑖𝐻0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 =0 or, 𝑖(𝐻𝑥𝑘𝑥 + 𝐻𝑦𝑘𝑦 + 𝐻𝑧𝑘𝑧) = 0 or, 𝐻⃗⃗⃗.
+𝑘⃗⃗ = 0 Two vectors are perpendicular to each other.
+That means the magnetic vector 𝐻⃗⃗⃗ is perpendicular to the direction of propagation.
+8.3 Relative orientation of vector 𝑬⃗⃗⃗ and 𝑯⃗⃗⃗⃗ From Maxwell’s 3 rd equation, ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 = −µ 𝜕𝐻⃗⃗⃗ 𝜕𝑡 or, 𝑖̂ ( 𝜕𝐸𝑧 𝜕𝑦 − 𝜕𝐸𝑦 𝜕𝑧 ) + 𝑗̂ ( 𝜕𝐸𝑥 𝜕𝑧 − 𝜕𝐸𝑧 𝜕𝑥 ) + 𝑘̂ ( 𝜕𝐸𝑦 𝜕𝑥 − 𝜕𝐸𝑥 𝜕𝑦 ) = −µ 𝜕𝐻⃗⃗⃗ 𝜕𝑡 or, 𝑖̂ [𝑖𝐸0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑦 − 𝑖𝐸0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 ]+ 𝑗̂ [𝑖𝐸0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 − 𝑖𝐸0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 ]+ 𝑘̂ [𝑖𝐸0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 − 𝑖𝐸0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑦 ] = −µ 𝜕𝐻⃗⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) 𝜕𝑡 or, 𝑖 [𝑖̂ (𝐸𝑧𝑘𝑦 − 𝐸𝑦𝑘𝑧) + 𝑗̂(𝐸𝑥𝑘𝑧 − 𝐸𝑧𝑘𝑥) + 𝑘̂ (𝐸𝑦𝑘𝑥 − 𝐸𝑥 𝑘𝑦)] = −µ 𝑖 (-𝑤) 𝐻⃗⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) or, 𝒌⃗⃗⃗ × 𝑬⃗⃗⃗ = µ𝒘𝑯⃗⃗⃗⃗ ……………………………………….
+(10) (using the relation of cross product of two vectors) The equation (10) implies that the vector 𝐻⃗⃗⃗ is perpendicular to both the vectors 𝑘⃗⃗ and 𝐸⃗⃗.
+8.4.
+Similarly, from Maxwell’s 4th equation in a source free medium, we have ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = − 𝜕𝐷⃗⃗⃗ 𝜕𝑡 or, 𝑖̂ ( 𝜕𝐻𝑧 𝜕𝑦 − 𝜕𝐻𝑦 𝜕𝑧 ) + 𝑗̂ ( 𝜕𝐻𝑥 𝜕𝑧 − 𝜕𝐻𝑧 𝜕𝑥 ) + 𝑘̂ ( 𝜕𝐻𝑦 𝜕𝑥 − 𝜕𝐻𝑥 𝜕𝑦 ) = ε 𝜕𝐸⃗⃗ 𝜕𝑡 or, 𝑖̂ [𝑖𝐻0𝑧 𝑒𝑖 (𝑤𝑡−𝑘.𝑟)𝑘𝑦 − 𝑖𝐻0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 ]+ 𝑗̂ [𝑖𝐻0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑧 − 𝑖𝐻0𝑧 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 ]+ 𝑘̂ [𝑖𝐻0𝑦 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑥 − 𝑖𝐻0𝑥 𝑒𝑖(𝑤𝑡−𝑘.𝑟)𝑘𝑦 ] = ε 𝜕𝐸⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) 𝜕𝑡 or, 𝑖 [𝑖̂ (𝐻𝑧𝑘𝑦 − 𝐻𝑦𝑘𝑧) + 𝑗̂(𝐻𝑥𝑘𝑧 − 𝐻𝑧𝑘𝑥) + 𝑘̂ (𝐻𝑦𝑘𝑥 − 𝐻𝑥𝑘𝑦)] = εi (-𝑤) 𝐸⃗⃗0 𝑒𝑖(𝑤𝑡−𝑘.𝑟) or, 𝑯⃗⃗⃗⃗ × 𝒌⃗⃗⃗ = 𝛆𝒘𝑬⃗⃗⃗…………………………………..(11) The equation (11) implies that the vector 𝐸⃗⃗ is perpendicular to both the vectors 𝑘⃗⃗ and 𝐻⃗⃗⃗ From equation (10) and (11), it is clear that the electric vector𝐸⃗⃗, magnetic vector 𝐻⃗⃗⃗ and propagation vector 𝑘⃗⃗ are mutually perpendicular to each other.
+They form a right hand orthogonal set.
+So, if the em wave propagates along z direction, then the electric vector, 𝐸⃗⃗ and magnetic vector, 𝐻⃗⃗⃗ are in x or y direction.
+If the electric vector is along x direction then the magnetic component is along y direction.
+The propagation of em wave in z direction is shown in the figure 8.
+Fig.8: Propagation of em wave in z direction.
+Further, the amplitudes of 𝐸⃗⃗ and 𝐵⃗⃗ are also related.
+From, equation (10), we have 𝑘⃗⃗ × 𝐸⃗⃗ = µ𝑤𝐻⃗⃗⃗ If 𝐸⃗⃗ is along x axis then 𝐻⃗⃗⃗ is along y axis (as the wave is propagating along z axis).
+Above equation can be written as 𝑘̂𝑘 × 𝑖̂ 𝐸𝑥=𝑗̂µ𝑤𝐻𝑦 or, 𝑘𝐸𝑥 = 𝑤𝐵𝑦 or, = 𝑬𝒙 𝑩𝒚 𝒘 𝒌 = v (velocity of the em wave) 9.0 Poynting’s Theorem (The Energy Conservation Theorem): Energy may be transported through space by means of electromagnetic waves.
+This energy must be conserved.
+The conservation of energy in electromagnetic waves is given by Poynting’s theorem.
+Assume that the space is linear, isotropic, homogeneous and characterized by permeability µ, permittivityε, and conductivity σ. Maxwell’s equations are (i) (ii) (iii) (iv) ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 ∇⃗⃗⃗.
+𝐵⃗⃗ = ∇⃗⃗⃗.
+𝐻⃗⃗⃗ = 0 ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = 𝐽 ⃗⃗⃗ + 𝜕𝐷⃗⃗⃗ 𝜕𝑡 Taking the scalar product (dot product) of 𝐻⃗⃗⃗ to the both sides of Maxwell’s 3rd equation, we have 𝐻⃗⃗⃗.
+(∇⃗⃗⃗ × 𝐸⃗⃗ ) = −𝐻⃗⃗⃗ .
+𝜕𝐵⃗⃗ 𝜕𝑡 ………………………..(12) Taking the scalar product of 𝐸⃗⃗ to the both sides of Maxwell’s 4th equation, we have 𝐸⃗⃗.
+(∇⃗⃗⃗ × 𝐻⃗⃗⃗) = 𝐸⃗⃗.
+𝐽 ⃗⃗⃗ + 𝐸⃗⃗.
+𝜕𝐷⃗⃗⃗ 𝜕𝑡 …………………………….
+(13) Subtracting equation (13) from equation (12), we get 𝐻⃗⃗⃗.
+(∇⃗⃗⃗ × 𝐸⃗⃗) − 𝐸⃗⃗.
+(∇⃗⃗⃗ × 𝐻⃗⃗⃗) = −𝐻⃗⃗⃗ .
+𝜕𝐵⃗⃗ 𝜕𝑡 − 𝐸⃗⃗.
+𝐽 ⃗⃗⃗ − 𝐸⃗⃗.
+𝜕𝐷⃗⃗⃗ 𝜕𝑡 or, ∇.⃗⃗⃗⃗ (𝐸⃗⃗ × 𝐻⃗⃗⃗) = −𝐻⃗⃗⃗ .
+𝜕(µ𝐻⃗⃗⃗) 𝜕𝑡 − 𝐸⃗⃗.
+𝜕(𝜀𝐷⃗⃗⃗) 𝜕𝑡 − 𝐸⃗⃗.
+𝐽 ⃗⃗⃗ (using the vector relation) = − 1 2 𝜕(µ𝐻⃗⃗⃗2) 𝜕𝑡 − 1 2 𝜕(𝜀𝐸⃗⃗2) 𝜕𝑡 −𝐸⃗⃗.
+𝐽 ⃗⃗⃗ =− 𝜕 𝜕𝑡 1 [ 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 1 2 𝐷⃗⃗⃗.
+𝐸⃗⃗] −𝐸⃗⃗.
+𝐽 ⃗⃗⃗ or, − ∇.⃗⃗⃗⃗ (𝐸⃗⃗ × 𝐻⃗⃗⃗) = 𝜕 𝜕𝑡 1 [ 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 1 2 𝐷⃗⃗⃗.
+𝐸⃗⃗] + 𝐸⃗⃗.
+𝐽 ⃗⃗⃗………………………………(14) Integrating both sides of above equation over the volume V enclosed by the surface S, we get − ∮ ∇.⃗⃗⃗⃗ (𝐸⃗⃗ × 𝐻⃗⃗⃗)dv = ∮ v v 𝜕 𝜕𝑡 [ 1 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 1 2 𝐷⃗⃗⃗.
+𝐸⃗⃗] 𝑑𝑣 + ∮ 𝐸⃗⃗.
+𝐽 ⃗⃗⃗𝑑𝑣 v Applying Gauss divergence theorem to the LHS of the above expression, we get − ∮(𝐸⃗⃗ × 𝐻⃗⃗⃗).
+ds⃗⃗⃗⃗⃗ = ∮ v s 𝜕 𝜕𝑡 1 [ 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 1 2 𝐷⃗⃗⃗.
+𝐸⃗⃗] 𝑑𝑣 + ∮ 𝐸⃗⃗.
+𝐽 ⃗⃗⃗𝑑𝑣…………………… (15) v Interpretation of RHS of equation (15) (i) [ First term ∮ v 𝜕𝑡 1 1 𝐵⃗⃗.
+𝐻⃗⃗⃗= 2 2 𝜕 1 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 𝐷⃗⃗⃗.
+𝐸⃗⃗] 𝑑𝑣 1 2 µH2 is the magnetic energy density 2 𝐷⃗⃗⃗.
+𝐸⃗⃗ = 1 2 1 2 𝜀E 2 is the magnetic energy density So, 𝜕 𝜕𝑡 [ 1 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + 1 2 𝐵⃗⃗.
+𝐻⃗⃗⃗ + space and∮ v enclosed in volume V. 𝜕𝑡 𝜕 1 [ 2 𝐷⃗⃗⃗.
+𝐸⃗⃗] is the time rate of increase of electromagnetic energy density in the 𝐷⃗⃗⃗.
+𝐸⃗⃗] 𝑑𝑣 represents the rate of increase of electromagnetic energy 1 2 (ii) Second term ∮ 𝐸⃗⃗.
+𝐽 ⃗⃗⃗𝑑𝑣 v Let dw be the work done by the electromagnetic forces in displacing a charge q through a distance dl, then dw = 𝐹⃗.𝑑𝑙⃗⃗⃗⃗ = q [𝐸⃗⃗ + (𝑣⃗ × 𝐵⃗⃗)].
+𝑑𝑙⃗⃗⃗⃗ = q [𝐸⃗⃗ + (𝑣⃗ × 𝐵⃗⃗)].
+𝑣⃗𝑑𝑡 = q𝐸⃗⃗.
+𝑣⃗𝑑𝑡 (as 𝑣⃗ × 𝑣⃗ = 0) The rate at which work is done per unit volume, is given by 𝑑𝑤 𝑑𝑡 = q𝐸⃗⃗.𝑣⃗⃗ 𝑉 = ρ𝐸⃗⃗.
+𝑣⃗ = 𝐽⃗.
+𝐸⃗⃗ Now, the rate at which work is done on all charges in a volume V 𝑑𝑤 𝑑𝑡 = ∮ 𝐸⃗⃗.
+𝐽 ⃗⃗⃗𝑑𝑣 v Therefore, ∮ 𝐸⃗⃗.
+𝐽 ⃗⃗⃗𝑑𝑣 represents the power expended by the em field for the motion of charge carriers.
+v Since, the RHS of equation (15) represents the sum of the time rate of increase of stored electromagnetic energy in fields and the power expended by the field for the motion of charge carriers, hence LHS must represent the power flow into the volume V through the surface S or power flow out of the volume V across the surface S. This is called Poynting’s theorem.
+It is the law of conservation of energy in the em field.
+The vector 𝐸⃗⃗ × 𝐻⃗⃗⃗ is called Poynting vector 𝑃⃗⃗⃗⃗.
+It is the power density associated with the field.
+The direction of Poynting vector is along the direction of wave propagation (perpendicular to both 𝐸⃗⃗ and 𝐻⃗⃗⃗).
+Dimension of 𝑷⃗⃗⃗ [𝑃] = [𝐸][𝐻] but 𝐸 = 𝐹 𝑞 = [𝑀𝐿𝑇−2] [𝐴𝑇] = [𝑀𝐿𝑇−3𝐴−1] and H = [𝐼𝑑𝑙 𝑠𝑖𝑛𝜃] [𝑟2] = [𝐴𝐿−1] Now, [𝑃] = [𝑀𝐿𝑇−3𝐴−1][𝐴𝐿−1]= [𝑀𝑇−3]= [𝑀𝐿2𝑇−2] [𝐿2𝑇] or, [𝑃] = 𝐸𝑛𝑒𝑟𝑔𝑦 𝐴𝑟𝑒𝑎 ×𝑡𝑖𝑚𝑒 = 𝑃𝑜𝑤𝑒𝑟 𝐴𝑟𝑒𝑎 = power density So, dimension of Poynting vector is same as power density.
+Q.1 Show that energy is equally shared between the electric component and the magnetic component?
+Ans.
+: We know that the electric energy density in vacuum is 1 2 1 𝜀0E2= 2 𝐸 𝜀0(cB)2 (as 𝐵 = 𝑐) 1 = 2 𝜀0(cμ0H)2 = 1 μ0 H2 ( as c= 2 1 √ε0μ0 ) = it is magnetic energy density (proved) Q.2 Find the average value of Poynting vector over one cycle, also called intensity.
+〈𝑃〉 = 〈𝐸 𝐻〉 = 〈𝐸 〉 =〈𝐸 𝐸 𝑐μ0 〉 = 1 2 2 E0 𝑐μ0 [as 〈𝑠𝑖𝑛2𝜃〉 = 1 , in one cycle] 2 𝐵 μ0 2 𝜀0cE0 or, I = 〈𝑃〉 = 1 2 Q.3 Show that the average value of Poynting vector for a plane em wave is 𝟏 √ 𝟐 𝝁𝟎 𝜺𝟎 𝟐 𝑯𝟎 〈𝑃〉 = 〈𝐸 𝐻〉 = 〈𝐵𝑐 𝐵 μ0 〉 = 𝟏 𝟐 𝑐 μ0 𝟐 = 𝑩𝟎 𝟏 𝟐 1 μ0 1 √𝜺𝟎μ0 𝜇0 2 𝐻0 2 = 1 √ 2 𝜇0 𝜀0 2 (proved) 𝐻0 Q.4 Show that Poynting’s theorem is according to conservation of energy.
+10.0 Propagation of electromagnetic wave through conducting media Consider the propagation of electromagnetic waves through conducting, linear, isotropic and homogeneous medium characterized by permeability µ, permittivity ε and conductivity σ.
+Four Maxwell’s equations are (i) (ii) (iii) (iv) ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 ∇⃗⃗⃗.
+𝐵⃗⃗ = ∇⃗⃗⃗.
+𝐻⃗⃗⃗ = 0 ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 ∇⃗⃗⃗ × 𝐻⃗⃗⃗ = 𝐽⃗ + 𝜕𝐷⃗⃗⃗ 𝜕𝑡 With 𝜌 = 0 (absence of free charges), 𝐷⃗⃗⃗ = ε𝐸⃗⃗, 𝐵⃗⃗ = µ𝐻⃗⃗⃗ and 𝐽⃗ = 𝜎𝐸⃗⃗ From Maxwell’s 3rd equation ∇⃗⃗⃗ × 𝐸⃗⃗ = − 𝜕𝐵⃗⃗ 𝜕𝑡 Taking curl on both the sides, we can write ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = − (∇⃗⃗⃗ × 𝐵⃗⃗) = −µ 𝜕 𝜕𝑡 (∇⃗⃗⃗ × 𝐻⃗⃗⃗) 𝜕 𝜕𝑡 Applying Maxwell’s 4th equation Or, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = −εµ 𝜕2𝐸⃗⃗ 𝜕𝑡2 −𝜇𝜎 But, ∇⃗⃗⃗ × (∇⃗⃗⃗ × 𝐸⃗⃗) = ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ 𝜕𝐸⃗⃗ 𝜕𝑡 …………….
+(16) Now, equation (16) can be written as ∇⃗⃗⃗(∇⃗⃗⃗.
+𝐸⃗⃗) - ∇2𝐸⃗⃗ = −εµ 𝜕2𝐸⃗⃗ 𝜕𝑡2 −𝜇𝜎 𝜕𝐸⃗⃗ 𝜕𝑡 ……………………..(17) From, Maxwell’s 1st equation, ∇⃗⃗⃗.
+𝐸⃗⃗ = 0 Equation (17) can be written as - ∇2𝐸⃗⃗ = −εµ or, 𝛁 𝟐𝑬⃗⃗⃗ = εµ 𝜕𝐸⃗⃗ 𝜕𝑡 𝜕2𝐸⃗⃗ 𝜕𝑡2 −𝜇𝜎 𝝏𝟐𝑬⃗⃗⃗ 𝝏𝒕𝟐 + 𝝁𝝈 𝝏𝑬⃗⃗⃗ 𝝏𝒕 ……………………………..(18) Equation (18) is the required electromagnetic wave equation, in a conducting medium, in terms of electric vector, 𝐸⃗⃗.
+Similarly, in terms of magnetic vector, we can write 𝛁 𝟐𝑯⃗⃗⃗⃗ = εµ Here, 𝜇𝜎 𝝏𝟐𝑯⃗⃗⃗⃗ 𝝏𝒕𝟐 + 𝝁𝝈 𝜕𝐸⃗⃗ 𝜕𝑡 and 𝜇𝜎 𝝏𝑯⃗⃗⃗⃗ 𝝏𝒕 ……………………………..(19) 𝜕𝐻⃗⃗⃗ 𝜕𝑡 are the dissipative terms.
+Let us assume that the field varies as 𝑒𝑖 (𝑘.𝑟−𝑤𝑡), then the solution of equation (18) may be expressed as 𝐸⃗⃗ (𝑟, 𝑡) = 𝐸⃗⃗0 𝑒𝑖(𝑘.𝑟−𝑤𝑡) Substituting the above expression in equation (18), we get (−𝑘2 + εµω2 + i𝜇𝜎ω) 𝐸⃗⃗ = 0 or, 𝑘2 = εµω2 (1 + iσ ωε )……………………………..(20) k is complex and can be written as 𝑘 = 𝛼 + 𝑖𝛽 or, 𝑘2 = 𝛼2 − 𝛽2 + 2𝑖𝛼𝛽…………………………(21) Comparing equation (20) and (21), we get 𝛼2 − 𝛽2 = εµω2 2𝛼𝛽= 𝜇𝜎ω Solving, we get 𝛼 = ω√𝜇𝜎 [ 1+ √1+( 𝜎 𝜇ω 2 1/2 ) ] And 𝛽 = ω√𝜇𝜎 [ −1+ √1+( 𝜎 𝜇ω 2 1/2 ) ] In terms of 𝛼 and 𝛽, 𝐸⃗⃗ can be written as 𝐸⃗⃗⃗⃗ (𝑟, 𝑡) = 𝐸⃗⃗0 𝑒𝑖(𝛼+𝑖𝛽)𝑛̂.𝑟−𝑖𝑤𝑡)=𝐸⃗⃗0 𝑒−𝛽𝑛̂.𝑟 𝑒𝑖(𝛼𝑛̂.𝑟−𝑤𝑡)…………………….
+(22) From equation (22), it is clear that the field amplitude is spatially attenuated due to the presence of the term 𝑒−𝛽𝑛̂.𝑟 .
+Here, 𝛽 is called attenuation coefficient.
+For good conductor, 𝜎 𝜇ω ≫ 1, then 𝛼 = 𝛽 = √ ……………………………….
+(23) 𝜇ω𝜎 2 If 𝜎 𝜇ω ≪ 1, then the medium is called as dielectric.
+Skin depth or Penetration depth (d) The distance, at which, amplitude of electric field of the wave, decreases to 1 times of its 𝑒 initial value is called skin depth.
+d = 𝟏 = √ 𝜷 𝟐 = √ 𝝁𝛚𝝈 𝝁𝝅𝒇𝝈 𝟏 ………………………(24) Skin depth measures, how far the wave penetrates into the conductor.
+NUMERICAL 1.
+A nonmagnetic medium is characterized by relative permittivity εr = 80.
+Calculate the speed of electromagnetic wave in the medium and refractive index of the medium.
+Sol : 𝑣 = 1 √εµ = 1 √ε0εrμ0μr = 𝑐 √εrμr For a nonmagnetic medium, μr =1, then 𝑣 = 𝑐 √εr = 3 × 108 √80 = 3.35 × 107 m/s The refractive index of the medium is given by n = √εrμr = √80 = 8.94.
+2.
+Calculate the value of Poynting’s vector on the surface of the sun if the power radiated by sun is 4 × 1026 watts and its radius is 7 × 108 meter.
+Sol: Poynting’s vector (P) is the power passing through unit area (intensity).
+So, P = 𝑃𝑜𝑤𝑒𝑟 𝑆𝑢𝑟𝑓𝑎𝑐𝑒 𝑎𝑟𝑒𝑎 = 4 × 1026 4𝜋𝑟2 = 4 × 1026 616 × 1016 = 6.5 × 107 𝑤𝑎𝑡𝑡𝑠 𝑚𝑒𝑡𝑒𝑟2 3.
+Consider a 100 W monochromatic point source that radiates equally in all directions in free space and is monitored at a distance of 1m.
+Evaluate the amplitude of electric field at the point of detection.
+Sol: 〈𝑃〉 = 𝑃𝑜𝑤𝑒𝑟 𝑆𝑢𝑟𝑓𝑎𝑐𝑒 𝑎𝑟𝑒𝑎 = 100 4𝜋𝑟2 = 100 4 × 3.17×12 = 7.88 W/m2 Again, 〈𝑃〉 = 1 2 𝜀0cE0 2 = 7.88 W/m2 or, E0 2 = 2 × 7.88 𝜀0c = 5997 V2/m2 or, E0 = 77.44 V/m 4.
+A laser beam has a diameter of 2mm.
+What is the amplitude of the electric and magnetic field in the beam in vacuum if the power of the laser is 1.5 mW?
+Sol: Here, diameter d = 2mm, so radius r = 1 mm = 0.001 m P = 𝑃𝑜𝑤𝑒𝑟 𝐴𝑟𝑒𝑎 = 1.5 × 10−3 𝜋𝑟2 = 1.5 × 10−3 3.17×(0.001)2 = 477.7 W/m2 But, P is also equal to 1 2 𝜀0cE0 2.
+Therefore, 1 2 𝜀0cE0 2 = 477.7 W/m2 Solving, we get E0 = 600 V/m H0= E0 𝑐μ0 = 1.593 amp-turn/m 5.
+Calculate the skin depth for radio waves of 3 m wavelength (in free space) in copper, the electrical conductivity of which is 6 × 107 S/m.
+Sol: Skin depth, d =√ 2 𝜇ω𝜎 Here, ω = 2𝜋𝑓 = 2𝜋𝑐 𝜆 = 2𝜋 × 108 rad/s Now, skin depth, d =√ 2 𝜇ω𝜎 = √ 4𝜋 × 107× 2𝜋 × 108 6 × 107 = 6.5 × 10−6 m. 2 Practice Questions: Short and Medium Questions 1.
+Evaluate the divergence of at the point (1, 0, 2).
+2.
+Evaluate , where the position vector is.
+3.
+Evaluate Curl of the vector field .
+4.
+Evaluate divergence of the vector field at (1, 0, 1).
+5.
+Evaluate gradient of the scalar function f(x, y, z) = 2 xyz + 4 y 2z + xz3 at (1, 2, 3).
+6.
+Write the value of Curl (grad f ), where f = x2 – 2y2 + 3z2.
+7.
+If , then find gradient of the above function at (1,2,3).
+8.
+If 𝐴⃗ = 2𝑥3𝑧𝑖̂ + 3𝑥𝑦2𝑗̂ + 6𝑥𝑦𝑧 𝑘̂ , find div(curl 𝐴⃗) at (2 , 2, 1).
+222Axyiyjyzk→=+−r→→r→223Axyiyjxyzk→=+−2Fxyiyjxyzk→=+−2242xyyz=+− 9.
+Find the value of ‘a’ for which the vector field is solenoidal.
+10.
+State the significance of gradient of a scalar function.
+11.
+State the significance of divergence of a vector function.
+12.
+State the significance of curl of a vector function.
+13.
+Show that the position vector 𝑟⃗ is an irrotational vector.
+14.
+State Gauss divergence theorem in vector calculus.
+15.
+Write the mathematical form of Stokes theorem in vector calculus.
+16.
+Show that the surface integral of the position vector over a closed surface is equal to three times the volume enclosed by the surface.
+17.
+Using Gauss divergence theorem prove that the volume of a sphere of radius r is 4/3 πr3.
+18.
+An electron and a proton is placed inside a sphere of radius 15 cm.
+Calculate the net flux coming out of surface of sphere.
+19.
+Write the relation between electric displacement vector, electric field intensity and electric polarization vector.
+20.
+Write the S.I unit of electric displacement vector.
+21.
+State the Maxwell’s equation, which supports the concept of non existence of magnetic monopole.
+22.
+Write Maxwell’s electromagnetic equation in differential form which follows from the concept of displacement current.
+23.
+Distinguish between displacement current and conduction current.
+24.
+The electric field between two parallel metal plates of area 1cm 2 changes at the rate of 1.2 x 108 v/ms.
+Calculate the displacement current.
+25.
+The electromagnetic wave is propagating in free space with electric vector E (x, t) = e i(wt – kx) volt/m.
+Deduce the magnetic vector.
+26.
+A non magnetic medium is characterized by relative permittivity 80.
+Calculate the speed of electromagnetic wave in that medium.
+27.
+Write the S.I unit and direction of Poynting vector.
+ˆˆˆ3vaxiyjzk=+−k 28.
+One of the Maxwell’s electromagnetic equations involves the curl of the electric field.
+Write the equation and mention the law of electromagnetism which is represented by the equation.
+29.
+The magnetic flux obeying the equation time = 2 sec.
+through a coil perpendicular to its plane is varying with time‘t’ = t2 +3t + 5 Weber.
+Calculate the emf induced in the coil at 30.
+Write down all four Maxwell’s equations in electromagnetism.
+31.
+The electromagnetic wave is propagating in free space with electric vector volt/meter.
+Obtain an expression for magnetic vector.
+32.
+In free space electric field intensity is given by .
+Calculate the displacement current density.
+33.
+A medium is characterized by relative permittivity 45 & relative permeability 5; calculate the speed of an electromagnetic wave in the medium and the refractive index of the medium.
+34.
+Write the electromagnetic wave equation in terms of scalar potential by using Maxwell’s field equations in free space.
+35.
+Calculate the value of pointing vector on sun, which radiates 4 x 1026 watts & its radius is 7 x 108m.
+36.
+If an electromagnetic wave is represented by with a diagram show the directions of the propagation of the wave, the electric field & magnetic fields of it and calculate the maximum value of .
+37.
+Find the impedance in vacuum, when an electromagnetic wave propagates in it.
+38.
+In an ionosphere there are approximately 1011 number of electrons per unit volume.
+= 8.85 x 10-12 and me = 9.11 x 10- Calculate the plasma frequency of the medium.
+( 31 ,in S.I system).
+39.
+Write the physical significance of displacement current.
+40.
+The electric field between two parallel plates of area 2 cm2 changes at the rate of 1.2 x 108 V/m.s.
+Calculate the displacement current.
+41.
+Calculate the speed of electromagnetic wave in vacuum.
+7(,)50cos(410)EzttKzi=−()mvoltxwtJE20cos25ˆ−=()(),cos50ˆ,kywtZtyE+=HE&012700(8.8510410,.
+).andinSIsystem−−== 42.
+If an electromagnetic wave in free space is represented as show the direction of flow of energy in the electro-magnetic field and find the maximum value of its electric component.
+43.
+A laser beam of 100 watt source is focused on an area of 10–8m2.
+Evaluate the magnitude of Poynting vector of the area.
+44.
+A 500 watt electric bulb is glowing with full capacity illuminating the space around it uniformly.
+Calculate the amplitude of electric and magnetic field of radiation at a distance of 2 meters.
+45.
+If the electric field varies with time as find the maximum displacement current density, where V/m and Hz.
+Long Questions 1.
+State Gauss’s law in electrostatics.
+Obtain its differential form in vacuum.
+2.
+State Gauss’s law in electrostatic.
+Obtain its differential form in a dielectric medium.
+3.
+State Faraday’s laws of electromagnetism.
+Obtain its differential form.
+4.
+State Ampere’s circuital law.
+Obtain its differential form.
+5.
+How is ampere’s circuital law modified due to the presence of displacement current?
+Obtain the corresponding Maxwell’s equation.
+6.
+Write the four Maxwell’s equations in differential form in a charge free non-conducting medium.
+Mention the significance of Maxwell equations.
+7.
+Derive the electromagnetic wave equation in terms of electric vector/magnetic vector when the wave is propagating in vacuum/dielectric medium.
+Obtain an expression for its velocity.
+8.
+Starting from Maxwell’s electromagnetic equations, obtain the wave equation for in an ionized medium.
+Identify the dissipative term in the equation.
+9.
+Show that electromagnetic wave is transverse in nature.
+10.
+Starting from Maxwell’s equations, derive an expression for Poynting’s theorem.
+11.
+State and explain Poynting’s theorem.
+State the direction and S.I unit of Poynting vector.
+12.
+Show that the average value of Poynting’s vector for a plane electromagnetic wave is 1 ∈ 2.
+𝐸0 √ 𝜇 2 13.
+Write Poynting’s theorem in vector form.
+For an electro-magnetic wave given by , find the average energy crossing through a rectangular area of length 3cm.
+and width 1.5cm.
+in xy plane in one minute.
+()()ˆ,30cos,Bytitky=−0sin,EEt=00.1E=260=E→()()ˆ,50cosHztytkz=− Module – 3: INTRODUCTION TO QUANTUM PHYSICS Classical physics is dominated by two fundamental concepts.
+The first is the concept of a particle, a discrete entity with definite position and momentum which moves in accordance with Newton's laws of motion.
+The second is the concept of an electromagnetic wave, an extended physical entity with a presence at every point in space that is provided by electric and magnetic fields which change in accordance with Maxwell's laws of electromagnetism.
+The classical world picture is neat and tidy: the laws of particle motion account for the material world around us and the laws of electromagnetic fields account for the light waves which illuminate this world.
+This classical picture began to crumble in 1900 when Max Planck published a theory of black-body radiation; i.e.
+a theory of thermal radiation in equilibrium with a perfectly absorbing body.
+Planck provided an explanation of the observed properties of black-body radiation by assuming that atoms emit and absorb discrete quanta of radiation with energy E = hν, where ν is the frequency of the radiation and h is a fundamental constant of nature with value h = 6:626 x 10-34 Js.
+This constant is now called Planck's constant.
+In this chapter we shall see that Planck's constant has a strange role of linking wave-like and particle-like properties.
+In so doing it reveals that physics cannot be based on two distinct, unrelated concepts, the concept of a particle and the concept of a wave.
+These classical concepts, it seems, are at best approximate descriptions of reality.
+There are a few phenomenon which the classical mechanics fail to explain.
+1.
+Stability of an atom 2.
+Spectral series of Hydrogen atom 3.
+Non-relativistic motion of proton, electron, neutron, atom etc (particles of atomic dimension).
+4.
+Discrete energy spectra 5.
+Radioactive decay 6.
+Black body radiation, photoelectric effect, Compton effect etc.
+The most outstanding development in modern science was the conception of Quantum Mechanics in 1925.
+This new approach was highly successful in explaining about the behavior of atoms, molecules and nuclei.
+Max Planck in 1900 at a meeting of German Physical Society read his paper “On the theory of the Energy distribution law of the Normal Spectrum”.
+This was the start of the revolution of Physics i.e.
+the start of Quantum Mechanics.
+Quantum physics is a generalization of Classical Physics that includes classical laws as special cases.
+Quantum Physics extends that range to the region of small dimensions.
+Just as ‘c’ the velocity of light signifies universal constant, the Planck's constant characterizes Quantum Physics.
+Photon: A packet or bundle of light energy is called a photon.
+Energy of a photon is E = h ν =hc/λ, where h is the Planck’s constant, ν is the frequency of the radiation or photon, c is the speed of light (e.m. wave) and λ is the wavelength.
+Properties of photons: i) Photons are the carriers of electromagnetic interaction(force) ii) A photon travels at a speed of light c in vacuum.
+(i.e.
+3 x 108 m/s) iii) It has zero rest mass.
+i.e.
+the photon cannot exist at rest.
+iv) The kinetic mass of a photon is, m =E/c2= h/cλ.The momentum of a photon is, p =h/λ=E/c v) Photons travel in a straight line.
+vi) Energy of a photon depends upon frequency of the photon; so the energy of the photon does not change when photon travels from one medium to another.
+vii) Wavelength of the photon changes in different media; so, velocity of a photon is different in different media.
+viii) Photons are electrically neutral.
+ix) Photons may show diffraction under given conditions.
+x) Photons are not deviated by magnetic and electric fields.
+xi) Photons can be created (pair annihilation) or destroyed (pair production).
+Particle aspects of radiation: Everything in the world is a wave; everything in the world is a particle.
+They are the manifestation of same thing in different forms.
+The particle aspects of radiation are exhibited in the phenomena of blackbody radiation, photoelectric effect, Compton scattering and pair production Black body radiation: A black body is an idealized physical body that absorbs all incident electromagnetic radiation, regardless of frequency or angle of incidence.
+A simple example of a black body radiator is the furnace.
+If there is a small hole in the door of the furnace heat energy can enter from the outside.
+The name "black body" is given because it absorbs radiation in all frequencies, not because it only absorbs.
+Indeed, a black body can also emit radiation.
+On the contrary, a white body is one with a rough surface that reflects all incident rays completely and uniformly in all directions.
+A black body is, at a constant temperature) emits electromagnetic radiation called black-body radiation.
+The distribution of radiant energy in thermal equilibrium (that among the various frequencies components of the black body radiation depends on its temperature.
+The energy distribution curve for black body radiation shows the following characteristics • Non-uniform distribution of energy density • At a given temperature the energy density has maximum value corresponding to a value of frequency or wavelength.
+• The frequency corresponds to maximum energy density increases with increase of temperature (wavelength decreases with increasing temperature).
+• The energy density decreases to zero for both higher and lower values of frequency or wavelength.
+• The energy density corresponding to a given frequency or wavelength increases with increase of temperature.
+Many formulations are formulated to explain the above experimental observations like Stefan-Boltzmann law, Wein’s displacement law and Planck’s radiation formula.
+Out of which Planck’s radiation formula successfully explains the theory of black body radiation.
+Planck’s theory is based on quantum physics whereas other two theories are classical physics.
+Planck’s law of black body radiations: "Blackbody radiation" or "cavity radiation" refers to an object or system which absorbs all radiation incidents upon it and re-radiates energy which is characteristic of this radiating system only, not dependent upon the type of radiation which is incident upon it.
+The radiated energy can be considered to be produced by standing wave or resonant modes of the cavity which is radiating.
+The Planck radiation formula is an example of the distribution of energy according to Bose- Einstein statistics.
+The above expressions are obtained by multiplying the density of states in terms of frequency or wavelength times the photon energy times the Bose-Einstein distribution function with normalization constant A=1.
+At low wavelength (high frequency), Plank’s law reduces to Wien’s law and at high wavelength (low frequency) Planck’s theory reduces to Rayleigh-Jeans law (i) At low wavelength, hc/λkT is very large, 1 can be neglected as compared to the exponential term.
+8𝜋ℎ𝑐 𝜆5 𝑒−ℎ𝑐/𝜆𝑘𝑇 dλ Sλ = It is Wien’s law At high wavelength, hc/λkT is very small (ii) 𝑒ℎ𝑐/𝜆𝑘𝑇 = 1 + hc/λkT Planck’s formula becomes 8𝜋𝑘𝑇 𝜆4 dλ, which is Rayleigh-Jeans law.
+Photoelectric Effect: The phenomenon of emission of electrons from mainly metal surfaces exposed to light energy (X – rays, γ – rays, UV rays, Visible light and even Infra Red rays) of suitable frequency is known as photoelectric effect.
+The electrons emitted by this effect are called photoelectrons.
+The current constituted by photoelectrons is known as photoelectric current.
+Note: Nonmetals also show photoelectric effect.
+Liquids and gases also show this effect but to limited extent.
+Laws/characteristics of photoelectric effect: Compton Effect When a monochromatic beam of X-ray is scattered by a light element, the scattered radiation contains two wavelengths- (i) Same as incident wavelength (Thomson component) (ii) Greater than incident wavelength (Compton component).
+This is called Compton effect.
+The phenomenon of change in wavelength of incident radiation upon scattering from a material is called Compton effect.
+According to classical physics, when an electromagnetic radiation of a particular frequency and wavelength is incident on atoms, the atomic electrons oscillate with the frequency of the incident radiation.
+Due to this oscillation, the electrons radiate EM waves of same frequency and wavelength.
+Thus, classical electromagnetic theory cannot explain the change in wavelength of the scattered radiation observed in Compton effect.
+Compton made the following assumptions (quantum assumptions) (i) Electromagnetic radiation is quantized.
+It consists of discrete packets of energy hν, where ν is the frequency of the wave.
+These packets are called photons which behave as particles.
+(ii) When an electromagnetic wave is incident on a medium, the photons collide with the (iii) target electrons In these collisions, photons lose energy to target electrons.
+So, energy of photons decreases and wavelength of the photons photonincident theofh wavelengtoft independen isshift compton theseen that isit above Fromscattering of angle is in vacuumlight of speed is and electron,an of mass is constant, sPlanck' is ; )1(bygiven is wavelengthin change then thely,respective and isradiation scattered andincident of hs wavelengt theIf00cmhCoscmh−=−process collission in the conserved are momenta andEnergy ly.respective and anglesat scattered iselectron theandphoton thecollissionAfter rest.at electron an with collides energy ofphoton A :shiftCompton of Derivationh pSinpCosyxpcmcpmcESinchCoschyxhcmxchh and directions and thealong collissionafter electron theof Momentummomentumelectron is here ; collissionafter electron theofEnergy and directions and thealong collissionafter photon theof Momentumcollissionafter photon theofEnergy collission beforeelectron theofEnergy 0collission beforeelectron theof Momentumdirction] [along collission beforephoton theof Momentumcollission beforephoton theofEnergy 42022220=+=========)1......().........(2)( or,sides]both [squring )(2)( or,)( or,)( or, :energy ofon conservati From2022222042022420222042022202220−+−=−++−=++−=++−=+=+chmhcpchmcmhcmcpcmhcmcpcmhmcmchcmhCoshhhchmhCoshhhcpSinhCoshCoshhcpSinhpcSinpSinSinchyCoshhpcCospCosCoschchx−+=−+−+−+=+−+==−=−=+=2222202222222222222222222222)(2)2(-can write we(4), and (1) Eq From)4.........(2 or,2 -(3) and (2) Eq adding and Squaring)3........( or, 0:axis alongon conservati momentum From)2........( or, :axis alongon conservati momentum From Pair Production: When high energy photons (γ- rays) pass near an atomic nucleus, it converts fully into an electron, e- and positron, e+.
+This phenomenon is called pair production.
+In pair production, electromagnetic energy is converted into matter (e + and e- ).
+In this process, charge, mass and momentum are conserved.
+Why γ- ray is suitable for pair production- Suppose electron and positron are at rest.
+The rest mass is m 0.
+The rest energy of electron and positron are E= m0c2 +m0c2 =2 m0c2 =1.02 MeV .
+The energy comes from the incident ray.
+The frequency of the ray of energy 1.02 MeV energy is ν= E/h ~2.5 ×1020 Hz γ rays have frequency in this range.
+So, g ray is used in pair production.
+radiationincident theofgth in wavelen change i.e., shift,Compton describes )5.
+()5().........1( ,)1( ,)1( ,)1(2)(2 ,00020EqCoscmhorCoscmhorCoscmhccorCoshchmor−=−=−−=−−=−o0ooo00 electron) thestrikingafter back recoilselectron case in this shift,Compton of valuemaximum (the A04852.0 ,180 When (iv)radiationincident ofh wavelengtoft independen isgth in wavelen Change (iii)A02426.0 ,90 when ,in increase with incresaes (ii)radiation incident ofdirection thealong place h takes wavelengtof change No ; so 0, 0, When (i):Features )1( 02426.0A 02426.0 electron,For velengthCompton wa called is =======−===Coscmhcc Pair Annihilation: In this case an electron, e- and positron, e+ comes together due to Coulomb attraction and they are destroyed.
+The total mass is converted into energy.
+This phenomenon is called pair annihilation.
+In pair annihilation, matter (e + and e- ) is converted to electromagnetic energy In this process, charge, mass and momentum are conserved.
+Why pair production is not possible in free space: In free space hν= mc2+mc2=2mc2 Considering the momentum conservation- hν/c = 2p cosθ, Or, hν= 2pc cosθ =2m(v/c)c2 cosθ <2mc2 [as v/c <1 and cosθ<1] This violates the conservation of energy, so pair production is not possible in free space.
+Wave aspect of particles De-Broglie theory of matter waves: A particle in motion has wave nature.
+The wave associated with the particle is called matter wave or de-Broglie wave.
+For a photon, E = hν Also, the relativistic energy is given by E=[ p2c2 + m0 2c4]1/2, the rest mass of photon =0 Hence, E = pc, Comparing we get, P = h/λ (2)..............................2kT~ isenergy linetic theneutron, lFor therma :(1)................A3.12qV2 V difference voltagea through passing charge electrican For 2mpenergy kinetic is E ere Wh; E2 So,particle theof momentum is andconstant sPlanck' is ; by given is ematter wav theofh wavelengtTheo2mkThλCaseIIVmhλCase I:mhmvhλphphλ======= Phase velocity and Group velocity of De-Broglie waves A wave is associated with a moving particle.
+The velocity of the wave is called phase velocity.
+When a few wave of nearly equal wavelength is superposed, a wave packet is formed.
+The velocity of the wave packet is called group velocity.
+The group velocity of a wave is given by vg=dw/dk, where w is the angular frequency and k is wave number.
+It is observed that the phase velocity of matter wave associated with a particle of mass m and velocity v is different from particle velocity.
+The group velocity associated with the particle is same as particle velocity.
+(3)...................)2( So,)2( So,2E or,cm-EEEnergy Kinetic:particles icrelativistFor 202022420204202k202242020kcmEEhcphccmEEpcpcmcmEcmcmcpcmkkkkk+==+=+=++−+==vmpmcpcdpcmcpddpdEccmmcpEmpmpmpdpddpdEdkdmmmpmmppEpEkkhhEkhhp===+==========================2242022gp22p2g222222pp vparticle free icrelativist of velocity Group] vbecause e[impossibl vv vparticle free icrelativist of velocity Phaseparticle icRelativistv222 vparticle free a with associated ematter wav of velocity Group2vv2vv2v2/ v:particle free a with associated ematter wav a of velocity Phase:particles isticNonrelativ v:esmatter wav of velocity phase Therefore,22 ematter wav a ofEnergy 22 :esmatter wav of theory Broglie-De From Characteristics of matter waves: (i) A matter wave is associated with a particle in motion.
+The wave nature becomes apparent only for very small particles (atomic dimension).
+For large bodies, wavelength is so small that wave properties are not visible.
+(ii) Wavelength of matter wave ranges from zero to infinity.
+(iii) Matter waves can be observed experimentally.
+(iv) Matter waves are independent of the charge of the particle.
+(v) Velocity of the matter wave is variable.
+(vi) Matter waves show phenomenon like interference, diffraction, etc.
+Q: why matter waves are not observed in daily life?
+Heisenberg’s uncertainty principle (1928): It states that for a particle of atomic dimension in motion, it is impossible to simultaneously determine the position and momentum of the particle with perfect accuracy.
+The principle of uncertainty follows from wave particle duality.
+2.rotation of angle and momentumangular (ii) 2.- timeandenergy (i)between validisy uncertaint of principlesimilar A ly.respective direction, z andy alongmotion for 2. and 2.Similarly,2 ; 2. then ,direction x alongmotion for momentumin y uncertaint is andposition in y uncertaint is If=LtEpzpyhpxpxzyxxmechanics classical to tends mechanics quantumlimit in this andaccuracy perfect with determined becan particleheavy of momentum andposition theSo large.
+is m because 0. particleheavy For particle) theof mass is (m 2. get wemomentum andposition in relation y uncertaint theFrom (ii)versa- viceand accurate less very become momentumin accuracy hen theaccuracy thigh with determined isposition if that means This0 , when and ,0 When (i) :relationy uncertaint of ceSignifican→→→→→xxxxvxmvxpxpx Applications of uncertainty principle: (i) Non existence of electrons in the atomic nucleus (ii) Ground state energy of harmonic oscillator (iii) Ground state energy of hydrogen atom (i) Non existence of electrons in the atomic nucleus (ii) Ground state energy of harmonic oscillator nucleus.
+theinside residenot can electrons Hence 4MeV.
+be tofound isdecay during nucleus thefrom emittedelectron ofenergy maximum The202m)( 2)p(E iselectron theofenergy kinetic minimum Thep is momentum thegdetermininin y uncertaint minimum Them102diameter nuclear is nucleus theinsideelectron theofposition thefindingin y uncertaint maximumThen nucleus.
+theinside exists electrons Suppose2max22minmaxmin15max==−MeVxmxx(2)...........218as (1) Eq using obtained is oscillator harmonic theofenergy state ground The212212 oscillator harmonic theofEnergy (1).........2 or, 2.principley uncertaint theFrom and oscillator theof momentum andposition in y uncertaint theasorder same theof is state ground in the p momentum and position x of valueminimum The principley uncertaint todue valueminimum a hasenergy state ground themechanics, quantumIn 0. oscillator harmonic a ofenergy state ground thephysics, classical toAccording .oscillator harmonic a of stateenergy minimumor lowest theis state ground The222222222xxmmxExmmpkxmpExppxpxxxxxx+=+=+=== (iii) Ground state energy of hydrogen atom t.significan isenergy thismolecule, as bound atoms or two atoman in electron like soscillator quantumIn s.oscillator cmacroscopifor measured benot can energy thisSo Joule).
+10(~ small very isenergy thisof magnitude The.oscillator harmonic quantum a ofenergy minimumor energy state ground theis This)4.
+(..........2141412212.8as(3) and (2) Eq from obtained is oscillator harmonic theof energy state ground The(3).........2 or, 4 or,82 or,082- , (2) from or, ,0 so minimum, is state groundat 34-22212224322232=+=+=====+=mmmmEEmxmxmxxmxmmxxEE(3)................412is atomHydrogen theofenrgy theSo,(2)......... or, .-relationy uncertaint toaccording Then, magnitude.
+their oforder theof is momentum andposition isy uncertaint theminimum, isenergy the wherestate ground in the that assume Weorbit.Bohr theof radius theis electron.
+theofenergy potenrial therepresent termsecond theandorbit Bohr in theelectron theof momentum theis p where ; (1)........412 atomhydrogen a ofenergy The2022202remrErpprrrempE−===−= Questions Short answer type 1.
+How does the kinetic energy of the emitted photoelectron depend on intensity of the incident radiation?
+2.
+Define work function in photoelectric effect.
+3.
+Define stopping potential.
+How does it depend on frequency of incident radiation?
+4.
+What are the laws of photoelectric effect?
+5.
+Explain graphically the variation of stopping potential with frequency of incident light in case of photoelectric effect.
+6.
+Define Compton effect 7.
+Under what condition is the Compton shift a minimum, in the Compton effect?
+8.
+What is Compton wavelength?
+What is the difference between Compton shift and Compton wavelength?
+9.
+How does the Compton shift depend on wavelength of incident radiation?
+10.
+Define pair production.
+11.
+What physical quantities are conserved in pair production?
+12.
+Why gamma ray photon is suitable for pair production?
+13.
+Why is pair production not possible in vacuum?
+14.
+Why a radiation of 1 Å wavelength cannot produce pair production?
+15.
+What is de-Broglie wave?
+atomHydrogen ofenergy state Ground and radiusBohr for expression theis (5) and (4)Equation (5)............32 1632 )4()4(2 4442energy state ground the(1), From(4)............4 or, 224e or,04e22 above, (2) and (1) From ,0 state, groundAt 20224202242022420242024220202220422023220220232memememememmeememEmermrrrmrrErE−=−=−=−====+−== 16.
+Write wave particle duality in case of matter wave.
+17.
+How matter waves differ from electromagnetic wave?
+18.
+Find the de-Broglie wavelength for a particle of mass m moving with kinetic energy E. 19.
+What is Heisenberg’s uncertainty principle?
+20.
+Explain how wave particle duality leads to uncertainty.
+Long answer type 1.
+What is photoelectric effect?
+Write the laws of photoelectric effect.
+Graphically show the variation of photocurrent with intensity, kinetic energy of photoelectron with frequency and stopping potential with frequency of incident radiation.
+2.
+What is photoelectric effect?
+Derive Einstein's photoelectric equation.
+Explain the laws of photoelectric effect from it.
+3.
+(i) Define stopping potential, threshold frequency and work function in the phenomenon of photoelectric effect.
+(ii) The work function of aluminum is 4.2 eV.
+Calculate the kinetic energy of the fastest and slowest photoelectrons, stopping potential and the cutoff wavelength when light of wavelength 4000 Å falls on the clean aluminum surface.
+4.
+What is Compton scattering?
+Derive an expression for Compton shift with suitable diagram.
+5.
+(i) State and explain Compton effect with a neat diagram.
+Discuss how it differs from the photoelectric effect.
+(ii) Can X-rays of wavelength 1 Å undergo pair production?
+6.
+(i) State and explain Compton effect.
+(ii) In an experiment on Compton scattering, the wavelength of the incident radiation is 1.8 Å.
+Calculate the wavelength of the radiation scattered at 450.
+Calculate the speed and the direction of the recoiled electron.
+7.
+What do you mean by pair production?
+Calculate the threshold energy for pair production.
+Show that pair production is not possible in vacuum.
+8.
+(i) What is matter wave?
+What are the properties of matter wave?
+Obtain an expression for de-Broglie wavelength of matter wave for an electron of mass m moving in an electric field of potential V volt.
+9.
+State Heisenberg’s uncertainty principle.
+Using this prove that the ground state energy of hydrogen atom is non-zero.
+10.
+State Heisenberg’s uncertainty principle.
+Using this prove that the ground state energy of harmonic oscillator is non-zero.
+11.
+State Heisenberg’s uncertainty principle.
+Using this prove that the non-existence of electron inside the nucleus.
+Numerical 1.
+Calculate the momentum of an X-ray having a wavelength of 0.7 X 10-10 m. 2.
+Find the energy of a gamma ray photon having wavelength of 1 Ao , given that 3. h=6.62X10-27 erg-s. 4.
+Define work function of a metal.
+How it can be expressed in terms of threshold frequency?
+Find the work function of a metal in eV, whose threshold wavelength is 6000 Å.
+5.
+In an experiment tungsten cathode which has a threshold wavelength 2000 Å is irradiated by ultra-violet light of wavelength 1800 Å.
+Calculate the maximum energy of emitted photoelectrons and work function of the metal in electron volts.
+6.
+Find the Compton shift for X-rays of wavelength 1.3 A0, scattered by 600.
+Find the wavelength of scattered X-rays (m0= 9.1×10-31 kg).
+7.
+X-rays of wavelength 1.0 A0 are scattered from a carbon block.
+Find the wavelength of the scattered beam in a direction making 900 with incident beam.
+How much kinetic energy is imparted to the recoiling electron?
+8.
+Under what condition the Compton shift is equal to i) Zero ii) 0.0242Å iii) Twice the Compton wavelength.
+9.
+Calculate the de-Broglie wavelength of a particle of mass 3gm moving with a speed of 400 m/s.
+10.
+The De-Brogile wavelength associated with a neutron is 1.4 X 10-10 m whose mass is 1.675X10-27 kg.
+Estimate its kinetic energy in eV.
+Also calculate its velocity.
+11.
+Estimate the de-Broglie wavelength for a beam of electrons whose energy is 20 eV.
+12.
+13.
+An electron is accelerated by a potential difference V volts, has a de Broglie wavelength λ.
+If the electron is accelerated by a potential difference of 4V volts, find its de-Broglie wavelength.
+14.
+An electron has a speed of 400 m/sec, with an accuracy of 0.005 %.
+Find the uncertainty of the position of the electron.
+15.
+The energy width of an excited state in a system is 1.5 eV.
+What is the average lifetime of that state?
+16.
+For an electron moving with a velocity 2X107 m/s, estimate the smallest possible uncertainty in the position of the electron.
+17.
+Calculate the minimum electron energy in the hydrogen atom using uncertainty principle (Atomic radius is 0.53 Å ).
+Module – 4: QUANTUM MECHANICS-II Transition from the deterministic to probabilistic description: In classical physics the physical quantities like position, momentum etc can be determined exactly at any time and the value of these quantities at a later time can be predicted through equation of motion.
+In quantum mechanics, uncertainty principle imposes a restriction on the exact value of a physical quantity.
+So, in quantum physics, instead of having exact values, there are a number of allowed values with different probabilities.
+In classical physics, intensity of a wave at a point depends on square of amplitude of the wave at that point, whereas in quantum physics, probability of finding a particle at a point depends on square of amplitude of the wave at that point.
+For a system, instead of a single sharply defined value, a physical quantity can take a large number of different values with different probability.
+Each of these values corresponds to a possible state of the system.
+The General state of the system is a linear superposition of all such possible states.
+The observed value of the physical quantity is the weighted average of the different values.
+Example: if a particle can have energy E1, E2, E3 with probability 0.7, 0.2, and 0.1, respectively, then the observed energy will be the weighted average Eav=0.7E1+0.2E2+0.1E3.
+The general state of a physical system is described by wave function Y (x,y,z,t).
+The state of a system changes with time.
+The time variation in Y is described by Schrodinger equation.
+Wave function of matter wave and characteristics of wave function: .
+(vii)conditionion normalizat thecalled is 1 (vi) state in the system thefinding of density) ty (probabili eunit volumper y probabilit therepresents quantity The (v)places allat continuous are x derivative sit' and (iv) quantity;complex a is (iii)function.
+valuedsingle isit t),z,y,(x, timeandposition offunction a is (ii) .determined becan that system aabout n informatio theall contains tion whichrepresenta almathematic a is particle a of function Wave(i)2space all space allV*2*meaningphysicaldirectnohasitandfinitebemustdVdVibaV===+==== (Here ψ* is the complex conjugate of ψ, and ψ ψ* = a2 + b2 i.e.
+real & has physical meaning.
+Ψ is called probability amplitude but ψ* ψ is called probability density) The time dependent Schrodinger equation: )4..(..........2 isequation theSooperators.
+asequation above in the termboth theconsider wemechanics, quantumIn ,2 particle free afor that know We)3.........(.....................
+or,.)2(....................
+or,.
+)1( isfunction waveparticle free The and know weic.relativist-non is particle theofmotion Let F. force a ofaction under thedirection x along moving is m mass of particle free aconsider We22)(222222)(22)(x)(EmpEmptiEiEAeiEtxppAepipixpiAepixAeAeAeψEkpxxEtpxixxEtpxixxxEtpxiEt)(pxiEtpxiwtkxix====−=−=−=−====−−−−−−=====−−−−−−)7(..........2 -(3) and (2) eq from or,)........(62p isequation er Schoreding theThus2p Energy Potentialenergy KineticE is particle theofenergy theV(x), potential ain moving is particle theIfdimension onein equation r Schrodinge particle free is This ; )5.
+(..........2get to(3) and (2) eq.
+from E and p of valuesput the we2222x2x222xtiVxmEVmVmtixm=+−=++=+==− Equation (7) and equation (5) are the required one dimensional Schrodinger’s time dependent wave equation for a free particle and bound particle respectively.
+(E = hν = 𝒉 𝟐 𝝅 constant) x 2π ν = ħω and p = 𝒉 𝝀 = 𝒉 𝟐 𝝅 x 𝟐𝝅 𝝀 = ħk, k is called wave number or propagation The time independent Schrodinger equation: Equation (10) is the required time independent Schrodinger equation for a bound particle.
+Here ψo is only function of position.
+timzyxtiVm=−=++==+−222222222222becomesequation theSo 0,V , 3Din particle free aFor ;2-becomesequation r Schrodinge dimension, In three02-becomes (10) eq so 0V particle free aFor )10.
+(..........0)(2 ,2 ,..i.2 get to2.equation r Schrodingein (9) and (8) substitute we)9.........(............)8...(..........function.
+wave theofpart space theis here ; 022020220200202200202222202022200)(=+==−+=+−−=+−+−=−=====−−−−−−−−EmxVEmxorEVxmorEeieVxemVxmtiEeitxexeeAeAeEtiEtiEtiEtiEtiEtiEtixpiEtpxix Principle of superposition: Probability density: Dimension of Ψ: Normalized wave function: 21121222332~ ;~ :1~ ;~:2~ ;~ :3D ofDimension −−−−−−===LLlengthyprobabilitDLLAreayprobabilitDLLVolumeyprobabilitequation.r Schrodinge thesolvingby obtained are states allowed thesystem,given aFor statein be willsystem y that theprobabilit theis tscoefficien theof square Theequation.r Schrodinge ofsolution a also is .........solutions theofn combinatiolinear then theequation,r Schrodinge of solutions theare ............. , ,It existcan system hein which t ............. , , states possibledifferent ofion superpositlinear a is system theof state general a ngrepresenti function waveThei2nn2211n21n21innnccccc=+++=normalized be tosaid is case In this 1 is space entire e within thsomewhere is particle y that theprobabilit TheP isdx xandbetween x particle thefinding ofy probabilit theaxis,- xalongmotion assuch dimension, oneIn P is V volumeain particle thefinding ofy probabilit ThePby given is dV volumeain particle thefinding ofy probabilit Thee.unit volumper statein system the thefinding ofy probabilit the as desbcribed isIt density.y probabilit thecalled is P :densityy Probabilitspace allV222V*2=+==+===dVdxdVdVdVdxxxV Eigen states, Eigen function and Eigen values: (Numbers of definite states which are allowed for the system are called eigen states.
+The wave function associated with eigen state is called eigen function.
+The eigen values of a physical quantity of a given system is defined as the set of permitted values of the physical quantity of the given system.)
+ion wavefunctnormalized theis ,case In this1Nor or, ?ion wavefunctnormalized theis then what, If normalized be tosaid isfunction wavee then th1 Ifspace all*space all*space all2space all2space all2*NdVNNdVNdVNdVdVdVVVVVVV===========s.observable called quantities physical real tocorresponsThey .quantities real are seigenvalueBut numbers.complex generalin are quantity aby multiplied back give toon operatesA .eigenvalue theis andoperator an is Aˆ equation.
+eigenvalue called isequation above The )1(..........Aˆ.eigenvalue called is valueThis ion.eigenfunct on theoperator ingcorrespond theoperatingby determined becan eigenstatean in quanity theof valueThe operators.by drepresente are etcenergy momentum, like quantities physicaleach mechanics, quantumIn s.eigenstateor functionseigen called are states thesengrepresenti ions wavefunct theand seigenstate called are states These .........ies.probabilitdifferent with states ofnumber a ofion superposit a is system a of state general a mechanics, quantumIn iiiinn2211iiiiinnnaaaNumbercccc==+++= Expectation Value: In quantum mechanics we talk of probable values of the physical quantities instead of actual values (due to inherent uncertainty).
+If we make several me asurements of a physical parameter of a system under similar situations then all the measured values do not come out same.
+The average of all these measured values of a physical quantity is called its expectation value.
+For any physical quantity defined by an operator O, the expectation value is given by ∞ < O> = ∫ 𝛹∗ Ô 𝛹 −∞ dx , in one dimension.
+Here, 𝛹∗ is the complex conjugate of Ψ.
+For position, < x > = ∫ 𝛹∗ x̂ 𝛹 dx ∞ −∞ For momentum, < p> = ∫ 𝛹∗ p̂ 𝛹 ∞ −∞ dx operatorenergy called is Therefore, or, ; 2i-i-212121 isoperator energy Kinetic Therefore ,2energy Kinetici- isoperator momentum the3Din ; operator momentum called is i- Therefore, valuea give toon operates i-i- or, isfunction waveparticle free The direction- xalong movingfunction waveparticle free aconsider Weoperatorsenergy and energy, Kinetic Momentum,)(2222)(x)(tiEtiiEAeiEtxmxxmppmppmmpxpxpxpiAepixAeEtpxixxxxxxxxEtpxiEtxpix=−=−=−========−−− Applications of Quantum Mechanics: (1) Particle in a one-dimensional box (infinite deep potential well): We consider one dimensional motion of a particle of mass m confined between two rigid walls of a box of width a.
+The potential in the box is zero and the potential at the rigid walls is infinity.
+The particle is confined in the box due to infinite potential of the walls.
+This is one- dimensional particle in a box problem.
+This is the example of a bound system.
+Classically, the energy of the particle is continuous.
+Quantum Mechanics dictates that the energy of the particle will be discrete integral values.
+Figure looks like a potential well of infinite height.
+axxxVaxxV== and 0for )(0for 0)( is potential theof form The(1)............ and 0for 0)( or, and 0for 0)( potential infinite todue zero isbox theoutsideregion in the particle thefinding ofy probabilit The2axxxaxxxP===......(4).......... as written becan which ,CC is eq(2) ofsolution general The)3.........(..........2 ),2.
+(..........0 or,0]V[ 02 or,0)(2- isbox theinsideequation r Schrodinget independen timeThe2122222222222BCoskxASinkxeemEkkdxdEmdxdVEmdxdikxikx+=+===+==+=−+− 0-get we of continuity ofcondition thefrom So0for and 0for 0 ,0At and 0 boundaries at theconstant and finite be should and thatconstant boundary thefrom determined are B andA tscoefficien The0=++======xBCoskxASinkxxBCoskxASinkxxxaxxdxdψ)5.(..........
+eq(4), form So,0 or,ASinkxB==)7(....................22 particle theofenergy The Therefore, 2 eq(3), From)6.....(.......... or,]0 and 0 because excluded is 0[n .....4,3,2,1 where,or 0 So, xof valuesallat 0(x) makes thisbecause ,00at 0)(get we,at ofcondition continuity theFromseigenvalueEnergy 22222222nmamkEmEkankaknnkaSinkaAASinkxaxxaxax===============.
+increasing with increases statesenergy ebetween th spacing The (iv).equispaced-tuniform/no-non, 1)(2n is levelenergy econsicutiv obetween tw spacing The (iii).E En ..number)integer (by given is stateshigher theofenergy The (ii)etc.
+state excited 2nd called is 3 state, excited1st is 2 states.
+excited called are 2,3,....n states The zero.-non isenergy pont oenergy/zer state Ground energy.point zero called is energy The state.
+ground thecalled is This .2 ,1for lowest is particle theofenergy The discrete.
+are eseigen valuEnergy (i)Featuressystem.
+theof statedifferent toscorrespond integer theof valuesDifferent quantized.or discrete isbox ldimensiona-onean in particle a ofenergy that theshows (7)Equation 112212221nEneiEnnEmaEnn+====== De-Broglie wavelength for particle in a box: 𝑛𝜋 2𝜋 K = = 𝑛 2𝑎 𝑎 𝜆 Hence, λ = Ground state, n=1, So, λground = 2a (maximum wavelength) For first excited state, n=2, λ1st excited = a Similarly, for other excited states de-Broglie wavelength can be calculated.
+(2) Potential Barrier: The sharpest increase of potential energy to certain value at a point and a sharpest fall of the potential energy to zero at another point and remaining constant continuously over the interval constitute a potential barrier.
+aanSinkaSinnkaokaSinakkxSinxdxkxCoskxdxSindxaxxdxaaaaa2Aor ,12A Therefore,022 , (5), eq From,1202A or,1222Aor ,1221Aor ,1Aor 1ese therefor, and 0for 0 case,present In the1 know wecondition ion normalizat theFrom:box ain particle of ionsEigenfunct220020202202-2======−−−=−=−====222332222222211n29 , 32)( ,3 24 , 22)( ,2 2 , 2)( ,1 are ionseigenfunct fewFirst function.
+wavenormalized theis This.......3,2,1 , 2)( thereforearebox ain particle of ionseigenfunct ThemaEaxSinaxnFormaEaxSinaxnFormaEaxSinaxnFornaxnSinaxASinkxn============ a xand 0for x 0 ax0for VV(x)by drepresente is a width ofbarrier potentialA o== 2 )(2 2 )3.....(0 or, )2......(0 )1.....(0 or,02 0)(2 020 , :IIIRegion 0 ,0 :IIRegion 0 ,0 :IRegion 22202223223222222122123223222022212212000mEkEVmmEkkdxddxdkdxdmEdxdVEmdxdmEdxdVaxVaxVx=−===+=−=+=+=−+=+===boundaries at the continuous and finite are dxd and function wavethat thecondition boundary with theregions threein these solved isequation r SchrodingeIIIRegion and II,Region I,Region intoregion ldimensiona one thedivide Webarrier pitential ldimensiona onefor equation r Schrodinge theup Settingbarrier.
+theacross go will particle y that theprobabilit finite a is theremechanics, quantum toAccordingbarrier theacross gonot can particle thephysics, classical toAccordingVE is particle theofenergy Theleft thefrombarrier potential on theincident is m mass of particle aconsider We0 Examples of Quantum mechanical Tunneling (i) Emission of a particle from radioactive nuclei: The a particle inside the nucleus is under neling.simply tunor tunneling mechanical quantum called is phenomenon This barrier.
+theof sideother on theappear andbarrier the throughpenetratecan VEth barrier wi on theleft fromincident particle a Sofintite.
+is IIIregion in particle thefinding ofy probabilit that theshows which III,region in nonzero is function wave that thesee wemechanics Quantum Using .Vheight ofbarrier thepenetratenot can VEenergy of particleA y,ClassicallIIIRegion in )(IIregion in )(IRegion in )(-are solutions theTherefore .0 So III.Region in right from coming ematter wavany benot can thereSo, left.
+fromincident is particle theassumed But we left.
+right to from going waveparticle a represents IIIRegion in )(IIregion in )(IRegion in )( are (3) and (2), (1),Equation ofsolution general The0300321321=+=+==+=+=+=−−−−−−ikxxxikxikxikxikxikxxxikxikxFexDeCexBeAexGGeGeFexDeCexBeAex++=======−−========1/416 ......(6) /416T as edapproximat becan y probabilition transmissThe barrier, potentialhigh and very wideaFor Tt coefficienssion by transmi defined isbarrier energy potential he through tparticle a ofion transmissofy probabilit The:tCoefficienon Transmissi)5......(dxddxd and )4.......(dxddxd and .
+and 0 boundaries at the continuous and finite be should dxd and thatcondition boundary thefrom determined are F and D, C, B, A, tscoefficien The222222323202010201keekaxxaaaxaxaxaxxxxx attractive nuclear force.
+It is under a potential well.
+The energy of the alpha particle is less than the potential well.
+But the a particle comes out of the nucleus through tunneling.
+(ii) Nuclear Fusion: Two light nuclei comes close to each other and undergo fusion.
+The coulomb repulsion acts as a barrier as the particles come close to each other.
+The particles can undergo fusion at lower energies because they tunnel through the coulomb barrier.
+Devices developed using tunneling effect: Tunnel diode, Josephson Junction, Field emission devices, Scanning tunneling microscope etc.
+Questions discussions Short Questions 1.
+Mention two differences between classical physics and quantum physics.
+2.
+What is wave function in quantum physics?
+Write its physical significance.
+3.
+Write the Schrodinger’s time independent wave equation for a free particle moving along z- axis with low speed.
+4.
+Write the Schrodinger’s time dependent wave equation for a particle moving along x- axis with low speed.
+5.
+State and explain the superposition principle for a wave function.
+6.
+What do you mean by normalization of wave function?
+7.
+What is probability density?
+Derive an expression for it.
+8.
+Write the dimension of wave function of matter wave in 1-d, 2-d and 3-d. 9.
+What do you mean by eigenfunctions of physical system?
+10.
+What do you mean by eigenvalues of physical quantity?
+11.
+Derive an expression for energy operator in quantum physics.
+12.
+Write the expression for energy and momentum operator in 3D.
+13.
+Derive an expression for momentum operator in quantum physics.
+14.
+What do you mean by expectation value of a physical quantity in quantum physics?
+Write an expression for position expectation value.
+15.
+Prove that the momentum of a particle in a one-dimensional well of infinite height is quantized.
+16.
+Prove that the de-Broglie wavelength of a particle in an infinite deep potential well is quantized.
+17.
+A particle of mass 'm' is enclosed inside a potential well of infinite height.
+Show that de-Broglie wave length of the particle in the first excited state is equal to the width of the well.
+18.
+A particle of mass 'm' is enclosed inside a potential well of infinite height.
+Show that maximum de-Broglie wave length of the particle is twice the width of the well.
+19.
+A particle of mass 'm' is enclosed inside a potential well of infinite height.
+Find the maximum de-Broglie wave length of the particle?
+20.
+If a particle trapped in infinitely deep potential well has de-Broglie’s wavelength ‘λ’ in the ground state then what is its wavelength in the first excited state?
+21.
+Why the ground state energy of a free particle moving in a one dimensional potential box is non zero?
+22.
+What is the eigenfunction of a particle trapped in an infinite deep potential well in its second excited state?
+23.
+An electron confined in a one dimensional box of width L is known to be in its first excited state.
+Determine the probability density of electron in the central half.
+24.
+Define a potential barrier.
+25.
+Write the potential function of a potential barrier of width 'a' and height V 0.
+26.
+What is quantum mechanical tunneling?
+Give two examples of it.
+Long Questions 1.
+A particle of mass ‘m’ and energy ‘E’ is moving non-relativistically along X-axis, under the action of potential energy ‘V’.
+Develop the Schrodinger’s time dependent wave equation for the particle.
+Discuss the above equation for a free particle.
+2.
+What do you mean by wave function of a matter wave?
+Write its important characteristics.
+A particle trapped in a one-dimensional box of length L is described by the wave function Ψ = x. Normalize the wave function between a and b.
+3.
+(i) Define probability density.
+What is the total probability of a system in different states?
+(ii) The normalized wave function for certain particle is ψ(x)= 3/π cosx , in the region –π/2<x<π/2.
+Calculate the probability of finding the particle in the region 0<x<π/4.
+4.
+Describe operators, eigen functions and igen values in relation to quantum mechanics.
+Write down the expression for linear momentum operator and energy operator in quantum mechanics.
+5.
+Write the Schrodinger's equation for a particle confined in a one dimensional box of infinite height.
+Show that the energy of the particle is quantized.
+6.
+Derive an expression for the normalized wave function of a particle trapped in an infinite deep potential well.
+7.
+Define a potential barrier?
+Set up Schrodinger's time independent equation in different regions of a potential barrier, when energy of the incident particle is less than the height of the potential barrier.
+Explain how quantum physics differs from classical physics in this problem.
+8.
+What is quantum mechanical tunneling?
+Write some examples of it.
+(ii) A beam of electrons are incident on a barrier of height 6.0 eV and 0.2 nm wide.
+Find the energy they have, if 1.0% of them are tunnel through the barrier.
+Numerical 1.
+A particle can exist states ψ1, ψ2 and ψ3 with probabilities 1/2, 1/3 and 1/6 respectively.
+Write the wave function of the particle.
+If the energy eigen values in the three states are E1 = 2eV, E2 = 4 eV and E3 = 8 eV respectively, then find the expectation value of the energy of the particle.
+the in 2.
+Calculate the probability of finding a particle in the region 2≤x≤4, if the wave function for the particle is given by ψ(x)=0.25 e2ix.
+3.
+The wave function for certain particle is Ψ = A cos2x for -π/2 < x < π/2.
+Find the normalized wave function for the particle.
+4.
+Normalize the wave function in one-dimension ψ (x) = A e-α x , for x > 0 ψ (x) = A eα x, for x < 0 here, α is a positive constant.
+2 5.
+If the wave function of a quantum particle ψ(x) = √ sin 𝐿 𝑛𝜋𝑥 𝐿 ., find the probability of the particle between x=0 and x= 𝐿 in the first excited state.
+2 6.
+A particle trapped in a one dimensional box of length 1 cm, is described by the normalized wave function ψ = x.
+What is the expectation value of the particle’s position < x >?
+7.
+A particle of mass m is trapped in a one-dimensional infinite potential well of length L is described the wave function ψ(x) = A sin .
+Normalize the wave function.
+𝑛𝜋𝑥 𝐿 8.
+Energy of an electron confined in a one dimensional potential box of 0.2 nm size is 151 eV.
+What is the order of the state in which the electron exists?
+h= 6.6 X 10 -34 Js.
+9.
+The ground state energy of a particle in an infinite one-dimensional potential well is 8 eV.
+If the width of the well is halved, what is the new ground state energy?
+10.
+The ground state energy of a particle, trapped in a one-dimensional infinite potential well is 4 x 10-19 J.
+Find the energy of the particle in second excited state.
+11.
+An electron is constrained to a one-dimensional potential box of 0.1nm side.
+Find the energy eigenvalue for 2nd excited state.
+12.
+The energy of an electron in a one dimensional potential box of length 4 Å is 9.664 X 10-17 J.
+Find the order of the state and the momentum of the electron in this state.
+13.
+If the energy in the second excited state of an electron trapped in a 1-D box is 77.4 eV, find the width of the box.
+h= 6.6 X 10 -34 Js.
+14.
+An electron is trapped in a one-dimensional box (with perfectly rigid walls) of length 2 Å.
+How much energy is required to excite the electron from the first excited state to the second excited state?
+15.
+The ground state energy of a particle, trapped in a one-dimensional infinite potential well is 3 x 10-19 J.
+Find the energy of the particle in second excited state.
+16.
+Find out the energy gap between the 2nd and 3rd excited states of an electron confined in a potential box of length 4Å.
+17.
+1.2 million electrons with energy 3.0 eV are incident on a potential barrier of 9.0 eV high and 0.5 nm width.
+How many electrons can tunnel through the barrier?
+18.
+A beam of electrons are incident on a barrier of height 6.0 eV and 0.2 nm wide.
+Find the energy they should have if 1% of them are to tunnel through the barrier.
+19.
+Electrons with energy 3 eV are incident on a potential barrier of 10 eV high and 4 Å wide.
+Find the transmission probability.
+Module – 5: LASER AND OPTICAL FIBER Introduction: The term laser is the acronym for Light amplification by stimulated emission of radiation The principle of laser was developed by the American physicist Charles Townes and, independently by Soviet physicist A Basov and N Prokhorov in 1950.
+These three physicists shared the Novel Prize in 1964.
+Here are the important steps that led to the discovery of the laser: • 1887: Heinrich Hertz accidentally discovers the photoelectric effect.
+This lucky breakthrough will allow Albert Einstein to introduce the notion of photons.
+• 1901: The scientific conundrum known as “the ultraviolet catastrophe” (spectral energy densities diverge at high frequencies) is solved by Planck.
+He hypothesises that the energy of a type of frequency ν is not a random continuous variable but a random discrete set of variables, represented by the values nh ν. Interestingly, Planck and his contemporaries at first find it very difficult to accept this idea of discrete leaps in energy.
+However, subsequent experiments prove that the theory is entirely correct.
+• 1905: Einstein introduces a means to quantify electromagnetic energy.
+The photon is born.
+Unfortunately, the arrival of the photon cannot take into account the phenomenon of black body radiation (the spectral density of electromagnetic energy emitted by an enclosed area at a temperature T and at thermal equilibrium).
+However, shortly afterwards, Born devises a means to quantify the energy levels of electrons (1913).
+This in turn allows Einstein to prove that photons and black body radiation are in fact compatible thanks to the notion of stimulated emission.
+• 1949: Kastler and Brossel develop the first optical pumping and the first population inversion.
+By 1950, the first MASERs appear (Microwave Amplification by Stimulated Emission Radiation), devices that are capable of amplifying an electromagnetic wave in the microwave region (Weber, Townes and Basov).
+• 1954: The first MASER is built (an ammonia maser with a 13 mm wavelength).
+The electromagnetic wave is confined in three dimensions by a “box” and is reflected off its sides.
+However, this is still in the microwave rather than the optical domain.
+In fact, scientists at the time thought it was impossible to make an optical laser because the cavity would have to be incredibly small (of the order of magnitude of a wavelength i.e.
+only tens of μm at the most!).
+• 1958: Schawlow and Townes decide to use an open Fabry-Pérot cavity for their experiments.
+The idea is to confine the electromagnetic field l ike in a closed box but in only one dimension: the main axis of light propagation in the cavity.
+This means that only certain specific electromagnetic waves are amplified, but the resulting beam is much more powerful than when using a closed cavity.
+• 16th May 1960: Maiman demonstrates the first ever optical laser effect.
+The amplifying medium is a ruby, the crystal most used in early lasers because it was already well known from its application in MASERs.
+This is a pulsed operation laser with a wavelength of 694.3 nm.
+• 1961: Javan, Bennet and Herriot build the first gas helium-neon laser operating continuously at 1.15 wavelengths, from green to infrared via orange and red (633 nm).
+.
+In fact, this laser can emit over a whole range of discrete • 1962: First red helium-neon laser.
+• 1965: First semiconductor lasers.
+• 1966: First coloured pulsed lasers (red, orange, yellow).
+Light emission process (atomic transition/electronic transition): When an electron in an atom, transits (drops) from a high energy state to a l ower energy state, the energy lost by electrons is emitted as a photon.
+In a solid, when an electron drops from higher energy band to a lower energy band through a band gap, the energy lost by electron is emitted as a photon.
+Light emission process involves (1) absorption of photons by electrons and transition to higher energy state (2) Transition of electron from higher to lower energy state and emission of the energy difference between two states as photons-this can happen in two ways – (a) Spontaneous emission without external disturbance/energy (b) Stimulated emission which occurs due to interaction of electrons in higher energy state with another external photon.
+This type of emission happens in laser.
+The details of the above mentioned processes are discussed below.
+Stimulated Absorption: We consider a group of atoms of any material on which light is falling, i.e.
+the material atoms are subjected to photon irradiation.
+We also consider two energy levels in the atoms, one lower and one higher energy level.
+The lower energy level E1 is occupied by electrons and the higher energy level E2 is empty.
+We call the lower energy level ground state and higher energy level as excited state.
+If the photon energy hν is equal to the energy difference (E2 – E1), then electrons can absorb the photon and go to higher energy state E2.
+The transition of an electron from lower energy level E1 to higher energy level E2 by absorbing a photon of suitable energy (hν = E2 – E1), is called stimulated absorption.
+After absorption of a photon by an electron of an atom, the atom is said to be in excited state.
+The rate of stimulated absorption depends on population of electrons at the lower energy level, N 1 and the incident energy density.
+atom+photon → atom* (atom in excited state) Spontaneous emission: The lifetime of electron in the higher energy level is very small ~10-8 second, on the average.
+After this time, electron drops to lower energy state.
+The energy lost by the electron (E2 – E1), is emitted as a photon having the same energy (hν = E2 – E1).
+This is called spontaneous emission.
+The rate of spontaneous emission depends on population of electrons at the higher energy level, N2.
+Electron at the excited state E2 may drop to the ground state E1 spontaneously without any external radiation is called spontaneous emission The photons are emitted at different direction.
+The excited atoms emit photons at different times.
+So the emitted photons are incoherent.
+Stimulated emission: We consider an electron in a higher energy level E2 level (excited state).
+If photon of energy hν =E2-E1 is irradiated on an electron in higher energy then the electron may interact with the photon and drops to the ground state.
+In this process, two photons are emitted.
+This emission is called the stimulated emission or lasing action.
+The rate of stimulated emission depends on population of electrons at the higher energy level, N 2 and the incident energy density.
+The process of emission of an electron from excited state E2 to ground state E1 by absorbing a photon of suitable energy (hν = E2-E1) is called stimulated emission.
+In this process, two identical photons are emitted.
+Characteristics of emitted photons: • The photons are emitted in the same direction (direction of the incoming photon).
+• The photons are in phase: they are coherent.
+• photons are monochromatic ( frequency n=E2-E1/h) The three processes occur simultaneously when light is incident on the system.
+At steady state, a balance is achieved between absorption and emission.
+The process stimulated emission is of interest in lasers.
+Electron distribution in a two state system and principle of laser: Let the total number of atom in the system be No.
+According to Maxwell-Boltzmann Statistics, the number of atoms in state E1 (i.e.
+electron in the atoms are in state E1) is N1 = No e (-E /kT) ; k is Boltzmann constant and T is temperature 1 Similarly, no.
+of atoms in state E2 is N2 = Noe(-E /kT) 2 So, N2/N1 = e-(E - E 2 )/kT ………..(1) 1 We know E2 > E1, so we get from eq.
+(1) : N2< N1 This means that the number of atoms in excited state is lower than the number of atoms in the ground state.
+Thus number of electrons in excited state E2 is small and they have small life time (~10-8 sec) in the excited state.
+They quickly drop to the ground state.
+So, the probability of interaction of electrons in the excited state with incident photon, which is required for stimulated emission, is less.
+Thus, spontaneous emission of photons is dominating process in general.
+[If T<0 (not possible in reality) then N2>N1, that is why the situation of is called a –ve temperature state] To get laser emission, we need dominating stimulated emission of photons.
+It requires two conditions: (i) larger number of electrons in the excited state (N 2>N1) (ii) larger lifetime of electrons in the excited state.
+The condition/situation of larger number of electrons being in the excited state compared to the ground state ((N2>N1) in a material is called population inversion.
+The system in which population inversion is achieved is called an active system and the method by which population inversion is achieved is called pumping.
+Special situation and techniques are necessary to create population inversion, where larger numbers of electrons are there in the excited state than the ground state.
+This is achieved in a material/atomic arrangement where there are 3 or 4 energy levels with a metastable energy level or state, in which electrons have larger lifetime (10-3 sec) that any unstable excited state (lifetime ~10 -8 sec) .
+Metastable states are the longer lived higher energy states where life time of an electron is ~ 10-3 seconds.
+Pumping: The process of exciting electrons to higher energy state is called pumping.
+This is done by supplying energy to electrons in a material from outside.
+Methods of pumping: (i) (ii) Optical pumping: light energy is used for excitations.
+Suppose in a system (atom), there are two energy states E1 and E2.
+Light of suitable frequency (hν = E2-E1) is used to excite electrons from E1 to E2.
+Example is ruby laser.
+Electrical discharge pumping: Energy is supplied to electrons of a system by passing electrical discharge through it.
+Example is gas laser like, He -Ne laser, CO2 laser etc.
+(iii) Chemical pumping: Heat generated in exothermic reaction is used to excite electrons.
+Three Energy Level systems for laser emission: A three level system consists of a ground state of energy E1, a high energy state of energy E3 and a metastable state of energy E2 in between E3 and E1.
+Electrons are initially in the ground state.
+During pumping photons of energy hν 13 = E3-E1 are irradiated.
+Electrons absorb the photons and get excited to E3 level.
+The lifetime of electrons in the excited level is ~10-8 second.
+In this time, the electrons drop to the metastable state of energy E 2 through non- radiative transition.
+The energy of the electrons (E3-E2) is given to the crystal lattice.
+The lifetime of electrons in the metastable state E2 is ~10-3 second, much higher than electron lifetime at E3.
+By continuous pumping the metastable state is populated and the ground state E 1 is depopulated.
+So, population inversion occurs between the states E2 and E1.
+A spontaneous emission of photon (hν = E2-E1 ) takes place by electron transition from E2 to E1.
+The photon emitted by spontaneous transition interacts with on electron in state E2 and induce stimulated emission.
+Two photons (hν = E2-E1) are emitted in this process.
+These two photons further interact with other electrons in state E2 and four photons are emitted.
+This process continues and a laser beam is produced.
+Limitations of three level systems: (i) (ii) The laser is produced in pulsed manner.
+When lasing transition takes place, E2 is depopulated and E1 is populated.
+To achieve population inversion again, one need to wait for some time.
+So, a material with three levels system emits pulsed laser.
+It requires very high pumping energy, as the lower lasing transition level is ground state.
+Four energy level system: The system is shown in the figure.
+There are four states involved in laser emission process.
+In between the ground state E1 and highest energy state E4, there are two states, a metastable state E3 and an intermediate state E2.
+During pumping, photons (hν14 = E4-E1) are absorbed by the electrons in the ground state E1 and electrons go to state E4.
+From E4, electrons drop to metastable state E3 through non-radiative transition.
+The energy is given to the crystal lattice.
+Thus, state E3 is populated and population inversion takes place between state E3 and E2.
+*In the LHS of the fig, it is stimulated absorption, not spontaneous absorption (E 1 to E3).
+A spontaneous emission of photon (hν = E3-E2 ) takes place by electron transition from E3 to E2.
+The photon emitted by spontaneous transition interacts with one electron in state E 3 and induce stimulated emission.
+Two photons (hν = E3-E2 ) are emitted in this process.
+These two photons further interact with other electrons in state E3 and four photons are emitted.
+This process continues and a laser beam is produced.
+Electrons dropped to state E 2 comes back to ground state E1 by radiative or non-radiative transition In this process, the state E3 remains populated and the state E2 remains depopulated.
+So, a four level system emits continuous laser.
+Here the lower laser transition level is not ground state.
+Population inversion cannot be achieved in two energy level system hence no laser action.
+According to Maxwell-Boltzmann Statistics, the number of atoms/electrons in state E1 is N1 = No e (-E /kT) ; k is Boltzmann constant and T is temperature 1 Similarly, no.
+of atoms/electrons in state E2 is N2 = Noe(-E /kT) 2 So, N2/N1 = e-(E - E 2 )/kT ………..(1) 1 As E2 > E1, so we get from eq.
+(1) : N2< N1 Hence population inversion is not achieved.
+Characteristics of LASER: (i) (ii) (iii) (iv) A Laser beam is highly monochromatic It is Coherent Laser beam is unidirectional A laser beam is of high intensity Structure of Laser: Any laser consists of three essential parts: (i) (ii) (iii) Active material: in this material, populations’ inversion is achieved and laser emis sion takes place.
+Example: Ruby in solid state laser, He-Ne mixture in gas laser.
+Excitation source for Pumping: Energy is supplied by a pumping method to the electrons in the active material for excitation of electron to a higher energy state.
+A resonant cavity: It is the Laser Cavity consisting of an active medium bound between two mirrors.
+The mirrors reflect the light to and fro through the active medium.
+So more and more stimulated emission takes place by interaction of electron with light photons and laser Intensity increases.
+Ruby laser: (Solid state laser, three energy level system) Construction: Ruby Laser consists of three parts (i) Active material: A rod of Ruby crystal (Al2O3 doped with 0.05 % of Cr).
+Cr ions emit red color laser.
+(ii) A resonant cavity is formed by two optical mirrors.
+One is completely reflecting and the other is partially reflecting.
+Two mirrors are attached to two ends of the ruby rod.
+Laser is emitted through the partially reflecting mirror.
+(iii) A Xe flash lamp is used as excitation source for pumping.
+Working Principle The ruby rod is illuminated by an intense flash from the Xe lamp.
+The impulse of light excites Cr ions from ground state to E1 to excited state E3.
+Electrons in the state E3 are unstable (life time ~ 10-8 sec) and they quickly drop from E3 to a metastable state E2 by non-radiative transition.
+The life time of electrons in E2 is longer (~ 10-3 sec), So population inversion is achieved between the states E2 and E1.
+Laser transition takes place when electron drops from E2 and E1.
+Emission Wavelength is 6943 A°.
+Due to the presence of resonant cavity, laser radiation is intensified.
+The radiation comes out from the partially reflecting mirror.
+Limitations: same as 3 level laser system.
+He-Ne Laser (Gas Laser: 4 level laser system) Construction: It consists of a long discharge tube of length 50 cm and diameter 1 cm.
+The tube is filled with a mixture of He and Ne in the ratio 10:1.
+Electrodes are provided to produce a discharge in the gas and they are connected to high voltage power supply.
+The tube is sealed by inclined windows arranged at its end.
+On the axis of tube two reflectors are fixed which forms resonator.
+He atoms help to archive population inversion by imparting their energy to the neon atom.
+Pumping is done by a DC electrical discharge in the low pressure gas in the tube.
+The wavelength of the laser is 632.8 nm.
+Working principle: He - Ne gas laser employ four level pumping schemes.
+When the power is switched on the electric field ionizes some of the atoms in the mixture of He and Ne gases.
+Due to electric field, the electrons and ions will be accelerated.
+Since electrons have smaller mass they acquire higher velocity and He atoms are lighter in weight and therefore readily excitable.
+The energetic electrons excite He atoms to excited states F2 and F3 which lies at 19 eV and 20 eV above the ground state.
+These are metastable states for helium.
+Though the radiative transitions are forbidden, the excited He atom can return to the ground state by transferring their energy to Ne atoms through collision.
+Such an energy transfer can take place only when the two colliding atoms have identical energy states.
+E6 and E4 level of Ne atom nearly coincides with F3 and F2 of Helium.
+Ne atoms acquires energy and goes to excited state and helium atoms return to ground state by transferring their energy to Ne atoms.
+This is main pumping mechanism.
+Ne atoms are active centers and Helium plays the role of pumping agent.
+The probability of energy transfer from Ne to He atom is less as there are 10 Helium atoms to 1 Neon atom.
+E6 and E4 states are metastable states, as collision goes on neon atoms accumulate in these states whereas E5 and E3 level of neon are sparsely populated.
+Therefore, a state of population inversion is achieved between E6 and E5, E6 and E3 and E4 and E3.
+Consequently, three laser transitions take place.
+E6-----E5 33900 A° (far IR region) E6-------E3 6328 A° (visible) E4----E3 11500 A° (IR region) As the terminal levels of lasing transitions are sparsely populated the fraction of Ne atom that must be excited to upper level can be much less.
+As such the power required for pumping is low.
+Random photons emitted spontaneously sets stimulated emission and coherent radiation is produced.
+From E5 and E3 level neon atom can make downward transition to E2 level.
+Incoherent light is emitted due to spontaneous transition.
+As lower levels depopulate faster than upper levels it is easier to maintain population inversion throughout laser operation.
+E2 is again a metastable state.
+Therefore, Ne atoms tends to accumulate at this level again.
+However, they are made to collide with the walls of discharge tube and they give up their energy and returns to ground state.
+Role of Helium atoms: Being a good conductor of heat, He acts as a coolant and no separate cooling system is required.
+He atoms being lighter than Ne atoms absorbs the energy from the high energy electrons easily and very fast.
+The ratio He : Ne=10:1 makes the probability of energy transfer for He atoms to Ne atom s much higher than that of the reverse.
+Merits: • Continuous output laser source • Highly stable • No separate cooling is required Demerits: • Low efficiency and low power output • Gases are novel medium for laser as gases are found in the purest form so their optical properties are well defined.
+Applications of Laser (i) Laser is used in industry for the purpose of cutting, drilling and welding (due to narrow angular spread and high intensity) (ii) Medical Science: microsurgery, treatment of retina, cancer treatment, lase r angioplasty for clearing the blocked arteries, microsurgery (due to narrow angular spread).
+(iii) (iv) Communication: micro-communication, large amount of data is transferred Hologram: 3D imaging, both phase and amplitude are considered (v) Distance measurement: LIDAR (light detection and ranging), distance between earth and moon can be measured by pulse echo technique (vi) (vii) Defense: Ranging and guiding weapons.
+Also it is used as death ray (high antensity and highly directional) Computer and printers (laser diode is used).
+Storage capacity for information in computer is improved due to narrow band width of laser light.
+Laser printer (viii) Spectroscopy: Raman spectroscopy and Photoluminescence (ix) Environmental study, electronics etc Question discussion: 1.
+How is laser different from ordinary light?
+2.
+Explain briefly the terms (i) stimulated emission (ii) spontaneous emission (iii) population inversion (iv) metastable state.
+3.
+What does the acronym LASER stand for?
+4.
+Write two important characteristics of it.
+5.
+Draw the population of atoms in different energy levels in atomic systems in equilibrium.
+6.
+Population Inversion is the necessary condition for lasing action.
+Explain.
+7.
+What is population inversion?
+Explain why population inversion cannot be achieved in two energy level system.
+8.
+What are the necessary and sufficient conditions for lasing action?
+9.
+Why is a narrow tube used in He-Ne laser?
+10.
+Why the end is faces of a ruby rod silvered?
+11.
+What is the function of He atoms in He-Ne laser?
+12.
+What is the function of Cr+3 ions in ruby laser?
+13.
+Write down the ratio of number of He atoms to number of Ne atoms in a typical He:Ne laser.
+Why such a ratio is maintained?
+14.
+What is positive feedback in laser?
+Why it is called optical feedback?
+15.
+Explain why a four-level laser is more efficient than a three-level laser.
+16.
+Explain briefly different uses to which laser beams are put.
+17.
+Explain construction and working of ruby laser with the help of a suitable energy level diagram.
+Write its limitations.
+18.
+Explain the construction and working of He-Ne laser with the help of an energy level diagram.
+Write its advantage over ruby laser.
+19.
+What does LASER stand for?
+Write some characteristics of laser.
+Describe the working of a three energy level Laser system.
+Mention its limitations.
+20.
+Describe the components of a Laser system.
+21.
+(i) Distinguish between spontaneous emission and stimulated emission.
+(ii) Why is population inversion referred to as a negative temperature state?
+22.
+Explain the working of a four-level laser system with a suitable energy level diagram.
+23.
+Draw a neat diagram to represent the component of a ruby laser.
+Explain the operation.
+Numerical 1.
+A Ruby laser emits light of 693.95 nm wavelength.
+If 1 mole of Cr+3 ions are involved 2. in the lasing process, calculate the pulse energy in eV.
+If the lasing wavelength in Ruby laser is 694.3 nm, what the ratio of populations of the corresponding energy levels?
+3.
+Calculate the energy of the metastable state in a material where stimulated emission to an energy state at 0.25 eV causes emission of radiation of wavelength 1100 nm.
+If the wavelength of laser is 632.8 nm, then find the intensity of the laser if the power delivered is 103 Watt.
+4.
+5.
+A ruby laser has its metastable state at 1.79 eV from which stimulated emission produces laser light.
+At room temperature when the population inversion is not achieved, calculate the ratio of population of the atoms in the metastable state to that in the ground state.
+In a material, transition occurs between a metastable state and an energy level of 0.45 eV and the wavelength of the radiation emitted is 2000 nm.
+Calculate the energy of the metastable state.
+6.
+7.
+A laser beam of wavelength 7400Å has coherence time of 4 X 10-5 s. Determine the temporal coherence length.
+8.
+A ruby laser has its metastable state at 1.79 eV from which stimulated emission produces laser light.
+Calculate the wavelength of laser light.
+9.
+The wavelength of a He-Ne laser generating 3.14 mW power is 632.8 nm.
+What is the number of photons emitted per minute when it is in operation?
+Optical Fiber Optical Fibers are thin fibers which act as waveguides to transport electromagnetic waves at optical frequencies over very long distance with very low loss of signal.
+Transmission of data through optical fiber is called photonic devices (metallic wire is electronic devices) Structure Core: The core is the innermost part that is made out of glass or transparent plastic.
+It is extremely thin, flexible, and has a cylindrical shape.
+Its diameter ranges from 1-100 µm.
+The core material has high refractive index.
+Its sole purpose is to keep all the light within itself.
+And also to guide the light in a direction parallel to its axis.
+Since it is the primary carrier and guide of the light waves, it can be called an optical waveguide.
+By the same token, its structure affects the transmission of the light.
+Hence, all the data that is being transferred will have its transmission parameters or properties based on the structure of this segment of the fiber optic.
+Cladding: It surrounds the core.
+The diameter ranges from 100-300 µm.
+It is also made of glass or transparent plastic.
+But with a different material, so the refractive index of the cladding is lower than that of the core.
+Coating/Jacket: Primary (plastic) and secondary (nylon) coating Principle of optical fiber: When light travels from a high refractive index (r.i) material to a low r.i material, the light rays can get completely reflected when angle of incident θ >θc, the critical angle of incidence.
+The rays travel from one to another end of the optical fiber without much attenuation (loss) through multiple reflections.
+Types of optical fibers Step index optical fiber: The refractive index of the core is constant.
+The refractive index of the cladding is also constant but less than the core.
+It cannot be used for long distance multimode transmission due to energy loss.
+Graded Index optical fiber: The refractive index of the core is maximum along the axis of the optical fiber and gradually decreases towards the core/cladding interface.
+Refractive index of the cladding is uniform.
+It is used in long distance communication Difference between step index and graded index optical fiber Step index Graded index (i) Structure (written above) (ii) Schematic diagram (drawn above) (iii) Light follow zigzag path Light follow helical path (iv) Use in short distance communication Use in long distance communication (v) More dispersion of light rays Less dispersion Types of optical fiber based upon use: (i) Single mode (ii) multimode optical fiber Single mode optical fiber can carry only one electromagnetic field configuration (signal).
+Multimode optical fibers can carry more than one electromagnetic field configuration (signal).
+Single mode fiber Multimode fiber Properties: • In single mode fiber only one mode can be propagate.
+• The single mode fiber has a smaller core diameter and difference in refractive index of core and cladding is small.
+Advantages: • No dispersion (i.e.
+there is no degradation signal during propagation).
+Since the information transmission capacity is inversely proportional to dispersion.
+of • This fiber it allows large number of modes for light to pass through it.
+• Here, both the core and cladding in refractive indices difference is large as the core diameter is large Disadvantages: • Dispersion is more due signal due degradation of multimode.
+Information can be carried to shorter distances only.
+to to • • The fiber can carry information to longer distances.
+Disadvantages: • Launching of light and connecting • two fibers are difficult.
+Installation (fabrication) is difficult as it is more costly.
+Advantages: • Launching of light and connecting two fibers is easy.
+and is easy installation cost is low.
+• Fabrication also the Single mode step index fiber: A single mode step index fiber consists of a very thin core of uniform refractive index (R.I) surrounded by Cladding of R.I lower than that of Core.
+Since the core size is small the numerical aperture is also small.
+They accept light from laser source.
+They are used in long distance communications (telephony, TV broadcast systems).
+Low/no dispersion possibility.
+Product cost is high.
+Multimode step index fiber: This is similar to single mode step index fiber with the exception that it has a larger core diameter.
+The core diameter is very large as compared to wavelength of light transmitted.
+The numerical aperture is large because of large core size.
+They accept light from both laser as well as from LED.
+They are used in data links, Local area network (LAN).
+Dispersion possibility.
+Product cost is low.
+Graded index multimode fiber (GRIN fiber): In this type of optical fibers, R. I. of the Core varies with distance from the fiber axis.
+It has high R.I. at center and R.I. falls rapidly as radial distance increases from the axis.
+In GRIN fibers the acceptance angle and numerical aperture diminishes with radial distance.
+They accept light from both laser as well as from LED.
+They are used for medium distance communication for example telephone link between central offices in a small geographic area.
+Numerical aperture: the understand to order In propagation of light through an optical fibre, consider the figure (2).
+Consider a light ray (i) entering the core at a point A , travelling through the core until it reaches the core cladding boundary at point B.
+As long as the light ray intersects the core- cladding boundary at a small angles, the ray will be reflected back in to the core to travel on to point C where the process of reflection is repeated .ie., total internal reflection takes place.
+Total internal reflection occurs only when the angle of incidence is greater than the critical angle.
+If a ray enters an optic fiber at a steep angle(ii), when this ray intersects the core- cladding boundary, the angle of intersection is too large.
+So, reflection back in to the core does not take place and the light ray is lost in the cladding.
+This means that to be guided through an optic fibre, a light ray must enter the core with an angle less than a particular angle called the acceptance angle of the fibre.
+A ray which enters the fiber with an angle greater than the acceptance angle will be lost in the cladding.
+Derivation of numerical aperture: Consider an optical fibre having a core of refractive index n1 and cladding of refractive index n2.
+let the incident light makes an angle i with the core axis as shown in figure (3).
+Then the light gets refracted at an angle θ and fall on the core-cladding interface at an angle where, ---------------------- (1) By Snell’s law at the point of entrance of light in to the optical fiber we get, ------- ------------- (2) Where n0 is refractive index of medium outside the fiber.
+For air n0 =1.
+When light travels from core to cladding it moves from denser to rarer medium and so it may be totally reflected back to the core medium if θ' exceeds the critical angle θ'c.
+The critical angle is that angle of incidence in denser medium (n1) for which angle of refraction become 90°.
+Using Snell’s laws at core cladding interface, or Therefore, for light to be propagated within the core of optical fiber as guided wave, the angle of incidence at core-cladding interface should be greater than θ'c.
+As i increases, θ increases ----------------------- (3) and so θ' decreases.
+Therefore, there is maximum value of angle of incidence beyond which, it does not propagate rather it is refracted in to cladding medium ( fig: 3(b)).
+This maximum value of i say im is called maximum angle of acceptance and n0 sin im is termed as the numerical aperture (NA).
+From equation(2), From equation (2) Therefore, The significance of NA is that light entering in the cone of semi vertical angle i m only propagate through the fibre.
+The higher the value of i m or NA more is the light collected for propagation in the fibre.
+Numerical aperture is thus considered as a light gathering capacity of an optical fibre.
+It is determined by acceptance angle im (It is the maximum angle for which incident ray undergo total internal reflection at the core-cladding interface and stays in the core of the optical fiber).
+Numerical Aperture is defined as the sine of the acceptance angle of a waveguide or fiber (the Sine of half of the angle of fibre’s light acceptance cone.
+i.e.
+NA= Sin θa where θa, is called acceptance cone angle) Source of Attenuation in optical fibers: (i) Energy absorbed in lattice vibration.
+(ii) Energy absorbed by impurities.
+(iii) Scattering of light due to local variation in refractive index.
+Application of optical fiber: Communication: High speed, high intensity and low loss data transmission.
+(i) (ii) Medical field: Diagnostic instruments- retinal treatment.
+(iii) (iv) Industry: Laser is carried through optical fibers for cutting, drilling, and welding.
+Fiber Optic Communication Link (FOCL): used to send signal over long distance.
+Comprises of transmitter, fiber optic cable and receiver.
+Fiber optics communication: Fiber-optic communication is a method of transmitting information from one place to another by sending pulses of infrared light[1] through an optical fiber.
+The light forms an electromagnetic carrier wave that is modulated to carry information.
+[2] Fiber is preferred over electrical cabling when high bandwidth, long distance, or immunity to electromagnetic interference are required.
+This type of communication can transmit voice, video, and telemetry through local area networks, computer networks, or across long distances.
+Figure shows the schematic diagram of a fiber optic communication system.
+The major components of an optical fiber communication system are i.
+The optical transmitter ii.
+The optical fiber iii.
+The optical receiver Principle: Basically, a fiber optic system converts an electrical signal to an infrared light signal.
+This signal is transmitted through an optical fiber.
+At the end of the opti cal fiber, it is reconverted into an electric signal Working: 1.
+Encoder encodes the information in the binary sequence zeros and ones.
+a. Encoder is an electric circuit where in the information is encoded into binary sequences of zeros and one.
+In the light wave transmitter each ‘one’ corresponds to an electrical pulse and ‘zero’ corresponds to an absence of a pulse.
+These electrical pulses are used to turn a light source on and off very rapidly.
+The driver converts the incoming electrical s ignal into a form that will operate with the light source.
+2.
+These electrical pulses are used to turn a light source on and off rapidly.
+3.
+The optical fiber acts as a wave guide and transmits the optical pulses towards the receiver, by the principle of total internal reflection.
+4.
+The light detector receives the optical pulses and converts them into electrical pulses.
+These signals are amplified by the amplifier.
+5.
+The amplified signals are decoded by the decoder.
+Advantages of FOCL (Fiber optics communication link): (i) High information density (Fibre optic cabling provides a much higher bandwidth) (ii) Smaller in size, light weight and cheaper (iii) Much lower levels of signal attenuation or loss (iv) High speed data transmission (v) No leakage: secured communication( Fibre optics do not suffer from stray interference pickup that occurs with coaxial cabling) (vi) There is no short circuiting as in metal wires (vii) There is no need to ground and hence no voltage problem occurs.
+(viii) It can withstand to any range of temperature and moisture condition Question Discussion: 1.
+What is an optical fiber?
+Sketch the different parts of an optical fiber.
+2.
+State the principle of an optical fiber.
+3.
+Why should clad glass have less refractive index than the core glass?
+4.
+Mention the role of cladding in an optical fiber.
+5.
+What is a step index optical fiber?
+Draw the refractive index profile of it.
+6.
+What is a graded index optical fiber?
+Draw the refractive index profile of it.
+7.
+Write down differences between step index optical fiber and graded inde x optical fiber.
+8.
+Write down the differences between single mode optical fiber and multimode optical fiber.
+9.
+Which of the optical fibers, among single mode and multimode optical fibers, is used for long distance communication and why?
+10.
+Draw the path of rays in the graded index optical fiber.
+11.
+Define numerical aperture of an optical fiber.
+12.
+What are the disadvantages of using fiber optic communication system?
+13.
+Mention the important applications of optical fiber.
+14.
+Schematically show the basic elements of FOCL.
+15.
+What is the principle of optical fibre?
+Draw a neat ray diagram showing the principle of optical fiber.
+Obtain an expression for critical angle of incidence at core -cladding interface in terms of their refractive indices.
+16.
+What are the advantages of using fibre optic communication system?
+17.
+What is numerical aperture of an optical fiber?
+Derive an expression for numerical aperture of a step index optical fiber.
+Numerical 1.
+If the acceptance angle of an optical fiber is 68.160, find the numerical aperture.
+If cladding has refractive index of 1.52, what is the refractive index of the core?
+2.
+What is the critical angle of a ray of light in a step index optical fiber for which refractive index of the core is 1.53 and that of cladding is 2.5 % less than that of th e core.
+3.
+The refractive index of the core and cladding of a step index optical fibre are 1.52 and 1.41 respectively.
+Calculate its critical angle, Numerical aperture and the acceptance angle.
+4.
+If the acceptance angle for a given fiber is 68.160, calculate the maximum entrance angle and numerical aperture.
+If the cladding glass has a refractive index of 1.52, calculate the refractive index of the core glass.
+5.
+If the acceptance angle for a given fiber is 630, calculate the maximum entrance angle and numerical aperture.
+DISCLAIMER: The courseware material prepared may contain some text, figures and diagrams taken from google images and other readily available web sources.
+The contents are prepared for the use of students in Silicon Institute of Technology as additional reference material, and not for any commercial purpose.
+FOREWORD This is the second iteration of preparing our own courseware material, after successful completion of a similar task undertaken a few years ago.
+These contents have been carefully prepared and should serve as excellent auxiliary material for both instructors and students.
+The Special Academic Group, Autonomy (SAGA) was formed for the sole purpose of preparing courseware contents primarily in the first-year theory subjects; a few second-year subjects were also included.
+The subjects for the first year were - Basic Electrical Engineering, Basic Electronics Engineering, Computer Programming, Data Structures and Algorithms, Engineering Mathematics I and II, Engineering Physics, Engineering Chemistry, Constitution of India, Environmental Science and Engineering and Communicative and Technical English.
+For the second year, the subjects for which courseware material was prepared were Analog Electronic Circuits, Digital Systems Design, Circuit Theory and Measurements and Instruments.
+Faculty members from all the departments contributed to the task.
+They were, in no particular order, Nalini Singh, Bimal Meher, Saumyaranjan Dash, Mukti Routray, Susmita Biswal, Manasa Dash, Bipin Tripathy, Sibasankar Nayak, Janmejay Senapati, Subrat Sahu, Pradeep Moharana, Rupambika Pattanaik, Dhananjay Tripathy, Jagadish Patra, Sachin Das, Deepak Ranjan Nayak, Amulya Roul, Bodhisattva Dash, Sanghamitra Das, Gyana Ranjan Biswal, Nibedita Swain and Rajan Mishra.
+The entire group worked diligently to successfully complete the task which included a peer review of the material.
+I take this opportunity to thank all the members of the SAGA group for a job well done.
+I sincerely hope that this courseware material comes in handy and is utilized to the fullest extent.
+These are readily available additional resources prepared in accordance with the Silicon autonomy syllabus, to complement textbooks and classroom lectures.
+If there are any errors, I would be grateful if they are brought to my notice so that we can correct them in subsequent versions.
 Dr. Jaideep Talukdar, Principal Silicon Institute of Technology Bhubaneswar December 2020 Module – 1: ECOLOGY & BIOGEOCHEMICAL CYCLES Historically, Rachel Carson’s 1962 book “Silent Spring” started wide -scale awareness in the 60s about the environment; she battled some large chemical corporations and created public knowledge and understanding of the fragility of ecosystems, and the environment in general.
 Origin The word “Environment” has come from an old french word environ or environner to be exact which literally means “to encircle” or “to surround”.
 Definition The word “environment” can be defined as “our life support system which includes air, water, land/soil & all other natural resources present around us”.

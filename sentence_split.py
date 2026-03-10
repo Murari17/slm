@@ -7,15 +7,16 @@ from nltk.tokenize import sent_tokenize
 
 def ensure_tokenizer_resources() -> None:
     # Newer NLTK versions may require both resources for sentence tokenization.
-    try:
-        nltk.data.find("tokenizers/punkt")
-    except LookupError:
-        nltk.download("punkt", quiet=True)
-
-    try:
-        nltk.data.find("tokenizers/punkt_tab")
-    except LookupError:
-        nltk.download("punkt_tab", quiet=True)
+    # Also guard against corrupt cached zips (BadZipFile) and SSL errors.
+    for resource in ("tokenizers/punkt", "tokenizers/punkt_tab"):
+        token_name = resource.split("/")[1]
+        try:
+            nltk.data.find(resource)
+        except Exception:
+            try:
+                nltk.download(token_name, quiet=True)
+            except Exception:
+                pass
 
 
 base_dir = Path(__file__).resolve().parent

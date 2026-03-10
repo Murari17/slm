@@ -1,5 +1,11 @@
 # SMALL LANGUAGE MODEL
 
+## Documentation PDF
+
+Project documentation (PDF):
+
+https://drive.google.com/file/d/10cIpMwRrJhPXKvwFGhlByFj74Fl-Kubm/view?usp=sharing
+
 ## Project Files
 
 - `run_pipeline.py`: full end-to-end runner

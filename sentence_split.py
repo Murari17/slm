@@ -6,17 +6,12 @@ from nltk.tokenize import sent_tokenize
 
 
 def ensure_tokenizer_resources() -> None:
-    # Some environments need both punkt resources before sentence splitting works.
-    # This also stays resilient if a local NLTK cache is broken.
+    # Fully offline mode: only check local resources; do not download anything.
     for resource in ("tokenizers/punkt", "tokenizers/punkt_tab"):
-        token_name = resource.split("/")[1]
         try:
             nltk.data.find(resource)
         except Exception:
-            try:
-                nltk.download(token_name, quiet=True)
-            except Exception:
-                pass
+            pass
 
 
 base_dir = Path(__file__).resolve().parent
@@ -29,7 +24,7 @@ text = input_path.read_text(encoding="utf-8")
 try:
     sentences = sent_tokenize(text)
 except LookupError:
-    # If downloads fail (offline), do a simple punctuation-based split.
+    # If punkt resources are unavailable, do a simple punctuation-based split.
     parts = re.split(r"(?<=[.!?])\s+", text.strip())
     sentences = [s.strip() for s in parts if s and s.strip()]
 

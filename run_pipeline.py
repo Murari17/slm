@@ -40,8 +40,8 @@ def run_step(script_name: str, extra_env: dict[str, str] | None = None) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run full multi-PDF training pipeline.")
-    parser.add_argument("--epochs", type=int, default=30, help="Training epochs for train.py")
+    parser = argparse.ArgumentParser(description="Run the full text-to-model pipeline.")
+    parser.add_argument("--epochs", type=int, default=12, help="CPU training epochs for train.py")
     parser.add_argument("--skip-train", action="store_true", help="Skip model training")
     parser.add_argument("--skip-tokenizer", action="store_true", help="Skip tokenizer training")
     args = parser.parse_args()

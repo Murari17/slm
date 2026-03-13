@@ -4,8 +4,15 @@ from pathlib import Path
 
 def clean_text(raw: str) -> str:
     text = raw
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    text = text.replace("\u2018", "'").replace("\u2019", "'")
+    text = text.replace("\u2013", "-").replace("\u2014", "-")
+    text = text.replace("\u2022", " ").replace("\u27a2", " ")
+    text = text.replace("\u2047", " ")
     text = re.sub(r"\n+", "\n", text)
     text = re.sub(r"Page\s+\d+", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bModule\s*[-:]?\s*\d+\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s*[•➢]+\s*", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 

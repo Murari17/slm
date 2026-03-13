@@ -5,9 +5,9 @@ class TransformerModel(nn.Module):
     def __init__(
         self,
         vocab_size: int,
-        embed_size: int = 128,
-        num_heads: int = 4,
-        num_layers: int = 2,
+        embed_size: int = 256,
+        num_heads: int = 8,
+        num_layers: int = 4,
         max_seq_len: int = 512,
     ):
         super().__init__()
@@ -18,6 +18,8 @@ class TransformerModel(nn.Module):
         encoder_layer = nn.TransformerEncoderLayer(
             d_model=embed_size,
             nhead=num_heads,
+            dim_feedforward=1024,
+            dropout=0.1,
             batch_first=True,
         )
         self.encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)

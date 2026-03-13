@@ -35,18 +35,23 @@ def build_question_from_sentence(sentence: str) -> str:
     return f"Explain: {snippet}?"
 
 
+def build_question_variants(sentence: str) -> list[str]:
+    primary = build_question_from_sentence(sentence).strip()
+    short = normalize_question(" ".join(sentence.split()[:10]))
+    fallback = f"Explain: {short}?"
+    if primary.lower() == fallback.lower():
+        return [primary]
+    return [primary, fallback]
+
+
 for s in sentences:
     s = s.strip()
 
     if len(s) < 20:
         continue
 
-    question = build_question_from_sentence(s)
-    dataset.append(f"Ask: {question}\nAnswer: {s}\n")
-
-    # Add a second prompt phrasing so training examples are less repetitive.
-    short = normalize_question(" ".join(s.split()[:10]))
-    dataset.append(f"Ask: Describe this: {short}\nAnswer: {s}\n")
+    for question in build_question_variants(s):
+        dataset.append(f"Ask: {question}\nAnswer: {s}\n")
 
 output_dir.mkdir(parents=True, exist_ok=True)
 

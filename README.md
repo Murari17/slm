@@ -46,13 +46,13 @@ Example files:
 - `data/raw/unit1.pdf`
 - `data/raw/unit2.pdf`
 
-## Train and Test
+## Train and Test (Basic CPU Mode)
 
 1. Add/update PDFs in `data/raw/`
 2. Run full pipeline:
 
 ```powershell
-.\.venv\Scripts\python.exe run_pipeline.py --epochs 30
+.\.venv\Scripts\python.exe run_pipeline.py --epochs 12
 ```
 
 3. Test model interactively:
@@ -77,9 +77,15 @@ Use this if you want full control over each stage:
 .\.venv\Scripts\python.exe sentence_split.py
 .\.venv\Scripts\python.exe create_dataset.py
 .\.venv\Scripts\python.exe train_tokenizer.py
-$env:EPOCHS='30'; .\.venv\Scripts\python.exe train.py
+$env:EPOCHS='12'; .\.venv\Scripts\python.exe train.py
 .\.venv\Scripts\python.exe generate.py
 ```
+
+Notes:
+
+- Training and inference are CPU-only by design.
+- The project uses basic generation with a simple retrieval fallback.
+- If you have a smaller machine, reduce epochs further (for example `--epochs 8`).
 
 ## Generated Outputs
 
@@ -121,7 +127,7 @@ Run preprocessing and tokenizer rebuild:
 If you also want to test model quality locally:
 
 ```powershell
-.\.venv\Scripts\python.exe run_pipeline.py --epochs 30
+.\.venv\Scripts\python.exe run_pipeline.py --epochs 12
 ```
 
 ### 4) Validate Locally

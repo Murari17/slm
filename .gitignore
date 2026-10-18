@@ -2,3 +2,7 @@
 *.pt
 *.bin
 __pycache__/
+*.npz
+*.pt
+*.bin
+__pycache__/

@@ -1,0 +1,4 @@
+*.npz
+*.pt
+*.bin
+__pycache__/

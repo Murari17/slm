@@ -1,4 +1,4 @@
-# slm: a 152M-parameter GPT trained from scratch
+# A 152M-parameter GPT trained from scratch
 
 A small GPT-style language model built end to end: data pipeline, model, training on a single Colab GPU, post-training quantization to ~104 MB, and a fast local runner for a MacBook.
 
